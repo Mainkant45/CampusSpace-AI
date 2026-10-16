@@ -1,0 +1,6 @@
+{
+  "name": "CampusSpace AI",
+  "description": "Explainable Campus Space Intelligence, ML Attendance Prediction & Global Allocation Optimization",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

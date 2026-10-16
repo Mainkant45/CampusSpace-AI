@@ -1,0 +1,1801 @@
+event_id,event_name,event_type,date,day_of_week,start_hour,duration_hours,room_id,expected_attendance,actual_attendance,host_organization
+EVT-00001,Seminar #1,Seminar,2026-11-26,Monday,19,1.5,SCI-303,35,30,ACM Student Chapter
+EVT-00002,Study Group #2,Study Group,2026-01-11,Friday,19,2.5,LIB-105,30,31,AI Builders
+EVT-00003,Study Group #3,Study Group,2026-11-14,Monday,14,1.5,ENG-214,90,88,Dept of Computer Science
+EVT-00004,Academic Workshop #4,Academic Workshop,2026-02-02,Saturday,10,1.5,SCI-420,169,127,Dept of Computer Science
+EVT-00005,Club Meeting #5,Club Meeting,2026-07-12,Saturday,15,2.0,SCI-117,18,19,Life Sciences Faculty
+EVT-00006,Academic Workshop #6,Academic Workshop,2026-05-20,Friday,15,2.0,ART-412,26,19,Robotics Society
+EVT-00007,Academic Workshop #7,Academic Workshop,2026-09-11,Tuesday,16,2.0,CMP-404,15,13,Business School Advisory
+EVT-00008,Club Meeting #8,Club Meeting,2026-09-11,Saturday,16,2.0,BUS-218,66,53,Debate Union
+EVT-00009,Seminar #9,Seminar,2026-07-04,Friday,19,3.0,SCI-404,39,28,Finance & Investment Club
+EVT-00010,Faculty Assembly #10,Faculty Assembly,2026-03-17,Thursday,14,1.5,LIB-315,14,14,Robotics Society
+EVT-00011,Academic Workshop #11,Academic Workshop,2026-03-07,Monday,9,2.5,SCI-117,38,26,Finance & Investment Club
+EVT-00012,Study Group #12,Study Group,2026-07-15,Wednesday,10,1.0,ENG-416,45,40,AI Builders
+EVT-00013,Academic Workshop #13,Academic Workshop,2026-01-27,Monday,15,2.5,ENG-105,12,8,Robotics Society
+EVT-00014,Club Meeting #14,Club Meeting,2026-12-13,Thursday,9,1.5,LIB-101,20,17,Dept of Computer Science
+EVT-00015,Seminar #15,Seminar,2026-05-05,Wednesday,18,1.5,CMP-218,23,18,Academic Senate
+EVT-00016,Career Fair #16,Career Fair,2026-10-11,Monday,11,1.0,ENG-117,18,14,Debate Union
+EVT-00017,Academic Workshop #17,Academic Workshop,2026-08-13,Friday,14,1.5,LIB-214,18,10,Debate Union
+EVT-00018,Academic Workshop #18,Academic Workshop,2026-04-06,Monday,13,1.5,SCI-307,139,130,AI Builders
+EVT-00019,Club Meeting #19,Club Meeting,2026-12-10,Wednesday,11,2.5,ENG-424,20,21,ACM Student Chapter
+EVT-00020,Seminar #20,Seminar,2026-10-15,Saturday,16,1.5,BUS-101,14,15,Dept of Computer Science
+EVT-00021,Hackathon/Contest #21,Hackathon/Contest,2026-10-08,Saturday,16,1.0,ENG-420,12,15,Debate Union
+EVT-00022,Career Fair #22,Career Fair,2026-05-18,Thursday,17,2.0,BUS-307,11,5,Dept of Computer Science
+EVT-00023,Seminar #23,Seminar,2026-06-24,Thursday,11,1.0,LIB-303,18,18,Academic Senate
+EVT-00024,Study Group #24,Study Group,2026-05-26,Monday,15,2.5,ENG-408,113,93,Life Sciences Faculty
+EVT-00025,Study Group #25,Study Group,2026-06-07,Saturday,18,1.5,BUS-303,12,9,ACM Student Chapter
+EVT-00026,Academic Workshop #26,Academic Workshop,2026-09-04,Wednesday,10,2.5,BUS-307,13,9,Academic Senate
+EVT-00027,Faculty Assembly #27,Faculty Assembly,2026-08-05,Tuesday,13,1.0,BUS-412,33,35,AI Builders
+EVT-00028,Career Fair #28,Career Fair,2026-08-11,Saturday,13,2.0,BUS-307,17,19,Women in STEM
+EVT-00029,Seminar #29,Seminar,2026-12-11,Thursday,14,1.0,BUS-315,28,23,Academic Senate
+EVT-00030,Club Meeting #30,Club Meeting,2026-12-23,Thursday,10,2.0,LIB-303,19,9,AI Builders
+EVT-00031,Club Meeting #31,Club Meeting,2026-03-18,Thursday,17,3.0,ENG-214,99,70,Finance & Investment Club
+EVT-00032,Club Meeting #32,Club Meeting,2026-09-17,Thursday,9,3.0,ENG-218,15,12,Design Collective
+EVT-00033,Faculty Assembly #33,Faculty Assembly,2026-04-21,Wednesday,15,1.5,ENG-420,17,16,Finance & Investment Club
+EVT-00034,Seminar #34,Seminar,2026-08-07,Saturday,17,3.0,BUS-307,18,10,Finance & Investment Club
+EVT-00035,Club Meeting #35,Club Meeting,2026-04-28,Monday,19,2.5,LIB-113,27,10,Business School Advisory
+EVT-00036,Club Meeting #36,Club Meeting,2026-10-08,Friday,15,3.0,SCI-121,14,5,Debate Union
+EVT-00037,Club Meeting #37,Club Meeting,2026-05-12,Friday,9,1.0,ENG-420,26,17,Robotics Society
+EVT-00038,Club Meeting #38,Club Meeting,2026-06-25,Monday,10,2.5,CMP-109,12,8,Debate Union
+EVT-00039,Study Group #39,Study Group,2026-07-05,Monday,19,2.0,CMP-408,31,19,Women in STEM
+EVT-00040,Club Meeting #40,Club Meeting,2026-07-08,Tuesday,16,3.0,ENG-202,24,21,Dept of Computer Science
+EVT-00041,Club Meeting #41,Club Meeting,2026-05-14,Saturday,16,3.0,ART-303,13,13,AI Builders
+EVT-00042,Study Group #42,Study Group,2026-05-18,Tuesday,15,2.5,ART-117,13,7,Business School Advisory
+EVT-00043,Club Meeting #43,Club Meeting,2026-09-19,Thursday,15,2.0,ART-105,42,28,Business School Advisory
+EVT-00044,Club Meeting #44,Club Meeting,2026-01-09,Monday,9,2.5,CMP-210,16,16,Design Collective
+EVT-00045,Club Meeting #45,Club Meeting,2026-02-27,Tuesday,15,1.5,ENG-408,142,99,Finance & Investment Club
+EVT-00046,Study Group #46,Study Group,2026-03-01,Wednesday,13,1.0,BUS-416,15,9,Design Collective
+EVT-00047,Club Meeting #47,Club Meeting,2026-08-24,Friday,19,1.0,ENG-404,21,9,ACM Student Chapter
+EVT-00048,Club Meeting #48,Club Meeting,2026-10-04,Friday,15,2.0,CMP-206,17,6,Academic Senate
+EVT-00049,Seminar #49,Seminar,2026-02-11,Wednesday,10,1.0,LIB-206,62,49,AI Builders
+EVT-00050,Study Group #50,Study Group,2026-04-08,Friday,17,1.5,ENG-214,103,83,Business School Advisory
+EVT-00051,Seminar #51,Seminar,2026-07-28,Friday,9,2.0,LIB-311,24,20,Women in STEM
+EVT-00052,Academic Workshop #52,Academic Workshop,2026-10-08,Monday,13,2.5,BUS-214,10,6,Finance & Investment Club
+EVT-00053,Career Fair #53,Career Fair,2026-09-27,Tuesday,17,2.0,ART-117,37,37,Dept of Computer Science
+EVT-00054,Club Meeting #54,Club Meeting,2026-08-20,Tuesday,16,2.0,CMP-218,27,23,Life Sciences Faculty
+EVT-00055,Club Meeting #55,Club Meeting,2026-08-03,Tuesday,17,2.0,ART-404,29,19,Business School Advisory
+EVT-00056,Study Group #56,Study Group,2026-12-20,Wednesday,16,3.0,LIB-408,13,13,Academic Senate
+EVT-00057,Club Meeting #57,Club Meeting,2026-06-27,Wednesday,16,1.5,CMP-105,15,9,Business School Advisory
+EVT-00058,Hackathon/Contest #58,Hackathon/Contest,2026-11-22,Wednesday,13,2.5,ENG-206,20,17,Life Sciences Faculty
+EVT-00059,Club Meeting #59,Club Meeting,2026-02-23,Saturday,14,3.0,CMP-311,10,6,Debate Union
+EVT-00060,Academic Workshop #60,Academic Workshop,2026-12-18,Friday,9,3.0,ENG-202,12,12,Dept of Computer Science
+EVT-00061,Study Group #61,Study Group,2026-08-04,Wednesday,19,1.0,ENG-222,82,71,Women in STEM
+EVT-00062,Club Meeting #62,Club Meeting,2026-10-12,Thursday,16,2.5,CMP-109,16,6,Life Sciences Faculty
+EVT-00063,Study Group #63,Study Group,2026-04-19,Tuesday,10,3.0,CMP-412,59,47,Debate Union
+EVT-00064,Club Meeting #64,Club Meeting,2026-06-27,Saturday,10,1.5,SCI-404,35,18,Debate Union
+EVT-00065,Seminar #65,Seminar,2026-08-14,Monday,17,2.0,BUS-117,17,13,Dept of Computer Science
+EVT-00066,Club Meeting #66,Club Meeting,2026-05-24,Thursday,18,2.5,ENG-408,69,48,Robotics Society
+EVT-00067,Club Meeting #67,Club Meeting,2026-06-02,Monday,17,1.5,ENG-404,24,9,Debate Union
+EVT-00068,Hackathon/Contest #68,Hackathon/Contest,2026-06-13,Wednesday,18,1.5,BUS-214,18,12,Life Sciences Faculty
+EVT-00069,Club Meeting #69,Club Meeting,2026-11-15,Monday,11,2.0,ENG-424,49,33,Academic Senate
+EVT-00070,Hackathon/Contest #70,Hackathon/Contest,2026-05-16,Thursday,14,1.0,ENG-117,24,23,ACM Student Chapter
+EVT-00071,Career Fair #71,Career Fair,2026-01-16,Friday,14,2.0,BUS-311,18,23,Academic Senate
+EVT-00072,Academic Workshop #72,Academic Workshop,2026-09-16,Saturday,17,2.0,ENG-303,24,21,Business School Advisory
+EVT-00073,Club Meeting #73,Club Meeting,2026-10-26,Monday,9,2.0,ENG-125,15,11,Life Sciences Faculty
+EVT-00074,Club Meeting #74,Club Meeting,2026-12-01,Thursday,15,3.0,SCI-303,38,26,Dept of Computer Science
+EVT-00075,Club Meeting #75,Club Meeting,2026-01-14,Tuesday,14,1.5,ART-214,15,13,Academic Senate
+EVT-00076,Seminar #76,Seminar,2026-10-22,Tuesday,14,2.5,ENG-125,35,38,Design Collective
+EVT-00077,Career Fair #77,Career Fair,2026-06-19,Wednesday,11,1.0,CMP-218,30,35,Design Collective
+EVT-00078,Academic Workshop #78,Academic Workshop,2026-06-27,Friday,9,3.0,ART-416,24,24,Debate Union
+EVT-00079,Career Fair #79,Career Fair,2026-11-24,Tuesday,18,3.0,ART-105,24,16,Life Sciences Faculty
+EVT-00080,Study Group #80,Study Group,2026-12-06,Monday,19,2.0,LIB-214,20,18,AI Builders
+EVT-00081,Hackathon/Contest #81,Hackathon/Contest,2026-05-11,Tuesday,14,2.5,BUS-315,15,17,Engineering Faculty Council
+EVT-00082,Seminar #82,Seminar,2026-12-09,Saturday,9,3.0,SCI-412,23,22,Women in STEM
+EVT-00083,Academic Workshop #83,Academic Workshop,2026-11-02,Thursday,13,2.5,CMP-307,19,14,AI Builders
+EVT-00084,Club Meeting #84,Club Meeting,2026-02-08,Thursday,19,3.0,BUS-214,11,8,Academic Senate
+EVT-00085,Study Group #85,Study Group,2026-08-04,Friday,9,2.5,CMP-420,23,14,Women in STEM
+EVT-00086,Academic Workshop #86,Academic Workshop,2026-09-11,Thursday,11,3.0,BUS-218,32,31,Finance & Investment Club
+EVT-00087,Club Meeting #87,Club Meeting,2026-06-23,Thursday,14,1.0,ENG-218,18,10,Robotics Society
+EVT-00088,Club Meeting #88,Club Meeting,2026-03-05,Friday,10,3.0,BUS-113,16,9,Robotics Society
+EVT-00089,Hackathon/Contest #89,Hackathon/Contest,2026-11-25,Thursday,11,1.5,ENG-416,42,40,Engineering Faculty Council
+EVT-00090,Faculty Assembly #90,Faculty Assembly,2026-06-20,Friday,9,1.0,ENG-105,10,6,Debate Union
+EVT-00091,Hackathon/Contest #91,Hackathon/Contest,2026-05-14,Friday,17,2.0,BUS-420,32,31,Dept of Computer Science
+EVT-00092,Academic Workshop #92,Academic Workshop,2026-05-04,Saturday,13,2.5,BUS-412,45,37,Debate Union
+EVT-00093,Academic Workshop #93,Academic Workshop,2026-12-01,Wednesday,16,3.0,ENG-323,15,5,Business School Advisory
+EVT-00094,Club Meeting #94,Club Meeting,2026-12-18,Monday,14,2.5,BUS-319,38,31,ACM Student Chapter
+EVT-00095,Academic Workshop #95,Academic Workshop,2026-08-16,Friday,13,3.0,BUS-319,16,10,Finance & Investment Club
+EVT-00096,Faculty Assembly #96,Faculty Assembly,2026-12-11,Friday,13,1.0,ENG-210,29,27,Robotics Society
+EVT-00097,Seminar #97,Seminar,2026-11-01,Saturday,9,3.0,SCI-416,17,5,Debate Union
+EVT-00098,Career Fair #98,Career Fair,2026-03-02,Friday,18,1.0,LIB-101,16,17,Debate Union
+EVT-00099,Hackathon/Contest #99,Hackathon/Contest,2026-11-28,Thursday,15,1.0,ENG-117,14,18,Women in STEM
+EVT-00100,Academic Workshop #100,Academic Workshop,2026-11-14,Saturday,14,2.0,LIB-214,14,6,Life Sciences Faculty
+EVT-00101,Career Fair #101,Career Fair,2026-08-25,Wednesday,13,1.0,ART-311,23,20,ACM Student Chapter
+EVT-00102,Club Meeting #102,Club Meeting,2026-07-23,Monday,10,2.0,LIB-307,12,11,Design Collective
+EVT-00103,Seminar #103,Seminar,2026-02-22,Monday,19,1.5,SCI-416,16,5,Finance & Investment Club
+EVT-00104,Faculty Assembly #104,Faculty Assembly,2026-09-02,Saturday,14,3.0,LIB-202,83,61,Dept of Computer Science
+EVT-00105,Faculty Assembly #105,Faculty Assembly,2026-08-08,Monday,19,3.0,LIB-307,27,13,ACM Student Chapter
+EVT-00106,Career Fair #106,Career Fair,2026-03-17,Tuesday,19,1.5,LIB-315,17,16,Finance & Investment Club
+EVT-00107,Academic Workshop #107,Academic Workshop,2026-09-10,Tuesday,10,2.0,ENG-101,12,12,Robotics Society
+EVT-00108,Club Meeting #108,Club Meeting,2026-03-11,Tuesday,19,1.5,ART-404,14,15,Dept of Computer Science
+EVT-00109,Faculty Assembly #109,Faculty Assembly,2026-02-20,Friday,19,1.0,BUS-210,26,19,Dept of Computer Science
+EVT-00110,Seminar #110,Seminar,2026-01-16,Thursday,9,1.5,SCI-404,17,17,Robotics Society
+EVT-00111,Study Group #111,Study Group,2026-09-23,Tuesday,17,1.0,CMP-408,48,35,Debate Union
+EVT-00112,Study Group #112,Study Group,2026-11-07,Thursday,16,2.5,BUS-101,26,25,Robotics Society
+EVT-00113,Seminar #113,Seminar,2026-03-06,Tuesday,10,3.0,ENG-416,27,14,Academic Senate
+EVT-00114,Club Meeting #114,Club Meeting,2026-01-12,Monday,18,1.0,SCI-214,25,10,ACM Student Chapter
+EVT-00115,Hackathon/Contest #115,Hackathon/Contest,2026-09-23,Thursday,10,2.0,BUS-408,24,21,AI Builders
+EVT-00116,Club Meeting #116,Club Meeting,2026-10-21,Monday,9,1.0,CMP-101,33,19,Business School Advisory
+EVT-00117,Study Group #117,Study Group,2026-05-12,Friday,13,2.0,CMP-210,25,19,ACM Student Chapter
+EVT-00118,Hackathon/Contest #118,Hackathon/Contest,2026-07-07,Saturday,11,2.5,BUS-117,28,23,ACM Student Chapter
+EVT-00119,Club Meeting #119,Club Meeting,2026-08-01,Tuesday,19,2.5,ENG-420,21,20,Business School Advisory
+EVT-00120,Study Group #120,Study Group,2026-05-11,Friday,11,3.0,SCI-210,145,121,Engineering Faculty Council
+EVT-00121,Hackathon/Contest #121,Hackathon/Contest,2026-01-20,Friday,9,2.0,ENG-412,23,14,Robotics Society
+EVT-00122,Academic Workshop #122,Academic Workshop,2026-12-05,Thursday,17,1.5,ENG-202,25,29,Business School Advisory
+EVT-00123,Academic Workshop #123,Academic Workshop,2026-11-05,Wednesday,9,2.0,BUS-412,39,33,Academic Senate
+EVT-00124,Career Fair #124,Career Fair,2026-12-17,Saturday,18,2.0,LIB-101,14,19,ACM Student Chapter
+EVT-00125,Academic Workshop #125,Academic Workshop,2026-10-07,Friday,16,3.0,SCI-117,26,21,Business School Advisory
+EVT-00126,Faculty Assembly #126,Faculty Assembly,2026-10-14,Friday,10,1.0,ENG-420,21,14,Design Collective
+EVT-00127,Club Meeting #127,Club Meeting,2026-09-19,Wednesday,18,3.0,BUS-113,18,7,AI Builders
+EVT-00128,Seminar #128,Seminar,2026-06-06,Wednesday,15,1.5,SCI-105,31,18,Women in STEM
+EVT-00129,Study Group #129,Study Group,2026-02-23,Monday,15,1.5,CMP-101,35,29,Robotics Society
+EVT-00130,Academic Workshop #130,Academic Workshop,2026-08-24,Saturday,15,3.0,ART-206,15,20,Business School Advisory
+EVT-00131,Seminar #131,Seminar,2026-03-14,Wednesday,11,1.5,SCI-311,16,15,Academic Senate
+EVT-00132,Hackathon/Contest #132,Hackathon/Contest,2026-04-13,Saturday,18,3.0,BUS-319,31,31,AI Builders
+EVT-00133,Academic Workshop #133,Academic Workshop,2026-01-08,Wednesday,15,2.0,SCI-420,108,97,AI Builders
+EVT-00134,Club Meeting #134,Club Meeting,2026-10-13,Saturday,13,3.0,ENG-416,45,29,Debate Union
+EVT-00135,Academic Workshop #135,Academic Workshop,2026-10-09,Monday,15,2.5,LIB-315,22,8,Business School Advisory
+EVT-00136,Academic Workshop #136,Academic Workshop,2026-09-21,Wednesday,13,1.5,ENG-101,10,10,Design Collective
+EVT-00137,Club Meeting #137,Club Meeting,2026-08-01,Thursday,11,1.0,BUS-315,11,8,Business School Advisory
+EVT-00138,Academic Workshop #138,Academic Workshop,2026-08-04,Saturday,16,2.5,LIB-311,14,5,Dept of Computer Science
+EVT-00139,Academic Workshop #139,Academic Workshop,2026-01-26,Friday,13,2.5,ENG-218,16,11,Finance & Investment Club
+EVT-00140,Seminar #140,Seminar,2026-04-05,Tuesday,15,1.0,BUS-315,13,12,Design Collective
+EVT-00141,Seminar #141,Seminar,2026-03-16,Thursday,17,1.5,ENG-412,27,23,Debate Union
+EVT-00142,Academic Workshop #142,Academic Workshop,2026-03-04,Monday,16,1.0,CMP-303,36,38,Business School Advisory
+EVT-00143,Academic Workshop #143,Academic Workshop,2026-11-15,Saturday,10,2.5,ENG-420,19,12,Business School Advisory
+EVT-00144,Hackathon/Contest #144,Hackathon/Contest,2026-09-20,Wednesday,18,1.5,LIB-206,108,102,Women in STEM
+EVT-00145,Academic Workshop #145,Academic Workshop,2026-08-24,Friday,17,2.0,CMP-315,12,9,Debate Union
+EVT-00146,Academic Workshop #146,Academic Workshop,2026-05-15,Monday,9,1.5,ENG-319,38,26,AI Builders
+EVT-00147,Faculty Assembly #147,Faculty Assembly,2026-08-10,Thursday,18,1.0,CMP-420,18,26,Dept of Computer Science
+EVT-00148,Club Meeting #148,Club Meeting,2026-08-04,Wednesday,16,3.0,SCI-206,13,15,Engineering Faculty Council
+EVT-00149,Study Group #149,Study Group,2026-05-15,Friday,14,3.0,LIB-412,19,12,Finance & Investment Club
+EVT-00150,Club Meeting #150,Club Meeting,2026-12-26,Saturday,16,2.0,SCI-307,140,107,Life Sciences Faculty
+EVT-00151,Club Meeting #151,Club Meeting,2026-10-24,Tuesday,15,3.0,BUS-404,17,14,Finance & Investment Club
+EVT-00152,Club Meeting #152,Club Meeting,2026-12-21,Tuesday,19,1.0,BUS-307,22,19,ACM Student Chapter
+EVT-00153,Club Meeting #153,Club Meeting,2026-04-09,Tuesday,11,3.0,SCI-404,16,13,Robotics Society
+EVT-00154,Academic Workshop #154,Academic Workshop,2026-01-28,Saturday,9,2.5,SCI-218,30,19,Design Collective
+EVT-00155,Club Meeting #155,Club Meeting,2026-09-24,Wednesday,15,1.5,SCI-121,10,9,Design Collective
+EVT-00156,Academic Workshop #156,Academic Workshop,2026-08-25,Friday,9,1.0,LIB-307,25,15,Engineering Faculty Council
+EVT-00157,Academic Workshop #157,Academic Workshop,2026-02-25,Monday,19,3.0,ART-408,12,11,Engineering Faculty Council
+EVT-00158,Hackathon/Contest #158,Hackathon/Contest,2026-05-02,Saturday,19,3.0,ENG-323,24,24,AI Builders
+EVT-00159,Seminar #159,Seminar,2026-09-13,Wednesday,17,1.5,BUS-218,46,40,AI Builders
+EVT-00160,Seminar #160,Seminar,2026-01-18,Saturday,19,1.5,CMP-404,27,11,AI Builders
+EVT-00161,Career Fair #161,Career Fair,2026-07-26,Monday,15,2.0,ENG-424,32,39,Women in STEM
+EVT-00162,Study Group #162,Study Group,2026-10-24,Wednesday,13,1.5,BUS-315,34,27,Business School Advisory
+EVT-00163,Career Fair #163,Career Fair,2026-06-27,Saturday,10,1.5,BUS-412,39,32,Women in STEM
+EVT-00164,Club Meeting #164,Club Meeting,2026-12-18,Tuesday,14,3.0,CMP-416,48,25,Finance & Investment Club
+EVT-00165,Seminar #165,Seminar,2026-11-02,Tuesday,9,2.0,LIB-105,14,16,Robotics Society
+EVT-00166,Faculty Assembly #166,Faculty Assembly,2026-10-04,Tuesday,16,1.5,CMP-214,21,20,Engineering Faculty Council
+EVT-00167,Seminar #167,Seminar,2026-04-22,Thursday,15,2.5,CMP-214,25,19,Finance & Investment Club
+EVT-00168,Academic Workshop #168,Academic Workshop,2026-08-27,Saturday,13,1.0,CMP-307,16,10,Debate Union
+EVT-00169,Academic Workshop #169,Academic Workshop,2026-05-19,Tuesday,18,3.0,ENG-125,15,17,Engineering Faculty Council
+EVT-00170,Career Fair #170,Career Fair,2026-07-07,Monday,14,2.0,BUS-307,19,24,Dept of Computer Science
+EVT-00171,Academic Workshop #171,Academic Workshop,2026-12-04,Thursday,13,2.5,LIB-311,31,29,Academic Senate
+EVT-00172,Club Meeting #172,Club Meeting,2026-07-08,Friday,11,2.0,ENG-323,15,5,Engineering Faculty Council
+EVT-00173,Academic Workshop #173,Academic Workshop,2026-08-11,Monday,19,2.5,ART-117,23,13,AI Builders
+EVT-00174,Seminar #174,Seminar,2026-09-04,Monday,13,1.5,ART-218,19,19,AI Builders
+EVT-00175,Seminar #175,Seminar,2026-09-21,Monday,9,1.0,ENG-109,17,21,Business School Advisory
+EVT-00176,Seminar #176,Seminar,2026-04-10,Wednesday,10,2.0,ART-408,11,10,Life Sciences Faculty
+EVT-00177,Seminar #177,Seminar,2026-02-07,Monday,19,2.0,ENG-218,18,20,AI Builders
+EVT-00178,Study Group #178,Study Group,2026-01-15,Friday,16,1.5,LIB-101,16,12,Women in STEM
+EVT-00179,Study Group #179,Study Group,2026-10-03,Saturday,16,2.0,BUS-412,38,21,Robotics Society
+EVT-00180,Study Group #180,Study Group,2026-12-02,Wednesday,19,1.0,CMP-311,14,15,Robotics Society
+EVT-00181,Academic Workshop #181,Academic Workshop,2026-09-22,Thursday,10,3.0,ENG-218,19,14,Dept of Computer Science
+EVT-00182,Academic Workshop #182,Academic Workshop,2026-05-20,Wednesday,17,2.0,CMP-404,12,13,Engineering Faculty Council
+EVT-00183,Faculty Assembly #183,Faculty Assembly,2026-11-15,Wednesday,11,2.5,SCI-121,13,5,Engineering Faculty Council
+EVT-00184,Seminar #184,Seminar,2026-07-15,Saturday,10,3.0,SCI-101,11,11,Women in STEM
+EVT-00185,Academic Workshop #185,Academic Workshop,2026-03-28,Thursday,16,2.0,BUS-210,16,13,ACM Student Chapter
+EVT-00186,Academic Workshop #186,Academic Workshop,2026-10-03,Wednesday,16,2.0,SCI-416,12,8,AI Builders
+EVT-00187,Academic Workshop #187,Academic Workshop,2026-06-02,Tuesday,11,2.5,CMP-420,18,16,Finance & Investment Club
+EVT-00188,Academic Workshop #188,Academic Workshop,2026-10-20,Monday,17,1.5,ENG-121,15,22,Engineering Faculty Council
+EVT-00189,Hackathon/Contest #189,Hackathon/Contest,2026-05-05,Saturday,11,1.5,LIB-105,28,31,Engineering Faculty Council
+EVT-00190,Academic Workshop #190,Academic Workshop,2026-01-15,Saturday,11,3.0,SCI-113,128,86,Robotics Society
+EVT-00191,Academic Workshop #191,Academic Workshop,2026-01-01,Tuesday,13,1.0,ENG-319,36,34,Dept of Computer Science
+EVT-00192,Faculty Assembly #192,Faculty Assembly,2026-11-09,Friday,11,2.0,SCI-404,38,29,Debate Union
+EVT-00193,Hackathon/Contest #193,Hackathon/Contest,2026-05-21,Tuesday,15,1.0,SCI-311,12,10,Engineering Faculty Council
+EVT-00194,Career Fair #194,Career Fair,2026-01-02,Friday,15,2.0,ENG-408,95,97,AI Builders
+EVT-00195,Club Meeting #195,Club Meeting,2026-04-02,Saturday,11,3.0,ENG-424,36,27,Business School Advisory
+EVT-00196,Seminar #196,Seminar,2026-12-05,Tuesday,11,1.5,BUS-420,34,24,Robotics Society
+EVT-00197,Club Meeting #197,Club Meeting,2026-03-26,Tuesday,11,3.0,LIB-412,31,20,ACM Student Chapter
+EVT-00198,Academic Workshop #198,Academic Workshop,2026-07-21,Tuesday,10,2.5,BUS-307,21,14,Debate Union
+EVT-00199,Club Meeting #199,Club Meeting,2026-11-03,Monday,19,3.0,BUS-303,10,5,Robotics Society
+EVT-00200,Club Meeting #200,Club Meeting,2026-11-27,Thursday,18,2.0,ART-315,22,15,ACM Student Chapter
+EVT-00201,Club Meeting #201,Club Meeting,2026-01-27,Friday,17,2.0,ENG-424,25,20,Academic Senate
+EVT-00202,Seminar #202,Seminar,2026-06-12,Saturday,11,3.0,BUS-319,33,28,Women in STEM
+EVT-00203,Club Meeting #203,Club Meeting,2026-01-08,Saturday,15,2.5,SCI-404,15,15,Engineering Faculty Council
+EVT-00204,Seminar #204,Seminar,2026-07-01,Saturday,17,1.5,SCI-319,88,62,Women in STEM
+EVT-00205,Academic Workshop #205,Academic Workshop,2026-10-20,Tuesday,9,2.5,ART-218,38,28,ACM Student Chapter
+EVT-00206,Study Group #206,Study Group,2026-12-04,Tuesday,9,1.5,BUS-210,32,31,Dept of Computer Science
+EVT-00207,Study Group #207,Study Group,2026-02-14,Wednesday,10,1.0,ENG-206,26,22,Finance & Investment Club
+EVT-00208,Academic Workshop #208,Academic Workshop,2026-02-26,Tuesday,15,1.5,CMP-307,23,24,Robotics Society
+EVT-00209,Faculty Assembly #209,Faculty Assembly,2026-04-09,Saturday,16,2.0,CMP-101,35,27,Robotics Society
+EVT-00210,Career Fair #210,Career Fair,2026-07-02,Friday,10,2.5,ENG-121,31,31,Design Collective
+EVT-00211,Academic Workshop #211,Academic Workshop,2026-09-09,Tuesday,16,1.0,LIB-404,16,14,Engineering Faculty Council
+EVT-00212,Club Meeting #212,Club Meeting,2026-02-03,Thursday,17,2.5,ART-416,22,13,ACM Student Chapter
+EVT-00213,Study Group #213,Study Group,2026-01-15,Tuesday,19,1.5,LIB-206,47,32,Life Sciences Faculty
+EVT-00214,Club Meeting #214,Club Meeting,2026-07-20,Monday,17,1.5,ENG-424,38,21,AI Builders
+EVT-00215,Club Meeting #215,Club Meeting,2026-07-20,Friday,18,2.0,LIB-408,14,8,Robotics Society
+EVT-00216,Club Meeting #216,Club Meeting,2026-01-01,Monday,9,3.0,CMP-117,14,7,Women in STEM
+EVT-00217,Study Group #217,Study Group,2026-08-08,Friday,17,2.0,BUS-408,23,26,Women in STEM
+EVT-00218,Club Meeting #218,Club Meeting,2026-12-12,Monday,19,1.5,CMP-210,24,16,Engineering Faculty Council
+EVT-00219,Study Group #219,Study Group,2026-09-13,Thursday,16,2.0,ART-206,13,10,Engineering Faculty Council
+EVT-00220,Club Meeting #220,Club Meeting,2026-08-10,Wednesday,13,1.5,LIB-109,188,139,Debate Union
+EVT-00221,Club Meeting #221,Club Meeting,2026-05-05,Tuesday,17,1.5,CMP-202,38,27,Business School Advisory
+EVT-00222,Academic Workshop #222,Academic Workshop,2026-12-14,Friday,10,1.0,CMP-307,29,27,Academic Senate
+EVT-00223,Study Group #223,Study Group,2026-08-12,Monday,16,1.5,LIB-206,106,103,Business School Advisory
+EVT-00224,Club Meeting #224,Club Meeting,2026-08-20,Thursday,11,1.0,BUS-218,86,62,Dept of Computer Science
+EVT-00225,Seminar #225,Seminar,2026-07-22,Friday,14,1.5,SCI-101,14,13,Business School Advisory
+EVT-00226,Seminar #226,Seminar,2026-02-24,Monday,19,1.0,CMP-420,14,5,ACM Student Chapter
+EVT-00227,Hackathon/Contest #227,Hackathon/Contest,2026-03-09,Tuesday,9,1.0,SCI-404,29,35,Life Sciences Faculty
+EVT-00228,Hackathon/Contest #228,Hackathon/Contest,2026-03-19,Monday,13,1.5,BUS-105,21,26,Dept of Computer Science
+EVT-00229,Club Meeting #229,Club Meeting,2026-08-24,Friday,15,3.0,CMP-307,28,17,Debate Union
+EVT-00230,Academic Workshop #230,Academic Workshop,2026-04-05,Monday,19,1.5,SCI-101,11,7,Engineering Faculty Council
+EVT-00231,Academic Workshop #231,Academic Workshop,2026-06-03,Wednesday,16,3.0,CMP-311,10,14,AI Builders
+EVT-00232,Club Meeting #232,Club Meeting,2026-01-08,Tuesday,15,1.0,CMP-307,17,5,Business School Advisory
+EVT-00233,Seminar #233,Seminar,2026-04-21,Saturday,11,1.0,LIB-101,19,16,ACM Student Chapter
+EVT-00234,Academic Workshop #234,Academic Workshop,2026-10-11,Friday,11,3.0,SCI-315,15,12,Academic Senate
+EVT-00235,Hackathon/Contest #235,Hackathon/Contest,2026-07-11,Tuesday,14,1.5,CMP-404,15,9,ACM Student Chapter
+EVT-00236,Seminar #236,Seminar,2026-12-22,Thursday,18,2.0,SCI-412,21,22,Debate Union
+EVT-00237,Study Group #237,Study Group,2026-04-07,Thursday,15,2.0,ART-412,35,25,Design Collective
+EVT-00238,Study Group #238,Study Group,2026-06-16,Saturday,13,1.0,SCI-311,21,12,Debate Union
+EVT-00239,Club Meeting #239,Club Meeting,2026-08-07,Thursday,17,2.0,BUS-113,31,21,Women in STEM
+EVT-00240,Academic Workshop #240,Academic Workshop,2026-03-02,Tuesday,9,2.0,CMP-408,39,36,Life Sciences Faculty
+EVT-00241,Club Meeting #241,Club Meeting,2026-04-16,Thursday,11,1.0,ART-315,11,7,Business School Advisory
+EVT-00242,Club Meeting #242,Club Meeting,2026-04-25,Tuesday,18,2.0,SCI-420,59,33,Dept of Computer Science
+EVT-00243,Hackathon/Contest #243,Hackathon/Contest,2026-08-18,Friday,17,2.0,SCI-408,13,22,Finance & Investment Club
+EVT-00244,Club Meeting #244,Club Meeting,2026-02-22,Saturday,10,2.5,CMP-311,18,15,Design Collective
+EVT-00245,Club Meeting #245,Club Meeting,2026-02-22,Tuesday,17,2.0,ENG-307,33,27,Dept of Computer Science
+EVT-00246,Study Group #246,Study Group,2026-06-04,Tuesday,18,2.0,BUS-214,17,13,ACM Student Chapter
+EVT-00247,Seminar #247,Seminar,2026-02-19,Friday,15,3.0,ENG-412,23,14,Design Collective
+EVT-00248,Study Group #248,Study Group,2026-06-27,Thursday,14,2.5,ART-218,44,39,Women in STEM
+EVT-00249,Hackathon/Contest #249,Hackathon/Contest,2026-10-20,Thursday,17,3.0,BUS-303,11,17,Business School Advisory
+EVT-00250,Seminar #250,Seminar,2026-04-26,Monday,15,2.0,SCI-420,66,58,Finance & Investment Club
+EVT-00251,Career Fair #251,Career Fair,2026-07-26,Thursday,11,2.0,ENG-420,23,18,Design Collective
+EVT-00252,Career Fair #252,Career Fair,2026-07-04,Wednesday,18,3.0,ENG-202,15,20,Academic Senate
+EVT-00253,Club Meeting #253,Club Meeting,2026-08-25,Monday,14,2.0,SCI-222,89,68,AI Builders
+EVT-00254,Club Meeting #254,Club Meeting,2026-11-17,Friday,18,1.5,CMP-408,38,17,Finance & Investment Club
+EVT-00255,Academic Workshop #255,Academic Workshop,2026-03-23,Wednesday,9,3.0,SCI-420,112,88,Business School Advisory
+EVT-00256,Club Meeting #256,Club Meeting,2026-09-11,Monday,11,1.5,BUS-105,17,8,AI Builders
+EVT-00257,Club Meeting #257,Club Meeting,2026-08-19,Wednesday,16,2.0,SCI-113,119,79,ACM Student Chapter
+EVT-00258,Seminar #258,Seminar,2026-04-17,Friday,16,3.0,BUS-218,89,71,Life Sciences Faculty
+EVT-00259,Hackathon/Contest #259,Hackathon/Contest,2026-12-28,Thursday,16,3.0,SCI-210,91,94,Design Collective
+EVT-00260,Seminar #260,Seminar,2026-09-01,Wednesday,18,3.0,LIB-202,51,40,Design Collective
+EVT-00261,Seminar #261,Seminar,2026-05-15,Friday,15,1.0,ART-105,30,20,Dept of Computer Science
+EVT-00262,Study Group #262,Study Group,2026-07-26,Saturday,19,1.5,CMP-404,11,11,Dept of Computer Science
+EVT-00263,Club Meeting #263,Club Meeting,2026-04-23,Monday,17,1.5,ENG-214,110,77,Robotics Society
+EVT-00264,Seminar #264,Seminar,2026-02-26,Monday,11,1.0,CMP-311,10,7,Debate Union
+EVT-00265,Club Meeting #265,Club Meeting,2026-05-01,Wednesday,16,1.5,ENG-210,39,35,ACM Student Chapter
+EVT-00266,Seminar #266,Seminar,2026-08-06,Wednesday,11,1.5,SCI-105,43,30,Debate Union
+EVT-00267,Academic Workshop #267,Academic Workshop,2026-11-22,Thursday,9,2.0,SCI-214,17,18,ACM Student Chapter
+EVT-00268,Club Meeting #268,Club Meeting,2026-01-01,Tuesday,18,1.5,CMP-202,14,6,Design Collective
+EVT-00269,Club Meeting #269,Club Meeting,2026-06-11,Thursday,18,2.0,CMP-311,12,10,Design Collective
+EVT-00270,Club Meeting #270,Club Meeting,2026-09-04,Saturday,16,1.0,ENG-323,14,20,Dept of Computer Science
+EVT-00271,Study Group #271,Study Group,2026-01-17,Saturday,9,1.0,CMP-210,24,21,ACM Student Chapter
+EVT-00272,Study Group #272,Study Group,2026-05-19,Saturday,17,3.0,LIB-412,18,5,Life Sciences Faculty
+EVT-00273,Academic Workshop #273,Academic Workshop,2026-06-17,Friday,18,2.0,ENG-412,21,21,Academic Senate
+EVT-00274,Academic Workshop #274,Academic Workshop,2026-06-26,Tuesday,11,2.5,ENG-424,18,12,Engineering Faculty Council
+EVT-00275,Hackathon/Contest #275,Hackathon/Contest,2026-07-12,Thursday,14,1.0,CMP-416,19,16,Dept of Computer Science
+EVT-00276,Faculty Assembly #276,Faculty Assembly,2026-06-03,Friday,13,1.5,LIB-307,13,12,AI Builders
+EVT-00277,Club Meeting #277,Club Meeting,2026-02-21,Friday,14,1.5,CMP-206,24,13,Business School Advisory
+EVT-00278,Study Group #278,Study Group,2026-03-18,Friday,13,2.5,ENG-323,16,17,Academic Senate
+EVT-00279,Club Meeting #279,Club Meeting,2026-08-01,Saturday,9,3.0,ART-307,38,34,Dept of Computer Science
+EVT-00280,Seminar #280,Seminar,2026-03-19,Wednesday,11,1.0,SCI-315,26,18,Robotics Society
+EVT-00281,Seminar #281,Seminar,2026-08-15,Thursday,9,3.0,BUS-113,24,19,Academic Senate
+EVT-00282,Club Meeting #282,Club Meeting,2026-04-04,Saturday,18,2.0,ART-315,23,22,Robotics Society
+EVT-00283,Academic Workshop #283,Academic Workshop,2026-11-01,Saturday,19,3.0,CMP-214,11,12,Life Sciences Faculty
+EVT-00284,Club Meeting #284,Club Meeting,2026-06-16,Friday,18,3.0,BUS-105,16,5,ACM Student Chapter
+EVT-00285,Club Meeting #285,Club Meeting,2026-02-27,Wednesday,15,1.5,ENG-214,118,82,Design Collective
+EVT-00286,Study Group #286,Study Group,2026-04-25,Thursday,10,3.0,SCI-408,15,13,Debate Union
+EVT-00287,Club Meeting #287,Club Meeting,2026-07-01,Thursday,9,3.0,ART-109,56,32,Dept of Computer Science
+EVT-00288,Career Fair #288,Career Fair,2026-03-10,Monday,13,3.0,LIB-214,16,22,ACM Student Chapter
+EVT-00289,Club Meeting #289,Club Meeting,2026-11-23,Friday,11,2.5,ART-105,54,40,Debate Union
+EVT-00290,Career Fair #290,Career Fair,2026-07-23,Monday,10,2.5,BUS-214,15,22,Robotics Society
+EVT-00291,Study Group #291,Study Group,2026-08-08,Wednesday,9,1.5,CMP-214,19,21,ACM Student Chapter
+EVT-00292,Academic Workshop #292,Academic Workshop,2026-05-17,Tuesday,16,2.0,BUS-214,14,16,Women in STEM
+EVT-00293,Club Meeting #293,Club Meeting,2026-05-11,Wednesday,10,1.0,ENG-125,32,13,Women in STEM
+EVT-00294,Academic Workshop #294,Academic Workshop,2026-03-09,Friday,15,2.5,ART-404,30,36,ACM Student Chapter
+EVT-00295,Academic Workshop #295,Academic Workshop,2026-05-14,Friday,15,3.0,BUS-420,34,39,Engineering Faculty Council
+EVT-00296,Hackathon/Contest #296,Hackathon/Contest,2026-12-12,Saturday,9,3.0,SCI-412,18,15,Life Sciences Faculty
+EVT-00297,Academic Workshop #297,Academic Workshop,2026-04-05,Wednesday,18,1.5,LIB-202,52,38,Women in STEM
+EVT-00298,Club Meeting #298,Club Meeting,2026-10-11,Friday,11,2.0,ENG-222,98,62,Life Sciences Faculty
+EVT-00299,Club Meeting #299,Club Meeting,2026-05-25,Friday,9,2.5,ENG-113,128,79,ACM Student Chapter
+EVT-00300,Academic Workshop #300,Academic Workshop,2026-05-15,Friday,16,2.5,CMP-420,10,5,Academic Senate
+EVT-00301,Hackathon/Contest #301,Hackathon/Contest,2026-02-28,Saturday,11,1.0,ENG-113,76,83,Design Collective
+EVT-00302,Seminar #302,Seminar,2026-01-24,Saturday,18,1.5,ART-109,64,41,AI Builders
+EVT-00303,Club Meeting #303,Club Meeting,2026-12-24,Saturday,10,3.0,BUS-404,34,23,Women in STEM
+EVT-00304,Seminar #304,Seminar,2026-12-28,Thursday,9,3.0,CMP-117,24,18,ACM Student Chapter
+EVT-00305,Faculty Assembly #305,Faculty Assembly,2026-06-14,Monday,11,1.0,CMP-412,36,37,Robotics Society
+EVT-00306,Seminar #306,Seminar,2026-05-16,Wednesday,15,1.5,ENG-113,181,148,Life Sciences Faculty
+EVT-00307,Academic Workshop #307,Academic Workshop,2026-05-09,Friday,13,2.0,CMP-202,30,32,Dept of Computer Science
+EVT-00308,Academic Workshop #308,Academic Workshop,2026-01-18,Tuesday,11,1.0,BUS-101,14,9,Design Collective
+EVT-00309,Seminar #309,Seminar,2026-02-20,Friday,15,1.0,SCI-222,138,116,Debate Union
+EVT-00310,Academic Workshop #310,Academic Workshop,2026-02-13,Thursday,18,2.0,BUS-101,31,23,Women in STEM
+EVT-00311,Hackathon/Contest #311,Hackathon/Contest,2026-12-05,Tuesday,15,1.0,SCI-109,24,33,Academic Senate
+EVT-00312,Faculty Assembly #312,Faculty Assembly,2026-02-06,Monday,13,2.5,ART-218,16,12,Dept of Computer Science
+EVT-00313,Seminar #313,Seminar,2026-01-06,Friday,17,1.0,CMP-101,17,20,Life Sciences Faculty
+EVT-00314,Study Group #314,Study Group,2026-06-25,Saturday,16,1.5,ENG-202,14,8,Design Collective
+EVT-00315,Career Fair #315,Career Fair,2026-01-02,Wednesday,19,2.0,CMP-303,27,28,Design Collective
+EVT-00316,Academic Workshop #316,Academic Workshop,2026-08-02,Thursday,16,3.0,CMP-210,12,16,Engineering Faculty Council
+EVT-00317,Academic Workshop #317,Academic Workshop,2026-05-02,Wednesday,18,1.5,SCI-105,43,38,ACM Student Chapter
+EVT-00318,Academic Workshop #318,Academic Workshop,2026-05-02,Thursday,14,2.5,BUS-214,10,9,ACM Student Chapter
+EVT-00319,Club Meeting #319,Club Meeting,2026-07-03,Monday,10,2.5,CMP-117,27,15,Finance & Investment Club
+EVT-00320,Club Meeting #320,Club Meeting,2026-06-14,Friday,17,2.0,ENG-125,18,15,Engineering Faculty Council
+EVT-00321,Career Fair #321,Career Fair,2026-05-16,Thursday,18,1.5,CMP-206,23,29,ACM Student Chapter
+EVT-00322,Club Meeting #322,Club Meeting,2026-10-20,Wednesday,16,1.5,LIB-105,21,6,Business School Advisory
+EVT-00323,Club Meeting #323,Club Meeting,2026-11-11,Thursday,16,3.0,BUS-420,30,21,ACM Student Chapter
+EVT-00324,Club Meeting #324,Club Meeting,2026-09-08,Monday,13,2.5,ENG-218,14,11,AI Builders
+EVT-00325,Faculty Assembly #325,Faculty Assembly,2026-09-14,Friday,19,1.0,ENG-125,17,22,Finance & Investment Club
+EVT-00326,Hackathon/Contest #326,Hackathon/Contest,2026-09-16,Tuesday,17,1.0,CMP-117,25,26,Debate Union
+EVT-00327,Faculty Assembly #327,Faculty Assembly,2026-02-22,Tuesday,18,1.5,LIB-210,25,21,Business School Advisory
+EVT-00328,Hackathon/Contest #328,Hackathon/Contest,2026-04-02,Tuesday,19,1.0,LIB-408,28,18,Design Collective
+EVT-00329,Seminar #329,Seminar,2026-05-19,Wednesday,13,1.5,ART-105,39,41,Design Collective
+EVT-00330,Seminar #330,Seminar,2026-07-16,Saturday,18,2.0,LIB-202,82,58,Robotics Society
+EVT-00331,Seminar #331,Seminar,2026-10-12,Tuesday,10,2.0,SCI-412,17,6,Robotics Society
+EVT-00332,Seminar #332,Seminar,2026-05-25,Tuesday,10,2.5,LIB-109,174,122,ACM Student Chapter
+EVT-00333,Club Meeting #333,Club Meeting,2026-04-08,Tuesday,17,2.5,CMP-307,18,7,Academic Senate
+EVT-00334,Study Group #334,Study Group,2026-11-11,Wednesday,14,1.5,BUS-202,57,44,Design Collective
+EVT-00335,Hackathon/Contest #335,Hackathon/Contest,2026-04-19,Monday,16,2.5,CMP-202,36,35,AI Builders
+EVT-00336,Seminar #336,Seminar,2026-05-03,Tuesday,9,1.5,SCI-404,35,26,Design Collective
+EVT-00337,Academic Workshop #337,Academic Workshop,2026-10-11,Friday,16,1.5,LIB-105,36,38,ACM Student Chapter
+EVT-00338,Academic Workshop #338,Academic Workshop,2026-11-24,Wednesday,17,2.0,SCI-311,15,15,Finance & Investment Club
+EVT-00339,Club Meeting #339,Club Meeting,2026-12-28,Thursday,9,2.0,SCI-222,82,53,Women in STEM
+EVT-00340,Club Meeting #340,Club Meeting,2026-11-22,Friday,19,1.5,ENG-222,67,40,Academic Senate
+EVT-00341,Club Meeting #341,Club Meeting,2026-12-19,Wednesday,17,1.0,LIB-307,20,8,Business School Advisory
+EVT-00342,Academic Workshop #342,Academic Workshop,2026-07-03,Wednesday,15,1.0,SCI-113,96,86,Design Collective
+EVT-00343,Academic Workshop #343,Academic Workshop,2026-08-04,Monday,11,2.5,ENG-210,19,22,Robotics Society
+EVT-00344,Career Fair #344,Career Fair,2026-01-14,Friday,9,2.5,BUS-303,11,6,Life Sciences Faculty
+EVT-00345,Study Group #345,Study Group,2026-10-18,Monday,10,1.5,ART-303,26,25,Engineering Faculty Council
+EVT-00346,Club Meeting #346,Club Meeting,2026-06-04,Tuesday,16,3.0,SCI-408,23,23,Academic Senate
+EVT-00347,Club Meeting #347,Club Meeting,2026-07-07,Saturday,14,2.5,ENG-218,16,17,Women in STEM
+EVT-00348,Seminar #348,Seminar,2026-11-12,Thursday,19,1.0,ENG-125,12,13,Engineering Faculty Council
+EVT-00349,Seminar #349,Seminar,2026-04-10,Monday,13,1.0,ENG-420,27,20,Engineering Faculty Council
+EVT-00350,Academic Workshop #350,Academic Workshop,2026-11-22,Friday,15,2.0,BUS-307,19,16,Design Collective
+EVT-00351,Hackathon/Contest #351,Hackathon/Contest,2026-10-02,Saturday,18,3.0,ENG-412,23,28,Academic Senate
+EVT-00352,Career Fair #352,Career Fair,2026-04-24,Monday,10,1.5,CMP-210,14,17,Life Sciences Faculty
+EVT-00353,Academic Workshop #353,Academic Workshop,2026-04-21,Saturday,17,1.5,ART-404,16,21,Design Collective
+EVT-00354,Club Meeting #354,Club Meeting,2026-06-25,Thursday,16,3.0,BUS-214,15,9,Debate Union
+EVT-00355,Academic Workshop #355,Academic Workshop,2026-01-21,Tuesday,18,1.5,CMP-109,22,9,Debate Union
+EVT-00356,Club Meeting #356,Club Meeting,2026-02-23,Monday,16,2.5,SCI-117,37,28,Design Collective
+EVT-00357,Study Group #357,Study Group,2026-06-18,Friday,19,3.0,CMP-319,30,21,Debate Union
+EVT-00358,Seminar #358,Seminar,2026-05-19,Friday,16,2.0,CMP-319,13,5,Robotics Society
+EVT-00359,Hackathon/Contest #359,Hackathon/Contest,2026-08-08,Thursday,16,3.0,SCI-113,91,93,Life Sciences Faculty
+EVT-00360,Seminar #360,Seminar,2026-04-02,Monday,18,2.0,CMP-311,19,14,Engineering Faculty Council
+EVT-00361,Academic Workshop #361,Academic Workshop,2026-01-01,Saturday,14,2.0,CMP-113,11,5,Business School Advisory
+EVT-00362,Study Group #362,Study Group,2026-02-18,Tuesday,14,1.5,LIB-315,20,11,Debate Union
+EVT-00363,Academic Workshop #363,Academic Workshop,2026-08-10,Thursday,13,1.0,LIB-202,53,48,Academic Senate
+EVT-00364,Study Group #364,Study Group,2026-11-15,Monday,9,1.0,ENG-125,19,28,Life Sciences Faculty
+EVT-00365,Club Meeting #365,Club Meeting,2026-10-15,Thursday,11,2.0,CMP-214,11,9,Life Sciences Faculty
+EVT-00366,Academic Workshop #366,Academic Workshop,2026-08-10,Thursday,14,2.5,ART-117,12,17,Design Collective
+EVT-00367,Study Group #367,Study Group,2026-10-17,Monday,11,2.0,CMP-311,13,5,Dept of Computer Science
+EVT-00368,Club Meeting #368,Club Meeting,2026-08-24,Friday,10,3.0,BUS-117,16,16,Finance & Investment Club
+EVT-00369,Study Group #369,Study Group,2026-01-13,Friday,18,2.0,LIB-307,29,13,Design Collective
+EVT-00370,Club Meeting #370,Club Meeting,2026-06-08,Friday,14,3.0,SCI-416,14,12,ACM Student Chapter
+EVT-00371,Club Meeting #371,Club Meeting,2026-01-22,Tuesday,16,2.5,BUS-408,27,27,ACM Student Chapter
+EVT-00372,Academic Workshop #372,Academic Workshop,2026-07-16,Saturday,16,2.0,BUS-101,17,14,Women in STEM
+EVT-00373,Club Meeting #373,Club Meeting,2026-03-25,Thursday,16,3.0,CMP-311,12,5,Engineering Faculty Council
+EVT-00374,Faculty Assembly #374,Faculty Assembly,2026-03-12,Wednesday,14,1.0,CMP-303,21,31,Women in STEM
+EVT-00375,Seminar #375,Seminar,2026-09-16,Thursday,11,3.0,BUS-307,10,5,Dept of Computer Science
+EVT-00376,Club Meeting #376,Club Meeting,2026-06-19,Tuesday,18,2.5,LIB-101,17,6,Debate Union
+EVT-00377,Study Group #377,Study Group,2026-04-12,Tuesday,13,2.0,SCI-113,168,143,Dept of Computer Science
+EVT-00378,Club Meeting #378,Club Meeting,2026-07-11,Thursday,11,1.0,ART-412,24,16,Finance & Investment Club
+EVT-00379,Club Meeting #379,Club Meeting,2026-09-02,Wednesday,19,2.5,SCI-218,33,17,ACM Student Chapter
+EVT-00380,Faculty Assembly #380,Faculty Assembly,2026-07-28,Thursday,16,3.0,LIB-210,45,45,Design Collective
+EVT-00381,Seminar #381,Seminar,2026-11-24,Saturday,15,2.5,ART-404,14,5,Dept of Computer Science
+EVT-00382,Hackathon/Contest #382,Hackathon/Contest,2026-10-15,Thursday,11,2.0,SCI-222,122,108,Dept of Computer Science
+EVT-00383,Seminar #383,Seminar,2026-01-06,Monday,18,1.0,BUS-303,13,12,Dept of Computer Science
+EVT-00384,Academic Workshop #384,Academic Workshop,2026-07-25,Tuesday,13,2.5,ART-210,20,11,AI Builders
+EVT-00385,Faculty Assembly #385,Faculty Assembly,2026-06-05,Wednesday,15,3.0,ENG-218,20,12,Women in STEM
+EVT-00386,Club Meeting #386,Club Meeting,2026-10-20,Monday,11,1.0,CMP-214,11,8,ACM Student Chapter
+EVT-00387,Club Meeting #387,Club Meeting,2026-05-27,Thursday,16,3.0,SCI-202,23,10,Dept of Computer Science
+EVT-00388,Seminar #388,Seminar,2026-01-28,Saturday,19,1.5,BUS-113,22,16,AI Builders
+EVT-00389,Academic Workshop #389,Academic Workshop,2026-11-06,Tuesday,11,2.5,ENG-214,123,95,Robotics Society
+EVT-00390,Seminar #390,Seminar,2026-01-17,Monday,17,2.5,ENG-113,167,145,Design Collective
+EVT-00391,Club Meeting #391,Club Meeting,2026-01-05,Tuesday,17,3.0,CMP-307,18,18,Engineering Faculty Council
+EVT-00392,Academic Workshop #392,Academic Workshop,2026-08-17,Saturday,18,1.0,ENG-218,24,13,Business School Advisory
+EVT-00393,Study Group #393,Study Group,2026-11-07,Thursday,17,3.0,CMP-420,12,15,ACM Student Chapter
+EVT-00394,Seminar #394,Seminar,2026-08-26,Friday,10,1.5,SCI-315,22,14,Business School Advisory
+EVT-00395,Seminar #395,Seminar,2026-01-04,Monday,16,2.5,ENG-214,165,135,Engineering Faculty Council
+EVT-00396,Seminar #396,Seminar,2026-08-07,Saturday,10,1.0,LIB-105,15,12,AI Builders
+EVT-00397,Club Meeting #397,Club Meeting,2026-12-23,Wednesday,18,2.0,ENG-222,97,59,Robotics Society
+EVT-00398,Academic Workshop #398,Academic Workshop,2026-05-25,Tuesday,18,3.0,LIB-210,27,18,Business School Advisory
+EVT-00399,Seminar #399,Seminar,2026-07-16,Saturday,18,3.0,BUS-311,45,27,Business School Advisory
+EVT-00400,Club Meeting #400,Club Meeting,2026-07-18,Friday,18,1.0,ART-206,20,17,Debate Union
+EVT-00401,Club Meeting #401,Club Meeting,2026-04-07,Thursday,19,3.0,ENG-117,20,5,Debate Union
+EVT-00402,Faculty Assembly #402,Faculty Assembly,2026-10-04,Friday,10,2.5,LIB-206,125,106,Dept of Computer Science
+EVT-00403,Club Meeting #403,Club Meeting,2026-02-04,Tuesday,11,1.0,ENG-408,159,100,Engineering Faculty Council
+EVT-00404,Seminar #404,Seminar,2026-08-19,Monday,14,2.5,SCI-113,178,149,Business School Advisory
+EVT-00405,Academic Workshop #405,Academic Workshop,2026-04-18,Friday,18,2.0,CMP-101,24,14,Finance & Investment Club
+EVT-00406,Club Meeting #406,Club Meeting,2026-06-25,Friday,10,2.5,CMP-210,24,16,AI Builders
+EVT-00407,Academic Workshop #407,Academic Workshop,2026-06-27,Saturday,11,2.5,SCI-404,15,9,Finance & Investment Club
+EVT-00408,Study Group #408,Study Group,2026-01-09,Friday,10,2.0,LIB-202,101,78,Women in STEM
+EVT-00409,Faculty Assembly #409,Faculty Assembly,2026-11-13,Monday,11,3.0,CMP-315,13,9,Women in STEM
+EVT-00410,Seminar #410,Seminar,2026-03-26,Saturday,15,1.0,LIB-210,32,17,Engineering Faculty Council
+EVT-00411,Club Meeting #411,Club Meeting,2026-10-17,Monday,10,1.5,BUS-420,30,10,Robotics Society
+EVT-00412,Seminar #412,Seminar,2026-11-17,Friday,10,2.0,CMP-113,10,8,Dept of Computer Science
+EVT-00413,Academic Workshop #413,Academic Workshop,2026-12-21,Tuesday,13,2.0,SCI-109,50,47,Design Collective
+EVT-00414,Club Meeting #414,Club Meeting,2026-03-08,Monday,16,2.5,SCI-113,79,54,Business School Advisory
+EVT-00415,Career Fair #415,Career Fair,2026-07-17,Saturday,13,3.0,CMP-412,33,34,Engineering Faculty Council
+EVT-00416,Club Meeting #416,Club Meeting,2026-04-27,Wednesday,17,1.5,CMP-412,65,45,Dept of Computer Science
+EVT-00417,Academic Workshop #417,Academic Workshop,2026-04-24,Saturday,13,2.5,ART-202,30,19,Academic Senate
+EVT-00418,Club Meeting #418,Club Meeting,2026-01-22,Monday,13,2.5,ART-416,23,17,Life Sciences Faculty
+EVT-00419,Seminar #419,Seminar,2026-07-03,Tuesday,19,2.5,BUS-319,33,25,Women in STEM
+EVT-00420,Seminar #420,Seminar,2026-05-16,Tuesday,18,2.0,CMP-319,11,12,Robotics Society
+EVT-00421,Career Fair #421,Career Fair,2026-08-15,Monday,15,1.5,LIB-303,13,25,Finance & Investment Club
+EVT-00422,Study Group #422,Study Group,2026-11-07,Thursday,17,1.0,ENG-416,46,40,Debate Union
+EVT-00423,Club Meeting #423,Club Meeting,2026-12-25,Friday,18,2.0,ART-218,45,28,Dept of Computer Science
+EVT-00424,Club Meeting #424,Club Meeting,2026-03-07,Saturday,13,1.0,SCI-303,37,35,Life Sciences Faculty
+EVT-00425,Hackathon/Contest #425,Hackathon/Contest,2026-04-15,Saturday,19,1.5,BUS-206,135,127,ACM Student Chapter
+EVT-00426,Hackathon/Contest #426,Hackathon/Contest,2026-02-02,Monday,17,1.0,ENG-117,18,15,Women in STEM
+EVT-00427,Career Fair #427,Career Fair,2026-10-15,Monday,13,1.0,CMP-416,28,37,Life Sciences Faculty
+EVT-00428,Club Meeting #428,Club Meeting,2026-07-22,Saturday,11,2.5,SCI-408,20,24,Business School Advisory
+EVT-00429,Club Meeting #429,Club Meeting,2026-07-13,Tuesday,11,2.0,BUS-202,132,81,Women in STEM
+EVT-00430,Club Meeting #430,Club Meeting,2026-01-27,Tuesday,13,1.0,CMP-303,36,26,Design Collective
+EVT-00431,Club Meeting #431,Club Meeting,2026-04-07,Friday,13,2.5,ENG-214,70,43,Engineering Faculty Council
+EVT-00432,Academic Workshop #432,Academic Workshop,2026-05-23,Saturday,14,2.0,ART-105,44,37,Engineering Faculty Council
+EVT-00433,Academic Workshop #433,Academic Workshop,2026-02-14,Wednesday,19,2.0,SCI-307,127,95,Design Collective
+EVT-00434,Academic Workshop #434,Academic Workshop,2026-09-24,Monday,17,1.0,CMP-206,26,22,Finance & Investment Club
+EVT-00435,Seminar #435,Seminar,2026-10-02,Tuesday,11,3.0,BUS-109,26,15,Business School Advisory
+EVT-00436,Club Meeting #436,Club Meeting,2026-04-05,Thursday,15,2.0,ENG-420,13,19,Academic Senate
+EVT-00437,Club Meeting #437,Club Meeting,2026-02-05,Wednesday,18,3.0,BUS-101,27,13,Life Sciences Faculty
+EVT-00438,Club Meeting #438,Club Meeting,2026-05-01,Monday,13,3.0,ENG-319,39,22,Life Sciences Faculty
+EVT-00439,Study Group #439,Study Group,2026-04-07,Friday,19,1.0,LIB-311,18,11,Robotics Society
+EVT-00440,Seminar #440,Seminar,2026-10-13,Monday,16,3.0,ENG-420,20,16,Women in STEM
+EVT-00441,Seminar #441,Seminar,2026-05-12,Thursday,19,1.5,SCI-408,26,26,Life Sciences Faculty
+EVT-00442,Seminar #442,Seminar,2026-12-25,Monday,17,1.0,SCI-420,170,148,Life Sciences Faculty
+EVT-00443,Club Meeting #443,Club Meeting,2026-12-24,Friday,15,1.5,BUS-214,18,12,Dept of Computer Science
+EVT-00444,Club Meeting #444,Club Meeting,2026-05-04,Thursday,17,1.5,ART-214,15,5,Debate Union
+EVT-00445,Seminar #445,Seminar,2026-01-03,Monday,14,1.0,CMP-202,25,15,Life Sciences Faculty
+EVT-00446,Academic Workshop #446,Academic Workshop,2026-11-24,Saturday,9,1.5,ENG-404,24,14,Robotics Society
+EVT-00447,Academic Workshop #447,Academic Workshop,2026-01-11,Thursday,13,2.5,CMP-206,23,10,Robotics Society
+EVT-00448,Academic Workshop #448,Academic Workshop,2026-02-06,Tuesday,11,3.0,CMP-210,16,5,Academic Senate
+EVT-00449,Club Meeting #449,Club Meeting,2026-03-25,Saturday,15,1.5,CMP-105,21,24,Business School Advisory
+EVT-00450,Hackathon/Contest #450,Hackathon/Contest,2026-09-21,Tuesday,13,2.0,ENG-210,38,32,Women in STEM
+EVT-00451,Club Meeting #451,Club Meeting,2026-11-16,Wednesday,18,2.0,CMP-101,16,6,Engineering Faculty Council
+EVT-00452,Study Group #452,Study Group,2026-01-06,Saturday,16,1.5,BUS-315,30,16,Women in STEM
+EVT-00453,Study Group #453,Study Group,2026-01-01,Saturday,18,3.0,SCI-121,14,9,ACM Student Chapter
+EVT-00454,Club Meeting #454,Club Meeting,2026-12-10,Tuesday,13,2.0,BUS-404,50,35,Robotics Society
+EVT-00455,Seminar #455,Seminar,2026-12-28,Tuesday,16,2.0,ENG-408,108,89,Women in STEM
+EVT-00456,Seminar #456,Seminar,2026-02-14,Friday,9,1.0,SCI-416,25,13,AI Builders
+EVT-00457,Academic Workshop #457,Academic Workshop,2026-01-04,Monday,16,2.0,ENG-218,11,7,Life Sciences Faculty
+EVT-00458,Academic Workshop #458,Academic Workshop,2026-10-25,Tuesday,9,1.0,BUS-315,19,20,Design Collective
+EVT-00459,Seminar #459,Seminar,2026-06-10,Tuesday,16,2.0,BUS-113,42,35,Dept of Computer Science
+EVT-00460,Club Meeting #460,Club Meeting,2026-08-18,Wednesday,11,1.5,ENG-311,19,19,Finance & Investment Club
+EVT-00461,Academic Workshop #461,Academic Workshop,2026-08-13,Wednesday,13,1.5,ART-307,34,24,Robotics Society
+EVT-00462,Seminar #462,Seminar,2026-07-22,Monday,11,2.5,CMP-109,35,25,AI Builders
+EVT-00463,Study Group #463,Study Group,2026-02-26,Monday,16,2.5,LIB-113,17,19,Finance & Investment Club
+EVT-00464,Academic Workshop #464,Academic Workshop,2026-02-09,Friday,19,1.5,BUS-113,41,39,Academic Senate
+EVT-00465,Study Group #465,Study Group,2026-12-17,Friday,11,3.0,ENG-307,17,16,Dept of Computer Science
+EVT-00466,Club Meeting #466,Club Meeting,2026-01-09,Wednesday,10,1.5,SCI-214,18,19,Women in STEM
+EVT-00467,Career Fair #467,Career Fair,2026-11-27,Tuesday,18,1.5,ENG-424,48,49,Robotics Society
+EVT-00468,Academic Workshop #468,Academic Workshop,2026-01-06,Saturday,11,2.5,CMP-303,33,16,Debate Union
+EVT-00469,Seminar #469,Seminar,2026-04-10,Friday,15,1.5,ART-303,36,25,Debate Union
+EVT-00470,Club Meeting #470,Club Meeting,2026-02-20,Monday,11,1.0,SCI-105,27,24,Debate Union
+EVT-00471,Club Meeting #471,Club Meeting,2026-07-08,Saturday,17,1.5,ENG-109,12,17,Life Sciences Faculty
+EVT-00472,Faculty Assembly #472,Faculty Assembly,2026-12-21,Saturday,9,1.0,ART-105,54,34,ACM Student Chapter
+EVT-00473,Club Meeting #473,Club Meeting,2026-02-06,Friday,13,2.5,BUS-109,14,6,Women in STEM
+EVT-00474,Seminar #474,Seminar,2026-05-26,Thursday,10,2.5,CMP-315,11,12,Women in STEM
+EVT-00475,Faculty Assembly #475,Faculty Assembly,2026-07-15,Thursday,11,1.0,ENG-420,13,9,Women in STEM
+EVT-00476,Seminar #476,Seminar,2026-03-17,Tuesday,14,3.0,BUS-420,31,27,Academic Senate
+EVT-00477,Club Meeting #477,Club Meeting,2026-06-19,Tuesday,14,1.0,ART-202,23,14,Design Collective
+EVT-00478,Career Fair #478,Career Fair,2026-04-08,Tuesday,11,3.0,SCI-404,37,37,Robotics Society
+EVT-00479,Club Meeting #479,Club Meeting,2026-04-07,Friday,16,2.0,BUS-117,29,15,AI Builders
+EVT-00480,Seminar #480,Seminar,2026-11-24,Thursday,18,1.0,SCI-109,42,25,AI Builders
+EVT-00481,Study Group #481,Study Group,2026-01-13,Wednesday,17,3.0,LIB-404,20,11,Design Collective
+EVT-00482,Career Fair #482,Career Fair,2026-11-18,Thursday,9,3.0,BUS-202,93,85,Academic Senate
+EVT-00483,Club Meeting #483,Club Meeting,2026-09-13,Thursday,17,2.0,LIB-202,36,30,Academic Senate
+EVT-00484,Academic Workshop #484,Academic Workshop,2026-01-22,Monday,18,2.0,ENG-125,28,21,Robotics Society
+EVT-00485,Faculty Assembly #485,Faculty Assembly,2026-06-14,Saturday,18,1.0,CMP-307,21,13,Life Sciences Faculty
+EVT-00486,Club Meeting #486,Club Meeting,2026-11-18,Tuesday,16,1.5,SCI-303,34,34,ACM Student Chapter
+EVT-00487,Academic Workshop #487,Academic Workshop,2026-07-07,Friday,15,2.5,ART-113,20,23,Finance & Investment Club
+EVT-00488,Seminar #488,Seminar,2026-05-15,Thursday,14,2.5,SCI-420,70,62,ACM Student Chapter
+EVT-00489,Seminar #489,Seminar,2026-01-09,Saturday,15,2.5,SCI-202,17,18,Finance & Investment Club
+EVT-00490,Club Meeting #490,Club Meeting,2026-05-24,Saturday,16,1.5,CMP-315,30,21,Robotics Society
+EVT-00491,Club Meeting #491,Club Meeting,2026-10-12,Thursday,14,3.0,ART-105,48,31,Engineering Faculty Council
+EVT-00492,Club Meeting #492,Club Meeting,2026-12-04,Tuesday,14,3.0,BUS-303,10,15,Engineering Faculty Council
+EVT-00493,Academic Workshop #493,Academic Workshop,2026-01-14,Monday,10,3.0,ART-311,12,7,Robotics Society
+EVT-00494,Study Group #494,Study Group,2026-05-22,Tuesday,19,2.5,BUS-210,30,32,Debate Union
+EVT-00495,Academic Workshop #495,Academic Workshop,2026-03-21,Tuesday,18,3.0,ART-404,12,7,Finance & Investment Club
+EVT-00496,Academic Workshop #496,Academic Workshop,2026-11-26,Monday,18,1.5,LIB-109,194,163,Academic Senate
+EVT-00497,Career Fair #497,Career Fair,2026-04-24,Tuesday,17,3.0,CMP-113,10,7,Life Sciences Faculty
+EVT-00498,Seminar #498,Seminar,2026-04-06,Wednesday,18,2.0,CMP-210,11,5,Dept of Computer Science
+EVT-00499,Club Meeting #499,Club Meeting,2026-04-15,Wednesday,9,2.0,BUS-113,28,17,Robotics Society
+EVT-00500,Hackathon/Contest #500,Hackathon/Contest,2026-05-23,Tuesday,19,2.5,ENG-210,37,32,Dept of Computer Science
+EVT-00501,Club Meeting #501,Club Meeting,2026-05-25,Wednesday,19,1.0,ART-101,11,13,Business School Advisory
+EVT-00502,Seminar #502,Seminar,2026-02-02,Wednesday,14,2.0,SCI-121,13,5,Robotics Society
+EVT-00503,Seminar #503,Seminar,2026-07-05,Wednesday,18,2.0,SCI-121,14,8,Women in STEM
+EVT-00504,Academic Workshop #504,Academic Workshop,2026-12-22,Wednesday,19,1.0,ENG-109,24,22,ACM Student Chapter
+EVT-00505,Academic Workshop #505,Academic Workshop,2026-02-14,Tuesday,16,2.0,BUS-420,32,28,Robotics Society
+EVT-00506,Club Meeting #506,Club Meeting,2026-03-02,Thursday,17,1.5,ENG-319,32,16,Finance & Investment Club
+EVT-00507,Career Fair #507,Career Fair,2026-02-09,Friday,14,2.5,SCI-121,12,13,Finance & Investment Club
+EVT-00508,Club Meeting #508,Club Meeting,2026-12-15,Monday,19,2.0,BUS-420,18,8,AI Builders
+EVT-00509,Hackathon/Contest #509,Hackathon/Contest,2026-11-14,Friday,9,3.0,ENG-121,18,11,Business School Advisory
+EVT-00510,Club Meeting #510,Club Meeting,2026-12-07,Thursday,15,1.0,BUS-303,12,13,Dept of Computer Science
+EVT-00511,Academic Workshop #511,Academic Workshop,2026-06-14,Tuesday,13,3.0,SCI-412,12,12,AI Builders
+EVT-00512,Career Fair #512,Career Fair,2026-07-23,Saturday,13,2.5,BUS-109,22,25,Engineering Faculty Council
+EVT-00513,Study Group #513,Study Group,2026-05-07,Saturday,14,1.5,CMP-101,27,30,Dept of Computer Science
+EVT-00514,Hackathon/Contest #514,Hackathon/Contest,2026-02-12,Friday,19,1.0,ART-109,93,84,Engineering Faculty Council
+EVT-00515,Faculty Assembly #515,Faculty Assembly,2026-05-16,Saturday,14,3.0,LIB-408,26,17,Design Collective
+EVT-00516,Seminar #516,Seminar,2026-08-05,Friday,17,1.5,CMP-214,15,7,Debate Union
+EVT-00517,Career Fair #517,Career Fair,2026-07-28,Tuesday,15,3.0,BUS-206,78,84,Business School Advisory
+EVT-00518,Faculty Assembly #518,Faculty Assembly,2026-11-26,Saturday,17,2.0,SCI-105,28,30,Women in STEM
+EVT-00519,Club Meeting #519,Club Meeting,2026-06-07,Thursday,13,1.5,ENG-311,14,17,Dept of Computer Science
+EVT-00520,Study Group #520,Study Group,2026-10-24,Monday,11,2.0,BUS-319,29,21,Life Sciences Faculty
+EVT-00521,Academic Workshop #521,Academic Workshop,2026-08-01,Tuesday,10,1.5,LIB-303,14,5,Women in STEM
+EVT-00522,Club Meeting #522,Club Meeting,2026-07-23,Tuesday,10,3.0,CMP-404,16,6,Debate Union
+EVT-00523,Seminar #523,Seminar,2026-05-25,Friday,18,3.0,CMP-311,12,10,Debate Union
+EVT-00524,Seminar #524,Seminar,2026-04-28,Thursday,18,2.5,SCI-121,14,12,Business School Advisory
+EVT-00525,Academic Workshop #525,Academic Workshop,2026-03-24,Friday,11,1.0,ENG-113,85,69,ACM Student Chapter
+EVT-00526,Academic Workshop #526,Academic Workshop,2026-02-18,Thursday,19,1.5,ENG-202,14,15,Finance & Investment Club
+EVT-00527,Academic Workshop #527,Academic Workshop,2026-06-01,Wednesday,9,3.0,ART-202,29,23,Dept of Computer Science
+EVT-00528,Club Meeting #528,Club Meeting,2026-12-05,Monday,14,2.5,LIB-105,36,32,Life Sciences Faculty
+EVT-00529,Academic Workshop #529,Academic Workshop,2026-10-21,Monday,14,1.0,BUS-117,21,17,Academic Senate
+EVT-00530,Club Meeting #530,Club Meeting,2026-07-03,Thursday,9,2.5,SCI-315,21,15,Debate Union
+EVT-00531,Faculty Assembly #531,Faculty Assembly,2026-07-19,Thursday,10,2.5,ART-311,13,5,Women in STEM
+EVT-00532,Seminar #532,Seminar,2026-12-20,Saturday,19,3.0,ENG-315,10,11,Academic Senate
+EVT-00533,Hackathon/Contest #533,Hackathon/Contest,2026-08-07,Saturday,19,2.5,CMP-303,19,20,Academic Senate
+EVT-00534,Club Meeting #534,Club Meeting,2026-05-25,Saturday,13,1.0,SCI-214,13,14,AI Builders
+EVT-00535,Academic Workshop #535,Academic Workshop,2026-04-17,Tuesday,14,2.0,SCI-109,46,46,Women in STEM
+EVT-00536,Study Group #536,Study Group,2026-12-23,Monday,13,3.0,ART-315,23,12,ACM Student Chapter
+EVT-00537,Hackathon/Contest #537,Hackathon/Contest,2026-01-14,Saturday,16,2.0,ENG-416,27,25,Robotics Society
+EVT-00538,Career Fair #538,Career Fair,2026-07-28,Friday,15,2.0,SCI-218,36,35,Business School Advisory
+EVT-00539,Seminar #539,Seminar,2026-11-25,Thursday,10,1.0,SCI-311,25,24,Finance & Investment Club
+EVT-00540,Study Group #540,Study Group,2026-02-02,Wednesday,19,2.0,LIB-109,159,118,Dept of Computer Science
+EVT-00541,Academic Workshop #541,Academic Workshop,2026-10-06,Monday,15,2.5,ART-404,19,20,Academic Senate
+EVT-00542,Seminar #542,Seminar,2026-03-06,Thursday,14,2.5,ENG-319,16,19,Engineering Faculty Council
+EVT-00543,Seminar #543,Seminar,2026-04-04,Saturday,19,1.5,BUS-420,30,18,Life Sciences Faculty
+EVT-00544,Study Group #544,Study Group,2026-08-12,Monday,14,2.5,LIB-307,26,28,Business School Advisory
+EVT-00545,Hackathon/Contest #545,Hackathon/Contest,2026-11-15,Tuesday,19,3.0,BUS-307,15,7,Life Sciences Faculty
+EVT-00546,Hackathon/Contest #546,Hackathon/Contest,2026-09-21,Friday,18,2.0,CMP-202,38,34,Academic Senate
+EVT-00547,Seminar #547,Seminar,2026-03-15,Friday,18,3.0,CMP-303,16,8,Robotics Society
+EVT-00548,Career Fair #548,Career Fair,2026-02-10,Saturday,9,3.0,SCI-117,37,33,Design Collective
+EVT-00549,Club Meeting #549,Club Meeting,2026-08-19,Friday,18,1.0,SCI-420,152,98,Robotics Society
+EVT-00550,Club Meeting #550,Club Meeting,2026-10-17,Tuesday,11,3.0,SCI-206,14,5,Robotics Society
+EVT-00551,Academic Workshop #551,Academic Workshop,2026-02-03,Friday,14,1.5,BUS-303,11,17,Academic Senate
+EVT-00552,Career Fair #552,Career Fair,2026-01-07,Wednesday,18,2.5,ART-105,29,28,ACM Student Chapter
+EVT-00553,Club Meeting #553,Club Meeting,2026-02-18,Saturday,16,2.0,ART-412,23,15,Debate Union
+EVT-00554,Seminar #554,Seminar,2026-10-01,Wednesday,18,1.0,ENG-117,16,17,ACM Student Chapter
+EVT-00555,Club Meeting #555,Club Meeting,2026-07-01,Tuesday,13,1.5,LIB-210,40,27,Finance & Investment Club
+EVT-00556,Hackathon/Contest #556,Hackathon/Contest,2026-11-19,Friday,17,2.5,SCI-202,23,25,Debate Union
+EVT-00557,Club Meeting #557,Club Meeting,2026-05-21,Wednesday,14,3.0,ENG-408,96,66,Academic Senate
+EVT-00558,Study Group #558,Study Group,2026-05-06,Saturday,17,3.0,CMP-404,22,18,Finance & Investment Club
+EVT-00559,Academic Workshop #559,Academic Workshop,2026-06-25,Tuesday,15,3.0,ART-101,12,12,Robotics Society
+EVT-00560,Club Meeting #560,Club Meeting,2026-10-16,Tuesday,17,1.5,CMP-416,30,16,Finance & Investment Club
+EVT-00561,Career Fair #561,Career Fair,2026-01-18,Saturday,9,1.5,ENG-412,19,21,Robotics Society
+EVT-00562,Club Meeting #562,Club Meeting,2026-07-21,Monday,15,2.0,BUS-404,32,29,Design Collective
+EVT-00563,Hackathon/Contest #563,Hackathon/Contest,2026-11-27,Thursday,14,1.0,BUS-408,20,18,Dept of Computer Science
+EVT-00564,Faculty Assembly #564,Faculty Assembly,2026-04-27,Monday,17,1.0,ENG-404,15,12,Finance & Investment Club
+EVT-00565,Study Group #565,Study Group,2026-06-15,Thursday,13,2.0,CMP-117,15,16,Engineering Faculty Council
+EVT-00566,Academic Workshop #566,Academic Workshop,2026-05-12,Wednesday,16,3.0,ART-408,11,8,Design Collective
+EVT-00567,Club Meeting #567,Club Meeting,2026-12-07,Tuesday,10,1.5,ENG-420,11,9,Dept of Computer Science
+EVT-00568,Academic Workshop #568,Academic Workshop,2026-03-24,Monday,19,2.0,ART-303,39,35,ACM Student Chapter
+EVT-00569,Study Group #569,Study Group,2026-01-04,Thursday,17,2.5,ENG-315,12,17,Design Collective
+EVT-00570,Club Meeting #570,Club Meeting,2026-11-18,Saturday,18,1.5,BUS-303,10,6,Finance & Investment Club
+EVT-00571,Faculty Assembly #571,Faculty Assembly,2026-11-27,Thursday,19,1.5,ENG-315,20,19,Dept of Computer Science
+EVT-00572,Club Meeting #572,Club Meeting,2026-11-24,Tuesday,11,3.0,ART-210,37,26,Finance & Investment Club
+EVT-00573,Club Meeting #573,Club Meeting,2026-01-18,Tuesday,13,1.0,BUS-117,30,27,Debate Union
+EVT-00574,Hackathon/Contest #574,Hackathon/Contest,2026-07-01,Monday,10,1.0,ART-416,20,18,Engineering Faculty Council
+EVT-00575,Seminar #575,Seminar,2026-03-01,Thursday,11,1.0,BUS-202,127,101,Finance & Investment Club
+EVT-00576,Club Meeting #576,Club Meeting,2026-06-06,Tuesday,18,1.5,BUS-420,14,12,Debate Union
+EVT-00577,Club Meeting #577,Club Meeting,2026-03-26,Thursday,13,1.0,LIB-109,156,116,Robotics Society
+EVT-00578,Club Meeting #578,Club Meeting,2026-02-19,Saturday,16,2.5,ART-202,20,12,Finance & Investment Club
+EVT-00579,Hackathon/Contest #579,Hackathon/Contest,2026-02-21,Wednesday,14,3.0,ENG-210,18,19,AI Builders
+EVT-00580,Club Meeting #580,Club Meeting,2026-09-19,Monday,19,2.5,LIB-412,16,8,ACM Student Chapter
+EVT-00581,Club Meeting #581,Club Meeting,2026-04-22,Tuesday,10,2.0,CMP-303,19,13,Life Sciences Faculty
+EVT-00582,Seminar #582,Seminar,2026-10-12,Friday,11,2.5,LIB-206,104,85,Robotics Society
+EVT-00583,Faculty Assembly #583,Faculty Assembly,2026-09-11,Tuesday,10,1.5,CMP-307,31,27,Women in STEM
+EVT-00584,Study Group #584,Study Group,2026-01-09,Friday,18,2.0,BUS-416,20,15,Engineering Faculty Council
+EVT-00585,Academic Workshop #585,Academic Workshop,2026-07-19,Tuesday,16,2.0,CMP-214,24,28,Women in STEM
+EVT-00586,Career Fair #586,Career Fair,2026-01-01,Tuesday,14,2.5,LIB-202,47,47,Engineering Faculty Council
+EVT-00587,Study Group #587,Study Group,2026-03-04,Thursday,11,2.0,CMP-113,10,9,ACM Student Chapter
+EVT-00588,Club Meeting #588,Club Meeting,2026-07-13,Monday,13,3.0,BUS-412,31,27,AI Builders
+EVT-00589,Academic Workshop #589,Academic Workshop,2026-04-10,Wednesday,17,1.0,BUS-206,148,139,Women in STEM
+EVT-00590,Club Meeting #590,Club Meeting,2026-07-16,Tuesday,15,1.0,SCI-222,100,68,Robotics Society
+EVT-00591,Club Meeting #591,Club Meeting,2026-05-01,Thursday,15,2.0,ART-109,81,59,Debate Union
+EVT-00592,Hackathon/Contest #592,Hackathon/Contest,2026-02-02,Monday,11,2.5,CMP-307,29,17,Life Sciences Faculty
+EVT-00593,Career Fair #593,Career Fair,2026-09-02,Friday,19,1.0,SCI-101,13,7,Debate Union
+EVT-00594,Faculty Assembly #594,Faculty Assembly,2026-08-07,Thursday,16,2.0,CMP-218,49,47,Engineering Faculty Council
+EVT-00595,Faculty Assembly #595,Faculty Assembly,2026-02-22,Friday,14,3.0,LIB-404,23,21,Finance & Investment Club
+EVT-00596,Club Meeting #596,Club Meeting,2026-03-28,Tuesday,9,2.0,SCI-206,14,9,Robotics Society
+EVT-00597,Hackathon/Contest #597,Hackathon/Contest,2026-12-23,Thursday,16,1.5,ART-105,55,61,Finance & Investment Club
+EVT-00598,Faculty Assembly #598,Faculty Assembly,2026-10-10,Monday,10,2.5,SCI-420,146,122,Business School Advisory
+EVT-00599,Club Meeting #599,Club Meeting,2026-04-08,Tuesday,11,3.0,ART-117,21,13,Engineering Faculty Council
+EVT-00600,Seminar #600,Seminar,2026-09-05,Tuesday,9,2.0,ENG-202,13,8,Finance & Investment Club
+EVT-00601,Club Meeting #601,Club Meeting,2026-11-16,Saturday,14,3.0,SCI-117,18,14,AI Builders
+EVT-00602,Club Meeting #602,Club Meeting,2026-04-06,Thursday,14,1.5,LIB-206,81,49,Finance & Investment Club
+EVT-00603,Study Group #603,Study Group,2026-08-16,Saturday,13,1.5,ART-404,11,15,Engineering Faculty Council
+EVT-00604,Hackathon/Contest #604,Hackathon/Contest,2026-07-12,Tuesday,13,1.5,ENG-416,45,38,Dept of Computer Science
+EVT-00605,Academic Workshop #605,Academic Workshop,2026-12-16,Thursday,10,3.0,ENG-311,14,12,Dept of Computer Science
+EVT-00606,Club Meeting #606,Club Meeting,2026-08-20,Friday,16,2.0,SCI-315,15,14,Engineering Faculty Council
+EVT-00607,Study Group #607,Study Group,2026-02-22,Monday,16,1.5,SCI-315,18,25,Robotics Society
+EVT-00608,Academic Workshop #608,Academic Workshop,2026-09-03,Saturday,13,1.0,SCI-408,15,16,Engineering Faculty Council
+EVT-00609,Club Meeting #609,Club Meeting,2026-04-24,Thursday,17,1.5,ART-311,30,27,Debate Union
+EVT-00610,Club Meeting #610,Club Meeting,2026-01-06,Friday,17,3.0,SCI-101,10,9,Women in STEM
+EVT-00611,Club Meeting #611,Club Meeting,2026-10-04,Tuesday,19,2.5,BUS-416,19,6,Academic Senate
+EVT-00612,Club Meeting #612,Club Meeting,2026-12-09,Thursday,9,1.0,BUS-311,18,14,AI Builders
+EVT-00613,Academic Workshop #613,Academic Workshop,2026-05-01,Tuesday,13,1.5,ART-105,50,52,Finance & Investment Club
+EVT-00614,Career Fair #614,Career Fair,2026-04-01,Wednesday,10,2.5,ENG-319,20,16,Women in STEM
+EVT-00615,Club Meeting #615,Club Meeting,2026-01-06,Friday,9,1.0,ART-202,28,20,Robotics Society
+EVT-00616,Seminar #616,Seminar,2026-09-03,Tuesday,11,2.0,SCI-420,63,50,Finance & Investment Club
+EVT-00617,Seminar #617,Seminar,2026-10-12,Saturday,14,2.5,ENG-202,19,6,Life Sciences Faculty
+EVT-00618,Club Meeting #618,Club Meeting,2026-05-12,Wednesday,16,2.5,SCI-307,135,90,AI Builders
+EVT-00619,Hackathon/Contest #619,Hackathon/Contest,2026-10-11,Friday,18,1.0,ENG-222,42,38,Debate Union
+EVT-00620,Study Group #620,Study Group,2026-08-03,Friday,13,2.0,BUS-420,25,18,Engineering Faculty Council
+EVT-00621,Club Meeting #621,Club Meeting,2026-02-02,Saturday,9,2.5,CMP-109,22,21,Business School Advisory
+EVT-00622,Seminar #622,Seminar,2026-08-14,Saturday,15,1.5,SCI-315,37,28,Robotics Society
+EVT-00623,Seminar #623,Seminar,2026-08-09,Tuesday,18,1.0,ART-404,28,21,Women in STEM
+EVT-00624,Club Meeting #624,Club Meeting,2026-04-11,Wednesday,14,1.5,ART-408,18,21,Academic Senate
+EVT-00625,Academic Workshop #625,Academic Workshop,2026-07-17,Friday,10,2.0,SCI-109,49,37,Women in STEM
+EVT-00626,Academic Workshop #626,Academic Workshop,2026-11-08,Friday,11,2.0,SCI-222,124,108,Debate Union
+EVT-00627,Club Meeting #627,Club Meeting,2026-04-18,Thursday,11,2.0,LIB-412,25,15,AI Builders
+EVT-00628,Club Meeting #628,Club Meeting,2026-09-02,Monday,10,3.0,ART-105,41,26,Design Collective
+EVT-00629,Club Meeting #629,Club Meeting,2026-03-13,Thursday,15,3.0,SCI-315,16,14,Finance & Investment Club
+EVT-00630,Club Meeting #630,Club Meeting,2026-10-16,Tuesday,16,1.5,ART-412,26,14,Engineering Faculty Council
+EVT-00631,Academic Workshop #631,Academic Workshop,2026-06-08,Friday,19,1.0,SCI-311,27,25,Academic Senate
+EVT-00632,Study Group #632,Study Group,2026-01-02,Tuesday,11,2.0,ART-412,25,23,Business School Advisory
+EVT-00633,Academic Workshop #633,Academic Workshop,2026-06-05,Thursday,19,3.0,ART-101,12,5,Engineering Faculty Council
+EVT-00634,Academic Workshop #634,Academic Workshop,2026-09-03,Friday,17,1.0,ENG-105,25,19,AI Builders
+EVT-00635,Career Fair #635,Career Fair,2026-07-05,Thursday,11,1.5,CMP-303,35,32,AI Builders
+EVT-00636,Club Meeting #636,Club Meeting,2026-05-20,Tuesday,15,2.0,ENG-412,23,15,Academic Senate
+EVT-00637,Hackathon/Contest #637,Hackathon/Contest,2026-04-21,Saturday,9,3.0,BUS-113,42,37,Business School Advisory
+EVT-00638,Academic Workshop #638,Academic Workshop,2026-01-04,Monday,18,1.0,ENG-412,14,12,Engineering Faculty Council
+EVT-00639,Study Group #639,Study Group,2026-03-01,Saturday,13,3.0,ART-117,13,7,Design Collective
+EVT-00640,Academic Workshop #640,Academic Workshop,2026-05-02,Wednesday,14,1.5,BUS-117,23,18,Debate Union
+EVT-00641,Study Group #641,Study Group,2026-03-02,Monday,9,1.5,CMP-202,31,18,Dept of Computer Science
+EVT-00642,Club Meeting #642,Club Meeting,2026-07-21,Thursday,11,1.5,SCI-214,25,19,Debate Union
+EVT-00643,Club Meeting #643,Club Meeting,2026-08-11,Tuesday,17,1.5,ENG-109,13,5,Robotics Society
+EVT-00644,Career Fair #644,Career Fair,2026-01-25,Thursday,11,3.0,CMP-202,35,30,Debate Union
+EVT-00645,Career Fair #645,Career Fair,2026-08-05,Friday,19,1.5,CMP-210,21,15,Design Collective
+EVT-00646,Academic Workshop #646,Academic Workshop,2026-02-24,Saturday,19,2.5,LIB-404,23,13,Design Collective
+EVT-00647,Career Fair #647,Career Fair,2026-12-26,Saturday,15,2.0,BUS-311,47,46,Dept of Computer Science
+EVT-00648,Club Meeting #648,Club Meeting,2026-10-15,Wednesday,14,3.0,CMP-109,26,21,Academic Senate
+EVT-00649,Seminar #649,Seminar,2026-12-15,Monday,10,2.5,BUS-105,21,16,Design Collective
+EVT-00650,Faculty Assembly #650,Faculty Assembly,2026-02-25,Monday,9,3.0,CMP-416,30,24,Life Sciences Faculty
+EVT-00651,Study Group #651,Study Group,2026-10-04,Wednesday,9,2.0,BUS-416,19,21,Women in STEM
+EVT-00652,Club Meeting #652,Club Meeting,2026-05-14,Thursday,17,2.0,SCI-202,21,23,Dept of Computer Science
+EVT-00653,Study Group #653,Study Group,2026-07-13,Monday,14,1.5,BUS-202,85,80,Debate Union
+EVT-00654,Club Meeting #654,Club Meeting,2026-04-04,Thursday,17,1.0,LIB-101,10,5,Engineering Faculty Council
+EVT-00655,Faculty Assembly #655,Faculty Assembly,2026-12-02,Monday,11,1.0,SCI-315,19,17,Life Sciences Faculty
+EVT-00656,Academic Workshop #656,Academic Workshop,2026-12-03,Thursday,14,1.5,BUS-214,14,13,Business School Advisory
+EVT-00657,Club Meeting #657,Club Meeting,2026-06-18,Tuesday,15,3.0,SCI-101,14,8,Engineering Faculty Council
+EVT-00658,Career Fair #658,Career Fair,2026-04-11,Saturday,18,1.0,SCI-202,21,22,Finance & Investment Club
+EVT-00659,Study Group #659,Study Group,2026-02-22,Thursday,11,2.0,SCI-408,22,19,Dept of Computer Science
+EVT-00660,Study Group #660,Study Group,2026-09-26,Tuesday,11,2.0,BUS-311,19,15,Academic Senate
+EVT-00661,Club Meeting #661,Club Meeting,2026-10-06,Monday,17,3.0,BUS-408,25,17,Life Sciences Faculty
+EVT-00662,Faculty Assembly #662,Faculty Assembly,2026-10-12,Thursday,18,3.0,ENG-117,10,7,Engineering Faculty Council
+EVT-00663,Study Group #663,Study Group,2026-05-12,Thursday,15,1.0,ENG-121,39,34,AI Builders
+EVT-00664,Faculty Assembly #664,Faculty Assembly,2026-05-14,Saturday,15,1.5,ART-214,12,5,ACM Student Chapter
+EVT-00665,Club Meeting #665,Club Meeting,2026-07-04,Friday,10,1.0,ART-206,24,15,Women in STEM
+EVT-00666,Club Meeting #666,Club Meeting,2026-05-12,Tuesday,13,2.0,BUS-210,22,18,Business School Advisory
+EVT-00667,Study Group #667,Study Group,2026-07-22,Saturday,15,1.5,ENG-319,41,28,Debate Union
+EVT-00668,Study Group #668,Study Group,2026-06-26,Wednesday,10,1.0,SCI-101,11,12,Business School Advisory
+EVT-00669,Hackathon/Contest #669,Hackathon/Contest,2026-10-12,Thursday,9,2.5,CMP-307,14,20,Life Sciences Faculty
+EVT-00670,Club Meeting #670,Club Meeting,2026-01-20,Thursday,15,1.0,BUS-109,17,15,Engineering Faculty Council
+EVT-00671,Hackathon/Contest #671,Hackathon/Contest,2026-01-24,Saturday,14,2.0,ART-109,57,64,Women in STEM
+EVT-00672,Career Fair #672,Career Fair,2026-06-03,Saturday,16,2.0,ENG-408,144,136,Finance & Investment Club
+EVT-00673,Career Fair #673,Career Fair,2026-04-23,Monday,18,2.0,ENG-117,12,7,Business School Advisory
+EVT-00674,Academic Workshop #674,Academic Workshop,2026-05-08,Tuesday,17,3.0,CMP-307,10,9,Women in STEM
+EVT-00675,Club Meeting #675,Club Meeting,2026-04-02,Saturday,16,1.0,LIB-101,11,5,Finance & Investment Club
+EVT-00676,Club Meeting #676,Club Meeting,2026-03-22,Friday,16,2.5,ART-218,29,23,Debate Union
+EVT-00677,Academic Workshop #677,Academic Workshop,2026-02-04,Wednesday,18,1.5,ART-311,16,11,Dept of Computer Science
+EVT-00678,Club Meeting #678,Club Meeting,2026-07-15,Thursday,13,3.0,CMP-113,12,5,Business School Advisory
+EVT-00679,Career Fair #679,Career Fair,2026-03-11,Wednesday,16,2.0,CMP-210,24,26,Debate Union
+EVT-00680,Club Meeting #680,Club Meeting,2026-01-15,Monday,9,3.0,BUS-101,23,16,Business School Advisory
+EVT-00681,Club Meeting #681,Club Meeting,2026-02-20,Wednesday,11,1.5,BUS-214,16,18,Engineering Faculty Council
+EVT-00682,Seminar #682,Seminar,2026-08-26,Monday,11,2.0,ART-307,14,18,Engineering Faculty Council
+EVT-00683,Study Group #683,Study Group,2026-03-25,Wednesday,13,1.5,ENG-125,25,30,ACM Student Chapter
+EVT-00684,Club Meeting #684,Club Meeting,2026-09-26,Saturday,11,1.5,ART-206,21,15,Finance & Investment Club
+EVT-00685,Hackathon/Contest #685,Hackathon/Contest,2026-08-03,Friday,14,2.5,CMP-101,15,11,Debate Union
+EVT-00686,Career Fair #686,Career Fair,2026-09-28,Friday,16,2.0,SCI-307,117,128,Dept of Computer Science
+EVT-00687,Career Fair #687,Career Fair,2026-09-03,Saturday,18,2.5,LIB-101,20,16,Finance & Investment Club
+EVT-00688,Career Fair #688,Career Fair,2026-01-21,Saturday,17,2.5,BUS-202,92,69,Finance & Investment Club
+EVT-00689,Club Meeting #689,Club Meeting,2026-10-22,Friday,14,2.5,ENG-113,90,65,Design Collective
+EVT-00690,Study Group #690,Study Group,2026-02-16,Monday,16,2.0,ENG-412,23,20,Debate Union
+EVT-00691,Career Fair #691,Career Fair,2026-09-16,Saturday,9,1.0,ENG-408,125,108,Academic Senate
+EVT-00692,Hackathon/Contest #692,Hackathon/Contest,2026-01-26,Saturday,13,1.5,LIB-311,17,26,Design Collective
+EVT-00693,Study Group #693,Study Group,2026-11-28,Thursday,10,2.0,CMP-117,24,24,ACM Student Chapter
+EVT-00694,Faculty Assembly #694,Faculty Assembly,2026-10-26,Thursday,11,3.0,ART-311,12,5,Robotics Society
+EVT-00695,Seminar #695,Seminar,2026-06-06,Thursday,10,2.0,ART-109,64,49,Academic Senate
+EVT-00696,Career Fair #696,Career Fair,2026-03-28,Tuesday,18,2.5,LIB-307,17,7,Finance & Investment Club
+EVT-00697,Hackathon/Contest #697,Hackathon/Contest,2026-12-18,Monday,9,2.0,ENG-210,28,23,ACM Student Chapter
+EVT-00698,Club Meeting #698,Club Meeting,2026-03-25,Monday,19,2.0,LIB-101,19,13,Design Collective
+EVT-00699,Club Meeting #699,Club Meeting,2026-04-05,Thursday,17,3.0,CMP-105,26,25,Design Collective
+EVT-00700,Study Group #700,Study Group,2026-01-04,Friday,16,2.5,ART-412,23,22,Design Collective
+EVT-00701,Career Fair #701,Career Fair,2026-07-27,Monday,10,3.0,ART-303,25,22,Finance & Investment Club
+EVT-00702,Academic Workshop #702,Academic Workshop,2026-12-19,Monday,17,1.0,ENG-412,18,12,AI Builders
+EVT-00703,Academic Workshop #703,Academic Workshop,2026-08-25,Tuesday,15,1.5,ART-214,16,21,Women in STEM
+EVT-00704,Seminar #704,Seminar,2026-12-11,Thursday,14,2.0,ART-307,23,21,AI Builders
+EVT-00705,Faculty Assembly #705,Faculty Assembly,2026-08-28,Wednesday,11,2.0,BUS-420,33,31,Robotics Society
+EVT-00706,Hackathon/Contest #706,Hackathon/Contest,2026-09-22,Thursday,15,1.0,CMP-105,20,27,Dept of Computer Science
+EVT-00707,Faculty Assembly #707,Faculty Assembly,2026-05-21,Wednesday,10,3.0,ENG-206,10,5,Engineering Faculty Council
+EVT-00708,Seminar #708,Seminar,2026-07-04,Saturday,16,2.5,SCI-404,24,16,Robotics Society
+EVT-00709,Club Meeting #709,Club Meeting,2026-03-23,Friday,9,2.0,SCI-412,24,11,Finance & Investment Club
+EVT-00710,Club Meeting #710,Club Meeting,2026-09-04,Saturday,16,1.0,ENG-125,28,22,Dept of Computer Science
+EVT-00711,Study Group #711,Study Group,2026-12-06,Friday,13,1.0,ENG-416,30,34,ACM Student Chapter
+EVT-00712,Faculty Assembly #712,Faculty Assembly,2026-10-04,Thursday,18,1.5,BUS-319,14,5,Finance & Investment Club
+EVT-00713,Club Meeting #713,Club Meeting,2026-09-18,Saturday,17,1.0,CMP-113,15,12,Academic Senate
+EVT-00714,Club Meeting #714,Club Meeting,2026-05-08,Tuesday,9,1.0,ENG-420,18,17,Finance & Investment Club
+EVT-00715,Club Meeting #715,Club Meeting,2026-09-02,Friday,9,2.0,LIB-408,20,16,Academic Senate
+EVT-00716,Hackathon/Contest #716,Hackathon/Contest,2026-08-19,Tuesday,18,1.0,ENG-210,33,32,Dept of Computer Science
+EVT-00717,Seminar #717,Seminar,2026-11-28,Thursday,14,1.0,CMP-416,24,21,Design Collective
+EVT-00718,Faculty Assembly #718,Faculty Assembly,2026-06-04,Friday,14,3.0,LIB-408,20,29,ACM Student Chapter
+EVT-00719,Academic Workshop #719,Academic Workshop,2026-01-15,Tuesday,10,1.0,LIB-408,14,10,Engineering Faculty Council
+EVT-00720,Academic Workshop #720,Academic Workshop,2026-08-11,Tuesday,16,1.5,ENG-323,23,18,Business School Advisory
+EVT-00721,Academic Workshop #721,Academic Workshop,2026-06-22,Wednesday,18,2.5,LIB-315,18,12,AI Builders
+EVT-00722,Hackathon/Contest #722,Hackathon/Contest,2026-12-24,Saturday,18,2.5,LIB-210,45,46,Business School Advisory
+EVT-00723,Seminar #723,Seminar,2026-10-15,Thursday,13,3.0,SCI-307,67,52,Life Sciences Faculty
+EVT-00724,Study Group #724,Study Group,2026-02-28,Wednesday,11,2.0,CMP-214,14,13,Academic Senate
+EVT-00725,Club Meeting #725,Club Meeting,2026-03-28,Thursday,19,2.5,SCI-420,82,46,Robotics Society
+EVT-00726,Seminar #726,Seminar,2026-06-18,Saturday,17,1.5,ENG-319,42,31,Academic Senate
+EVT-00727,Academic Workshop #727,Academic Workshop,2026-07-16,Tuesday,19,1.0,BUS-210,37,28,Life Sciences Faculty
+EVT-00728,Study Group #728,Study Group,2026-02-09,Tuesday,17,1.0,LIB-113,25,31,Dept of Computer Science
+EVT-00729,Hackathon/Contest #729,Hackathon/Contest,2026-11-25,Monday,15,1.0,SCI-109,40,38,Finance & Investment Club
+EVT-00730,Academic Workshop #730,Academic Workshop,2026-04-04,Friday,17,3.0,SCI-311,32,22,Engineering Faculty Council
+EVT-00731,Club Meeting #731,Club Meeting,2026-07-16,Wednesday,17,2.0,SCI-218,32,24,Engineering Faculty Council
+EVT-00732,Academic Workshop #732,Academic Workshop,2026-07-19,Saturday,16,1.0,BUS-303,13,15,Design Collective
+EVT-00733,Career Fair #733,Career Fair,2026-09-13,Saturday,19,3.0,ART-408,17,13,Women in STEM
+EVT-00734,Seminar #734,Seminar,2026-10-26,Saturday,15,1.5,CMP-202,18,11,ACM Student Chapter
+EVT-00735,Academic Workshop #735,Academic Workshop,2026-05-02,Saturday,10,2.5,SCI-210,122,75,Debate Union
+EVT-00736,Study Group #736,Study Group,2026-11-26,Monday,11,2.0,ENG-319,18,18,Design Collective
+EVT-00737,Study Group #737,Study Group,2026-07-06,Wednesday,9,2.5,BUS-109,23,22,Dept of Computer Science
+EVT-00738,Career Fair #738,Career Fair,2026-09-01,Tuesday,16,2.5,LIB-404,32,35,ACM Student Chapter
+EVT-00739,Academic Workshop #739,Academic Workshop,2026-08-15,Friday,17,2.0,ENG-214,76,67,Design Collective
+EVT-00740,Club Meeting #740,Club Meeting,2026-04-22,Monday,18,1.5,CMP-319,22,9,Life Sciences Faculty
+EVT-00741,Seminar #741,Seminar,2026-07-09,Wednesday,17,3.0,ENG-319,31,28,Engineering Faculty Council
+EVT-00742,Seminar #742,Seminar,2026-12-23,Friday,19,3.0,CMP-117,16,11,Life Sciences Faculty
+EVT-00743,Study Group #743,Study Group,2026-01-11,Wednesday,13,3.0,ENG-416,21,16,Debate Union
+EVT-00744,Hackathon/Contest #744,Hackathon/Contest,2026-06-23,Wednesday,16,1.5,CMP-420,11,14,Engineering Faculty Council
+EVT-00745,Academic Workshop #745,Academic Workshop,2026-08-22,Saturday,10,2.5,ART-218,46,26,Finance & Investment Club
+EVT-00746,Seminar #746,Seminar,2026-06-04,Monday,13,2.5,CMP-202,27,22,Robotics Society
+EVT-00747,Academic Workshop #747,Academic Workshop,2026-10-20,Friday,13,2.0,SCI-101,12,15,AI Builders
+EVT-00748,Academic Workshop #748,Academic Workshop,2026-07-07,Friday,9,1.0,BUS-218,36,27,Robotics Society
+EVT-00749,Career Fair #749,Career Fair,2026-12-03,Saturday,19,3.0,ART-113,11,6,Design Collective
+EVT-00750,Club Meeting #750,Club Meeting,2026-06-02,Tuesday,13,2.5,SCI-420,135,91,Robotics Society
+EVT-00751,Academic Workshop #751,Academic Workshop,2026-09-25,Thursday,9,1.0,SCI-202,18,20,Life Sciences Faculty
+EVT-00752,Club Meeting #752,Club Meeting,2026-11-09,Wednesday,19,1.5,ENG-101,11,10,Robotics Society
+EVT-00753,Faculty Assembly #753,Faculty Assembly,2026-05-15,Friday,13,2.0,CMP-105,15,15,Robotics Society
+EVT-00754,Club Meeting #754,Club Meeting,2026-06-21,Monday,10,2.0,SCI-117,34,24,Finance & Investment Club
+EVT-00755,Faculty Assembly #755,Faculty Assembly,2026-08-24,Friday,14,3.0,LIB-307,21,25,Robotics Society
+EVT-00756,Academic Workshop #756,Academic Workshop,2026-02-08,Tuesday,19,1.0,LIB-113,23,18,Engineering Faculty Council
+EVT-00757,Club Meeting #757,Club Meeting,2026-08-25,Tuesday,10,3.0,BUS-404,21,6,AI Builders
+EVT-00758,Academic Workshop #758,Academic Workshop,2026-11-01,Friday,10,1.5,BUS-416,33,25,Debate Union
+EVT-00759,Academic Workshop #759,Academic Workshop,2026-02-14,Wednesday,11,2.5,ENG-303,48,35,Debate Union
+EVT-00760,Club Meeting #760,Club Meeting,2026-10-02,Monday,17,1.5,SCI-202,20,18,ACM Student Chapter
+EVT-00761,Seminar #761,Seminar,2026-04-20,Saturday,19,3.0,BUS-105,12,10,ACM Student Chapter
+EVT-00762,Club Meeting #762,Club Meeting,2026-04-04,Tuesday,9,2.5,ENG-202,18,5,Debate Union
+EVT-00763,Club Meeting #763,Club Meeting,2026-05-13,Monday,13,1.0,BUS-404,48,34,Robotics Society
+EVT-00764,Study Group #764,Study Group,2026-12-12,Friday,10,2.0,ART-206,22,16,Women in STEM
+EVT-00765,Hackathon/Contest #765,Hackathon/Contest,2026-12-19,Wednesday,16,2.5,BUS-420,31,30,Debate Union
+EVT-00766,Club Meeting #766,Club Meeting,2026-10-01,Monday,16,1.5,ENG-420,16,13,Women in STEM
+EVT-00767,Hackathon/Contest #767,Hackathon/Contest,2026-02-21,Wednesday,16,2.0,ENG-210,35,37,Finance & Investment Club
+EVT-00768,Club Meeting #768,Club Meeting,2026-08-21,Tuesday,16,1.5,ENG-121,32,26,Academic Senate
+EVT-00769,Club Meeting #769,Club Meeting,2026-07-07,Thursday,15,3.0,SCI-202,14,13,AI Builders
+EVT-00770,Study Group #770,Study Group,2026-12-27,Tuesday,13,2.0,ART-404,32,20,Life Sciences Faculty
+EVT-00771,Study Group #771,Study Group,2026-01-25,Monday,14,3.0,BUS-412,46,35,Business School Advisory
+EVT-00772,Seminar #772,Seminar,2026-11-21,Tuesday,15,3.0,SCI-416,19,16,AI Builders
+EVT-00773,Club Meeting #773,Club Meeting,2026-10-08,Thursday,10,2.5,CMP-307,20,9,Finance & Investment Club
+EVT-00774,Club Meeting #774,Club Meeting,2026-07-03,Thursday,18,3.0,CMP-404,18,21,ACM Student Chapter
+EVT-00775,Study Group #775,Study Group,2026-08-02,Friday,19,2.0,CMP-218,36,33,Design Collective
+EVT-00776,Seminar #776,Seminar,2026-02-24,Tuesday,17,1.0,ENG-105,27,14,Business School Advisory
+EVT-00777,Club Meeting #777,Club Meeting,2026-09-06,Monday,15,3.0,LIB-412,26,22,ACM Student Chapter
+EVT-00778,Hackathon/Contest #778,Hackathon/Contest,2026-03-17,Monday,14,2.5,ART-202,22,29,Engineering Faculty Council
+EVT-00779,Seminar #779,Seminar,2026-02-12,Thursday,18,2.0,SCI-101,13,8,Engineering Faculty Council
+EVT-00780,Academic Workshop #780,Academic Workshop,2026-09-22,Friday,13,3.0,SCI-307,126,111,Robotics Society
+EVT-00781,Seminar #781,Seminar,2026-05-14,Thursday,19,2.5,BUS-319,25,18,Debate Union
+EVT-00782,Seminar #782,Seminar,2026-03-02,Thursday,9,2.5,SCI-202,21,16,Dept of Computer Science
+EVT-00783,Seminar #783,Seminar,2026-10-18,Tuesday,11,3.0,ENG-307,42,29,ACM Student Chapter
+EVT-00784,Career Fair #784,Career Fair,2026-10-11,Saturday,18,3.0,CMP-412,84,57,Women in STEM
+EVT-00785,Club Meeting #785,Club Meeting,2026-12-11,Tuesday,16,3.0,SCI-315,25,26,Robotics Society
+EVT-00786,Academic Workshop #786,Academic Workshop,2026-05-20,Friday,13,2.5,SCI-222,117,106,Engineering Faculty Council
+EVT-00787,Club Meeting #787,Club Meeting,2026-11-17,Wednesday,14,1.5,ENG-408,97,74,Business School Advisory
+EVT-00788,Academic Workshop #788,Academic Workshop,2026-08-17,Thursday,15,1.0,ART-101,11,13,Engineering Faculty Council
+EVT-00789,Club Meeting #789,Club Meeting,2026-12-23,Monday,9,3.0,CMP-408,38,20,Engineering Faculty Council
+EVT-00790,Hackathon/Contest #790,Hackathon/Contest,2026-06-05,Thursday,9,1.5,SCI-303,35,33,Engineering Faculty Council
+EVT-00791,Study Group #791,Study Group,2026-12-15,Thursday,15,3.0,CMP-307,11,11,Academic Senate
+EVT-00792,Club Meeting #792,Club Meeting,2026-09-04,Saturday,9,3.0,CMP-105,13,16,Women in STEM
+EVT-00793,Academic Workshop #793,Academic Workshop,2026-10-20,Monday,14,1.0,BUS-210,22,23,Design Collective
+EVT-00794,Faculty Assembly #794,Faculty Assembly,2026-04-18,Tuesday,13,3.0,ENG-210,36,32,Robotics Society
+EVT-00795,Club Meeting #795,Club Meeting,2026-03-21,Tuesday,11,2.0,ENG-311,14,11,Business School Advisory
+EVT-00796,Academic Workshop #796,Academic Workshop,2026-06-07,Wednesday,9,2.5,ART-202,19,18,Women in STEM
+EVT-00797,Career Fair #797,Career Fair,2026-11-25,Saturday,14,2.5,SCI-222,69,69,Debate Union
+EVT-00798,Academic Workshop #798,Academic Workshop,2026-09-18,Monday,15,2.5,BUS-113,19,15,Finance & Investment Club
+EVT-00799,Hackathon/Contest #799,Hackathon/Contest,2026-02-20,Tuesday,13,1.5,BUS-101,17,19,AI Builders
+EVT-00800,Academic Workshop #800,Academic Workshop,2026-09-22,Thursday,14,3.0,ENG-113,142,116,Business School Advisory
+EVT-00801,Club Meeting #801,Club Meeting,2026-10-01,Thursday,14,2.5,CMP-101,26,19,Life Sciences Faculty
+EVT-00802,Club Meeting #802,Club Meeting,2026-11-08,Saturday,15,2.5,SCI-210,121,92,Robotics Society
+EVT-00803,Faculty Assembly #803,Faculty Assembly,2026-02-11,Tuesday,11,1.5,ENG-404,18,14,ACM Student Chapter
+EVT-00804,Career Fair #804,Career Fair,2026-02-21,Saturday,18,2.5,ENG-424,33,24,Robotics Society
+EVT-00805,Club Meeting #805,Club Meeting,2026-02-10,Wednesday,15,2.0,BUS-206,81,51,AI Builders
+EVT-00806,Study Group #806,Study Group,2026-04-12,Thursday,17,2.0,ART-412,34,30,AI Builders
+EVT-00807,Career Fair #807,Career Fair,2026-04-10,Thursday,15,2.5,BUS-412,50,50,Debate Union
+EVT-00808,Club Meeting #808,Club Meeting,2026-02-25,Tuesday,17,1.5,CMP-206,27,19,Robotics Society
+EVT-00809,Career Fair #809,Career Fair,2026-05-27,Tuesday,17,2.0,LIB-408,21,28,AI Builders
+EVT-00810,Academic Workshop #810,Academic Workshop,2026-08-28,Saturday,17,2.0,LIB-202,39,33,Robotics Society
+EVT-00811,Academic Workshop #811,Academic Workshop,2026-10-22,Friday,19,2.5,SCI-408,16,15,Finance & Investment Club
+EVT-00812,Career Fair #812,Career Fair,2026-04-02,Saturday,17,3.0,ART-412,16,18,Dept of Computer Science
+EVT-00813,Seminar #813,Seminar,2026-11-15,Thursday,17,2.0,ENG-206,18,14,Debate Union
+EVT-00814,Seminar #814,Seminar,2026-05-11,Thursday,14,1.0,LIB-303,11,5,ACM Student Chapter
+EVT-00815,Academic Workshop #815,Academic Workshop,2026-04-03,Friday,10,2.0,LIB-101,20,13,Engineering Faculty Council
+EVT-00816,Club Meeting #816,Club Meeting,2026-02-13,Wednesday,19,2.5,LIB-311,12,12,Debate Union
+EVT-00817,Club Meeting #817,Club Meeting,2026-04-20,Friday,18,2.0,LIB-206,99,54,Dept of Computer Science
+EVT-00818,Seminar #818,Seminar,2026-10-27,Friday,10,1.0,BUS-202,65,49,Academic Senate
+EVT-00819,Study Group #819,Study Group,2026-05-06,Wednesday,14,3.0,ART-408,17,21,ACM Student Chapter
+EVT-00820,Career Fair #820,Career Fair,2026-10-23,Tuesday,18,1.0,LIB-303,14,13,Life Sciences Faculty
+EVT-00821,Seminar #821,Seminar,2026-07-23,Wednesday,19,1.0,SCI-218,14,8,Dept of Computer Science
+EVT-00822,Club Meeting #822,Club Meeting,2026-03-08,Thursday,16,1.5,BUS-420,23,16,Business School Advisory
+EVT-00823,Seminar #823,Seminar,2026-02-15,Tuesday,15,1.0,SCI-210,88,79,Debate Union
+EVT-00824,Seminar #824,Seminar,2026-12-14,Saturday,10,1.5,CMP-420,17,5,Debate Union
+EVT-00825,Academic Workshop #825,Academic Workshop,2026-09-04,Friday,14,1.0,SCI-117,35,29,Life Sciences Faculty
+EVT-00826,Seminar #826,Seminar,2026-10-16,Tuesday,17,2.5,SCI-210,207,171,Life Sciences Faculty
+EVT-00827,Career Fair #827,Career Fair,2026-06-28,Friday,10,2.5,BUS-202,85,83,Academic Senate
+EVT-00828,Faculty Assembly #828,Faculty Assembly,2026-08-01,Saturday,17,2.0,SCI-222,67,58,Debate Union
+EVT-00829,Study Group #829,Study Group,2026-08-15,Tuesday,10,2.5,SCI-218,25,26,Life Sciences Faculty
+EVT-00830,Hackathon/Contest #830,Hackathon/Contest,2026-08-06,Saturday,17,3.0,ENG-109,21,16,Business School Advisory
+EVT-00831,Seminar #831,Seminar,2026-10-06,Friday,9,3.0,ENG-101,16,10,ACM Student Chapter
+EVT-00832,Seminar #832,Seminar,2026-04-27,Thursday,11,3.0,ENG-125,27,13,AI Builders
+EVT-00833,Club Meeting #833,Club Meeting,2026-09-16,Wednesday,13,1.5,ART-303,41,19,ACM Student Chapter
+EVT-00834,Hackathon/Contest #834,Hackathon/Contest,2026-05-26,Saturday,10,1.5,ENG-218,14,15,Debate Union
+EVT-00835,Study Group #835,Study Group,2026-11-22,Monday,10,2.5,LIB-404,19,13,Debate Union
+EVT-00836,Club Meeting #836,Club Meeting,2026-05-03,Thursday,13,1.0,SCI-315,27,16,Women in STEM
+EVT-00837,Seminar #837,Seminar,2026-09-19,Wednesday,14,2.0,LIB-202,48,40,Dept of Computer Science
+EVT-00838,Club Meeting #838,Club Meeting,2026-10-14,Tuesday,17,2.5,ART-408,14,7,Robotics Society
+EVT-00839,Academic Workshop #839,Academic Workshop,2026-09-07,Saturday,17,1.0,LIB-311,31,25,Engineering Faculty Council
+EVT-00840,Seminar #840,Seminar,2026-12-05,Saturday,16,1.5,ENG-109,23,21,Academic Senate
+EVT-00841,Study Group #841,Study Group,2026-09-22,Wednesday,10,2.5,LIB-113,18,10,Life Sciences Faculty
+EVT-00842,Club Meeting #842,Club Meeting,2026-01-13,Monday,15,2.5,ART-105,17,15,Finance & Investment Club
+EVT-00843,Academic Workshop #843,Academic Workshop,2026-04-25,Thursday,16,1.5,ART-101,11,8,Engineering Faculty Council
+EVT-00844,Academic Workshop #844,Academic Workshop,2026-07-24,Wednesday,10,1.5,ART-311,17,13,Dept of Computer Science
+EVT-00845,Faculty Assembly #845,Faculty Assembly,2026-10-01,Thursday,17,1.5,LIB-303,17,11,ACM Student Chapter
+EVT-00846,Seminar #846,Seminar,2026-09-12,Wednesday,13,3.0,BUS-218,67,53,Robotics Society
+EVT-00847,Club Meeting #847,Club Meeting,2026-11-03,Monday,19,3.0,CMP-311,16,10,Finance & Investment Club
+EVT-00848,Club Meeting #848,Club Meeting,2026-10-01,Friday,13,1.5,SCI-222,84,62,Women in STEM
+EVT-00849,Academic Workshop #849,Academic Workshop,2026-01-12,Wednesday,10,2.0,SCI-303,40,34,Robotics Society
+EVT-00850,Hackathon/Contest #850,Hackathon/Contest,2026-09-26,Thursday,11,2.5,BUS-218,71,71,Women in STEM
+EVT-00851,Study Group #851,Study Group,2026-07-27,Thursday,14,2.5,ENG-408,157,134,Life Sciences Faculty
+EVT-00852,Seminar #852,Seminar,2026-04-06,Tuesday,11,3.0,SCI-307,112,87,Design Collective
+EVT-00853,Club Meeting #853,Club Meeting,2026-11-16,Tuesday,16,2.5,ENG-105,27,17,Robotics Society
+EVT-00854,Study Group #854,Study Group,2026-07-06,Thursday,17,2.0,BUS-210,25,18,Academic Senate
+EVT-00855,Seminar #855,Seminar,2026-05-13,Saturday,15,2.5,ENG-105,16,7,Business School Advisory
+EVT-00856,Club Meeting #856,Club Meeting,2026-05-28,Monday,15,1.0,CMP-408,38,31,Dept of Computer Science
+EVT-00857,Seminar #857,Seminar,2026-10-16,Wednesday,16,1.5,LIB-206,61,42,Design Collective
+EVT-00858,Academic Workshop #858,Academic Workshop,2026-07-18,Friday,18,1.5,BUS-202,127,106,Business School Advisory
+EVT-00859,Study Group #859,Study Group,2026-08-28,Tuesday,10,3.0,CMP-218,51,39,Robotics Society
+EVT-00860,Club Meeting #860,Club Meeting,2026-07-27,Wednesday,11,1.0,BUS-404,51,34,AI Builders
+EVT-00861,Career Fair #861,Career Fair,2026-08-28,Tuesday,9,1.5,BUS-202,115,116,Robotics Society
+EVT-00862,Hackathon/Contest #862,Hackathon/Contest,2026-04-13,Saturday,10,1.0,SCI-311,32,32,Women in STEM
+EVT-00863,Academic Workshop #863,Academic Workshop,2026-04-12,Thursday,16,1.5,BUS-117,43,50,Dept of Computer Science
+EVT-00864,Faculty Assembly #864,Faculty Assembly,2026-12-28,Monday,10,2.5,CMP-105,18,15,Engineering Faculty Council
+EVT-00865,Club Meeting #865,Club Meeting,2026-01-10,Thursday,15,1.0,ENG-109,18,16,Design Collective
+EVT-00866,Study Group #866,Study Group,2026-03-13,Wednesday,15,2.0,SCI-416,25,19,Academic Senate
+EVT-00867,Club Meeting #867,Club Meeting,2026-10-20,Wednesday,10,2.0,BUS-404,33,13,Robotics Society
+EVT-00868,Seminar #868,Seminar,2026-06-21,Wednesday,19,3.0,LIB-202,91,68,Robotics Society
+EVT-00869,Club Meeting #869,Club Meeting,2026-12-01,Friday,13,3.0,LIB-214,20,11,Debate Union
+EVT-00870,Seminar #870,Seminar,2026-04-22,Thursday,19,2.0,ART-214,10,5,Life Sciences Faculty
+EVT-00871,Career Fair #871,Career Fair,2026-08-27,Tuesday,15,1.5,ART-117,19,16,Life Sciences Faculty
+EVT-00872,Career Fair #872,Career Fair,2026-07-14,Saturday,15,1.0,LIB-404,12,5,Robotics Society
+EVT-00873,Seminar #873,Seminar,2026-02-22,Thursday,15,3.0,BUS-416,38,40,Women in STEM
+EVT-00874,Club Meeting #874,Club Meeting,2026-03-04,Saturday,19,2.5,SCI-311,17,5,Life Sciences Faculty
+EVT-00875,Seminar #875,Seminar,2026-04-05,Tuesday,14,1.0,BUS-117,39,26,Dept of Computer Science
+EVT-00876,Seminar #876,Seminar,2026-12-24,Wednesday,15,1.0,BUS-210,34,23,Finance & Investment Club
+EVT-00877,Academic Workshop #877,Academic Workshop,2026-10-24,Friday,14,2.5,SCI-408,20,29,Design Collective
+EVT-00878,Seminar #878,Seminar,2026-03-02,Thursday,9,3.0,SCI-420,74,60,Dept of Computer Science
+EVT-00879,Club Meeting #879,Club Meeting,2026-02-26,Thursday,11,1.0,CMP-307,18,18,Engineering Faculty Council
+EVT-00880,Study Group #880,Study Group,2026-06-15,Saturday,14,2.5,LIB-105,30,23,Engineering Faculty Council
+EVT-00881,Club Meeting #881,Club Meeting,2026-07-02,Monday,9,3.0,ENG-109,26,18,Finance & Investment Club
+EVT-00882,Academic Workshop #882,Academic Workshop,2026-09-22,Thursday,11,3.0,ART-206,16,9,Academic Senate
+EVT-00883,Club Meeting #883,Club Meeting,2026-11-20,Saturday,14,1.0,LIB-315,18,16,Business School Advisory
+EVT-00884,Faculty Assembly #884,Faculty Assembly,2026-07-04,Monday,15,2.5,LIB-303,17,7,Engineering Faculty Council
+EVT-00885,Club Meeting #885,Club Meeting,2026-11-15,Tuesday,18,2.5,BUS-202,110,69,Engineering Faculty Council
+EVT-00886,Career Fair #886,Career Fair,2026-02-01,Wednesday,18,1.0,ENG-412,20,20,Engineering Faculty Council
+EVT-00887,Seminar #887,Seminar,2026-11-24,Saturday,15,1.5,ENG-424,39,33,Design Collective
+EVT-00888,Seminar #888,Seminar,2026-12-09,Friday,11,1.5,BUS-210,29,22,Debate Union
+EVT-00889,Seminar #889,Seminar,2026-06-27,Friday,9,2.0,LIB-101,18,10,Dept of Computer Science
+EVT-00890,Faculty Assembly #890,Faculty Assembly,2026-06-24,Thursday,18,2.0,BUS-113,32,26,Women in STEM
+EVT-00891,Study Group #891,Study Group,2026-01-27,Wednesday,16,1.5,LIB-408,18,18,Engineering Faculty Council
+EVT-00892,Seminar #892,Seminar,2026-09-05,Friday,9,1.5,SCI-222,114,94,AI Builders
+EVT-00893,Academic Workshop #893,Academic Workshop,2026-11-27,Monday,11,3.0,BUS-307,21,20,Finance & Investment Club
+EVT-00894,Seminar #894,Seminar,2026-02-27,Wednesday,16,2.5,BUS-210,31,22,ACM Student Chapter
+EVT-00895,Study Group #895,Study Group,2026-10-06,Tuesday,11,3.0,ENG-307,15,11,ACM Student Chapter
+EVT-00896,Seminar #896,Seminar,2026-04-23,Friday,10,1.0,CMP-214,17,10,Dept of Computer Science
+EVT-00897,Study Group #897,Study Group,2026-10-19,Wednesday,19,1.0,ART-408,18,19,Academic Senate
+EVT-00898,Career Fair #898,Career Fair,2026-05-10,Friday,15,1.5,ENG-109,22,21,AI Builders
+EVT-00899,Club Meeting #899,Club Meeting,2026-10-16,Thursday,14,3.0,ENG-408,98,70,Business School Advisory
+EVT-00900,Study Group #900,Study Group,2026-04-23,Saturday,13,1.5,CMP-307,11,5,Engineering Faculty Council
+EVT-00901,Club Meeting #901,Club Meeting,2026-12-21,Monday,15,1.0,ENG-315,19,21,Business School Advisory
+EVT-00902,Seminar #902,Seminar,2026-02-19,Wednesday,13,2.0,BUS-303,14,12,Engineering Faculty Council
+EVT-00903,Career Fair #903,Career Fair,2026-06-19,Friday,19,3.0,ENG-323,11,6,AI Builders
+EVT-00904,Club Meeting #904,Club Meeting,2026-12-09,Thursday,16,1.5,SCI-105,38,24,Women in STEM
+EVT-00905,Club Meeting #905,Club Meeting,2026-10-08,Thursday,10,2.0,ART-303,27,15,Dept of Computer Science
+EVT-00906,Seminar #906,Seminar,2026-03-24,Thursday,17,1.5,ENG-125,27,18,Robotics Society
+EVT-00907,Club Meeting #907,Club Meeting,2026-05-10,Saturday,19,1.5,BUS-420,17,13,Engineering Faculty Council
+EVT-00908,Hackathon/Contest #908,Hackathon/Contest,2026-10-22,Thursday,14,2.5,LIB-307,29,29,Women in STEM
+EVT-00909,Study Group #909,Study Group,2026-10-27,Thursday,17,1.5,SCI-218,34,39,ACM Student Chapter
+EVT-00910,Seminar #910,Seminar,2026-01-08,Friday,11,1.5,SCI-121,15,15,Business School Advisory
+EVT-00911,Seminar #911,Seminar,2026-06-05,Monday,18,3.0,ENG-105,28,24,Women in STEM
+EVT-00912,Faculty Assembly #912,Faculty Assembly,2026-02-05,Saturday,14,2.5,LIB-214,18,19,Debate Union
+EVT-00913,Club Meeting #913,Club Meeting,2026-09-12,Saturday,18,2.5,BUS-315,26,18,Design Collective
+EVT-00914,Club Meeting #914,Club Meeting,2026-03-17,Saturday,9,2.0,LIB-105,23,14,Debate Union
+EVT-00915,Club Meeting #915,Club Meeting,2026-07-09,Saturday,14,1.5,ENG-202,19,16,AI Builders
+EVT-00916,Academic Workshop #916,Academic Workshop,2026-01-12,Friday,19,2.0,ENG-206,17,11,Women in STEM
+EVT-00917,Study Group #917,Study Group,2026-09-27,Wednesday,18,2.0,SCI-307,60,54,Finance & Investment Club
+EVT-00918,Study Group #918,Study Group,2026-06-18,Wednesday,15,3.0,BUS-408,15,12,Life Sciences Faculty
+EVT-00919,Academic Workshop #919,Academic Workshop,2026-12-22,Monday,15,1.5,ART-113,30,27,Business School Advisory
+EVT-00920,Club Meeting #920,Club Meeting,2026-03-25,Monday,17,2.5,LIB-105,24,21,Debate Union
+EVT-00921,Club Meeting #921,Club Meeting,2026-12-09,Tuesday,10,2.0,LIB-404,12,8,Engineering Faculty Council
+EVT-00922,Career Fair #922,Career Fair,2026-08-26,Monday,17,1.5,SCI-404,41,45,Engineering Faculty Council
+EVT-00923,Career Fair #923,Career Fair,2026-01-12,Monday,14,2.0,BUS-210,29,31,Design Collective
+EVT-00924,Career Fair #924,Career Fair,2026-01-16,Saturday,18,2.5,ART-311,14,5,Debate Union
+EVT-00925,Career Fair #925,Career Fair,2026-05-05,Thursday,19,3.0,ART-117,16,10,Finance & Investment Club
+EVT-00926,Seminar #926,Seminar,2026-12-06,Thursday,11,2.0,SCI-206,14,12,Life Sciences Faculty
+EVT-00927,Seminar #927,Seminar,2026-06-25,Tuesday,10,2.5,ENG-303,49,33,Finance & Investment Club
+EVT-00928,Club Meeting #928,Club Meeting,2026-06-19,Tuesday,19,2.0,CMP-206,17,11,Design Collective
+EVT-00929,Academic Workshop #929,Academic Workshop,2026-03-04,Saturday,14,1.0,SCI-105,42,35,Women in STEM
+EVT-00930,Career Fair #930,Career Fair,2026-04-15,Thursday,10,2.5,LIB-105,15,15,Debate Union
+EVT-00931,Hackathon/Contest #931,Hackathon/Contest,2026-01-06,Tuesday,17,2.5,LIB-101,19,23,Robotics Society
+EVT-00932,Club Meeting #932,Club Meeting,2026-10-20,Friday,11,1.5,ART-113,19,7,Women in STEM
+EVT-00933,Faculty Assembly #933,Faculty Assembly,2026-01-05,Wednesday,15,3.0,SCI-210,179,162,Life Sciences Faculty
+EVT-00934,Club Meeting #934,Club Meeting,2026-03-24,Saturday,9,2.5,ART-113,27,14,Academic Senate
+EVT-00935,Academic Workshop #935,Academic Workshop,2026-06-24,Wednesday,11,2.5,ART-315,12,14,Life Sciences Faculty
+EVT-00936,Hackathon/Contest #936,Hackathon/Contest,2026-11-21,Wednesday,9,2.0,ENG-420,16,18,Robotics Society
+EVT-00937,Seminar #937,Seminar,2026-10-27,Thursday,16,3.0,ENG-121,21,18,Business School Advisory
+EVT-00938,Hackathon/Contest #938,Hackathon/Contest,2026-10-12,Wednesday,10,1.5,BUS-105,14,15,Design Collective
+EVT-00939,Study Group #939,Study Group,2026-10-03,Monday,10,3.0,CMP-202,34,32,Business School Advisory
+EVT-00940,Club Meeting #940,Club Meeting,2026-05-04,Friday,11,2.5,ART-117,19,17,Robotics Society
+EVT-00941,Study Group #941,Study Group,2026-04-17,Wednesday,11,1.5,ENG-412,24,17,ACM Student Chapter
+EVT-00942,Career Fair #942,Career Fair,2026-09-16,Monday,10,2.5,ENG-416,29,24,Robotics Society
+EVT-00943,Career Fair #943,Career Fair,2026-03-04,Tuesday,13,1.0,SCI-105,40,43,Business School Advisory
+EVT-00944,Academic Workshop #944,Academic Workshop,2026-02-16,Saturday,18,2.5,ART-404,15,5,Robotics Society
+EVT-00945,Career Fair #945,Career Fair,2026-10-24,Monday,16,2.5,BUS-303,10,9,Engineering Faculty Council
+EVT-00946,Academic Workshop #946,Academic Workshop,2026-12-04,Monday,13,1.5,LIB-412,32,36,ACM Student Chapter
+EVT-00947,Seminar #947,Seminar,2026-01-14,Friday,15,2.0,CMP-420,13,14,Finance & Investment Club
+EVT-00948,Hackathon/Contest #948,Hackathon/Contest,2026-02-14,Saturday,18,3.0,ENG-121,28,34,Business School Advisory
+EVT-00949,Club Meeting #949,Club Meeting,2026-01-18,Saturday,16,1.5,SCI-408,28,15,Academic Senate
+EVT-00950,Study Group #950,Study Group,2026-02-04,Tuesday,19,1.0,BUS-218,49,43,Engineering Faculty Council
+EVT-00951,Club Meeting #951,Club Meeting,2026-06-24,Thursday,19,1.0,LIB-109,83,49,Life Sciences Faculty
+EVT-00952,Academic Workshop #952,Academic Workshop,2026-06-11,Wednesday,16,1.5,CMP-105,21,22,AI Builders
+EVT-00953,Academic Workshop #953,Academic Workshop,2026-09-12,Monday,9,3.0,LIB-109,90,72,Design Collective
+EVT-00954,Club Meeting #954,Club Meeting,2026-08-26,Friday,13,2.5,SCI-222,61,48,Finance & Investment Club
+EVT-00955,Club Meeting #955,Club Meeting,2026-03-07,Monday,15,3.0,LIB-303,14,9,Academic Senate
+EVT-00956,Study Group #956,Study Group,2026-08-09,Tuesday,19,3.0,SCI-420,133,100,Design Collective
+EVT-00957,Seminar #957,Seminar,2026-06-12,Thursday,11,1.0,ART-408,16,14,AI Builders
+EVT-00958,Seminar #958,Seminar,2026-08-18,Friday,9,2.0,LIB-303,16,8,Business School Advisory
+EVT-00959,Academic Workshop #959,Academic Workshop,2026-09-05,Tuesday,19,1.0,BUS-303,11,6,Robotics Society
+EVT-00960,Career Fair #960,Career Fair,2026-05-27,Thursday,18,1.0,CMP-307,21,18,AI Builders
+EVT-00961,Seminar #961,Seminar,2026-09-16,Tuesday,19,2.5,ART-117,37,32,Life Sciences Faculty
+EVT-00962,Academic Workshop #962,Academic Workshop,2026-11-06,Friday,19,3.0,CMP-101,27,24,Women in STEM
+EVT-00963,Hackathon/Contest #963,Hackathon/Contest,2026-01-11,Friday,16,1.0,ENG-315,19,17,Life Sciences Faculty
+EVT-00964,Academic Workshop #964,Academic Workshop,2026-08-19,Saturday,10,2.0,SCI-121,14,13,Life Sciences Faculty
+EVT-00965,Seminar #965,Seminar,2026-01-19,Wednesday,15,1.0,ENG-420,15,10,Robotics Society
+EVT-00966,Faculty Assembly #966,Faculty Assembly,2026-01-25,Friday,18,2.0,SCI-222,118,96,Finance & Investment Club
+EVT-00967,Career Fair #967,Career Fair,2026-01-20,Monday,9,2.0,LIB-412,13,12,Dept of Computer Science
+EVT-00968,Seminar #968,Seminar,2026-11-13,Tuesday,11,3.0,ART-315,20,13,Finance & Investment Club
+EVT-00969,Club Meeting #969,Club Meeting,2026-04-28,Saturday,14,1.0,SCI-214,11,9,Dept of Computer Science
+EVT-00970,Academic Workshop #970,Academic Workshop,2026-09-27,Monday,11,2.5,LIB-105,38,28,Academic Senate
+EVT-00971,Academic Workshop #971,Academic Workshop,2026-11-23,Friday,11,1.5,ENG-323,24,16,AI Builders
+EVT-00972,Club Meeting #972,Club Meeting,2026-03-02,Saturday,18,2.5,BUS-101,20,12,Finance & Investment Club
+EVT-00973,Seminar #973,Seminar,2026-01-21,Friday,13,2.5,CMP-218,40,33,Debate Union
+EVT-00974,Career Fair #974,Career Fair,2026-09-22,Wednesday,16,3.0,CMP-210,12,13,Academic Senate
+EVT-00975,Club Meeting #975,Club Meeting,2026-11-07,Thursday,10,1.0,BUS-307,15,21,Business School Advisory
+EVT-00976,Seminar #976,Seminar,2026-12-08,Tuesday,19,2.5,SCI-101,10,5,ACM Student Chapter
+EVT-00977,Study Group #977,Study Group,2026-08-23,Friday,16,3.0,ART-105,49,42,ACM Student Chapter
+EVT-00978,Club Meeting #978,Club Meeting,2026-06-06,Friday,10,3.0,ENG-424,37,28,Business School Advisory
+EVT-00979,Academic Workshop #979,Academic Workshop,2026-10-16,Thursday,19,2.0,ENG-404,16,7,Debate Union
+EVT-00980,Study Group #980,Study Group,2026-09-16,Monday,14,2.0,LIB-315,13,7,Women in STEM
+EVT-00981,Club Meeting #981,Club Meeting,2026-05-11,Wednesday,15,3.0,ENG-214,158,110,Business School Advisory
+EVT-00982,Academic Workshop #982,Academic Workshop,2026-03-02,Friday,13,2.0,ENG-420,13,5,Finance & Investment Club
+EVT-00983,Club Meeting #983,Club Meeting,2026-11-15,Tuesday,18,1.5,SCI-303,26,13,Life Sciences Faculty
+EVT-00984,Academic Workshop #984,Academic Workshop,2026-04-25,Thursday,10,1.0,SCI-105,30,25,Dept of Computer Science
+EVT-00985,Study Group #985,Study Group,2026-07-21,Friday,14,2.0,BUS-113,30,22,Finance & Investment Club
+EVT-00986,Study Group #986,Study Group,2026-04-04,Tuesday,17,2.0,CMP-105,20,18,Robotics Society
+EVT-00987,Club Meeting #987,Club Meeting,2026-07-28,Monday,19,2.5,BUS-311,50,33,ACM Student Chapter
+EVT-00988,Study Group #988,Study Group,2026-09-19,Friday,13,1.5,BUS-416,21,20,Academic Senate
+EVT-00989,Career Fair #989,Career Fair,2026-04-24,Monday,9,3.0,CMP-202,36,32,Women in STEM
+EVT-00990,Academic Workshop #990,Academic Workshop,2026-11-17,Friday,19,3.0,ART-109,118,92,Dept of Computer Science
+EVT-00991,Academic Workshop #991,Academic Workshop,2026-07-17,Wednesday,18,1.0,BUS-105,12,5,Engineering Faculty Council
+EVT-00992,Seminar #992,Seminar,2026-02-24,Saturday,9,1.0,ART-303,20,7,Academic Senate
+EVT-00993,Hackathon/Contest #993,Hackathon/Contest,2026-02-22,Monday,16,2.0,ART-109,46,44,Academic Senate
+EVT-00994,Club Meeting #994,Club Meeting,2026-02-04,Tuesday,17,2.5,ART-307,36,28,Business School Advisory
+EVT-00995,Study Group #995,Study Group,2026-12-14,Friday,11,1.0,ART-214,19,16,ACM Student Chapter
+EVT-00996,Career Fair #996,Career Fair,2026-02-17,Wednesday,15,1.5,BUS-113,22,32,Academic Senate
+EVT-00997,Club Meeting #997,Club Meeting,2026-12-05,Friday,18,2.0,BUS-408,16,9,Life Sciences Faculty
+EVT-00998,Club Meeting #998,Club Meeting,2026-06-17,Wednesday,9,1.5,CMP-408,37,29,Engineering Faculty Council
+EVT-00999,Seminar #999,Seminar,2026-06-20,Tuesday,15,1.5,ENG-206,30,28,Dept of Computer Science
+EVT-01000,Seminar #1000,Seminar,2026-10-15,Thursday,18,2.5,ART-311,27,23,ACM Student Chapter
+EVT-01001,Club Meeting #1001,Club Meeting,2026-10-02,Wednesday,11,2.0,ENG-323,11,8,Finance & Investment Club
+EVT-01002,Seminar #1002,Seminar,2026-01-05,Wednesday,9,1.5,ART-105,48,31,Debate Union
+EVT-01003,Faculty Assembly #1003,Faculty Assembly,2026-03-17,Friday,17,3.0,ENG-315,18,12,Academic Senate
+EVT-01004,Seminar #1004,Seminar,2026-11-04,Thursday,18,2.5,ART-101,11,8,Debate Union
+EVT-01005,Hackathon/Contest #1005,Hackathon/Contest,2026-01-03,Thursday,16,3.0,ENG-311,24,17,AI Builders
+EVT-01006,Seminar #1006,Seminar,2026-01-03,Monday,18,2.0,CMP-307,27,18,Life Sciences Faculty
+EVT-01007,Academic Workshop #1007,Academic Workshop,2026-06-27,Saturday,11,2.0,ART-210,31,23,Robotics Society
+EVT-01008,Club Meeting #1008,Club Meeting,2026-10-04,Monday,19,1.5,SCI-218,27,20,Life Sciences Faculty
+EVT-01009,Club Meeting #1009,Club Meeting,2026-01-20,Wednesday,11,1.0,CMP-408,37,27,Dept of Computer Science
+EVT-01010,Study Group #1010,Study Group,2026-07-10,Thursday,17,2.5,CMP-214,13,10,Academic Senate
+EVT-01011,Academic Workshop #1011,Academic Workshop,2026-09-28,Tuesday,9,1.5,BUS-210,16,13,Academic Senate
+EVT-01012,Club Meeting #1012,Club Meeting,2026-09-11,Tuesday,11,3.0,LIB-202,90,53,Life Sciences Faculty
+EVT-01013,Seminar #1013,Seminar,2026-11-10,Thursday,10,2.0,ENG-214,70,50,Engineering Faculty Council
+EVT-01014,Club Meeting #1014,Club Meeting,2026-12-11,Thursday,19,3.0,ENG-307,22,12,ACM Student Chapter
+EVT-01015,Seminar #1015,Seminar,2026-08-16,Saturday,10,2.5,SCI-113,96,60,Design Collective
+EVT-01016,Club Meeting #1016,Club Meeting,2026-06-20,Thursday,17,1.0,CMP-311,17,11,Women in STEM
+EVT-01017,Academic Workshop #1017,Academic Workshop,2026-10-27,Saturday,16,1.0,CMP-420,10,5,Debate Union
+EVT-01018,Club Meeting #1018,Club Meeting,2026-01-07,Tuesday,17,1.0,BUS-101,13,11,Design Collective
+EVT-01019,Seminar #1019,Seminar,2026-05-07,Friday,13,1.5,BUS-319,27,27,Academic Senate
+EVT-01020,Academic Workshop #1020,Academic Workshop,2026-08-10,Friday,13,2.0,SCI-105,18,18,Finance & Investment Club
+EVT-01021,Faculty Assembly #1021,Faculty Assembly,2026-02-10,Tuesday,19,3.0,BUS-117,32,23,Women in STEM
+EVT-01022,Seminar #1022,Seminar,2026-05-22,Monday,9,1.0,LIB-307,18,18,Engineering Faculty Council
+EVT-01023,Career Fair #1023,Career Fair,2026-08-14,Friday,14,3.0,BUS-311,35,42,Women in STEM
+EVT-01024,Club Meeting #1024,Club Meeting,2026-09-25,Tuesday,18,2.5,ART-404,31,21,Academic Senate
+EVT-01025,Faculty Assembly #1025,Faculty Assembly,2026-05-05,Saturday,9,3.0,ART-311,20,5,Debate Union
+EVT-01026,Seminar #1026,Seminar,2026-10-19,Friday,15,1.5,ENG-109,19,9,Life Sciences Faculty
+EVT-01027,Study Group #1027,Study Group,2026-01-14,Monday,14,1.5,CMP-408,20,18,Women in STEM
+EVT-01028,Study Group #1028,Study Group,2026-12-17,Saturday,16,3.0,ART-105,51,33,Debate Union
+EVT-01029,Club Meeting #1029,Club Meeting,2026-02-09,Thursday,10,3.0,CMP-307,20,7,ACM Student Chapter
+EVT-01030,Study Group #1030,Study Group,2026-05-01,Saturday,15,2.0,ENG-125,35,35,Design Collective
+EVT-01031,Study Group #1031,Study Group,2026-10-16,Wednesday,13,1.5,ENG-303,36,22,Debate Union
+EVT-01032,Faculty Assembly #1032,Faculty Assembly,2026-03-03,Monday,19,2.5,ART-315,16,9,ACM Student Chapter
+EVT-01033,Club Meeting #1033,Club Meeting,2026-08-18,Thursday,13,2.0,LIB-311,26,12,Women in STEM
+EVT-01034,Seminar #1034,Seminar,2026-11-08,Friday,17,1.0,ENG-311,12,12,Debate Union
+EVT-01035,Club Meeting #1035,Club Meeting,2026-06-24,Monday,9,2.5,LIB-404,16,19,Academic Senate
+EVT-01036,Hackathon/Contest #1036,Hackathon/Contest,2026-11-08,Thursday,16,2.0,CMP-420,19,26,Engineering Faculty Council
+EVT-01037,Club Meeting #1037,Club Meeting,2026-12-23,Thursday,14,1.0,CMP-420,13,9,ACM Student Chapter
+EVT-01038,Club Meeting #1038,Club Meeting,2026-05-13,Friday,15,2.5,SCI-408,22,8,Design Collective
+EVT-01039,Study Group #1039,Study Group,2026-05-02,Monday,11,2.5,LIB-214,16,13,Robotics Society
+EVT-01040,Club Meeting #1040,Club Meeting,2026-08-08,Tuesday,16,2.0,ART-307,18,15,Women in STEM
+EVT-01041,Hackathon/Contest #1041,Hackathon/Contest,2026-06-06,Monday,18,2.0,LIB-105,26,23,Women in STEM
+EVT-01042,Club Meeting #1042,Club Meeting,2026-11-06,Friday,14,3.0,BUS-101,35,29,ACM Student Chapter
+EVT-01043,Career Fair #1043,Career Fair,2026-05-10,Monday,15,1.0,BUS-113,35,36,Women in STEM
+EVT-01044,Seminar #1044,Seminar,2026-04-06,Wednesday,19,1.0,BUS-101,33,23,Dept of Computer Science
+EVT-01045,Club Meeting #1045,Club Meeting,2026-02-09,Thursday,19,2.0,ART-315,13,6,Life Sciences Faculty
+EVT-01046,Academic Workshop #1046,Academic Workshop,2026-09-11,Saturday,9,2.0,SCI-303,44,27,AI Builders
+EVT-01047,Academic Workshop #1047,Academic Workshop,2026-12-14,Wednesday,13,3.0,ENG-214,158,150,Design Collective
+EVT-01048,Academic Workshop #1048,Academic Workshop,2026-09-28,Saturday,13,2.0,LIB-101,11,6,Academic Senate
+EVT-01049,Seminar #1049,Seminar,2026-03-21,Thursday,15,2.5,CMP-214,18,13,Business School Advisory
+EVT-01050,Club Meeting #1050,Club Meeting,2026-10-01,Friday,19,3.0,SCI-420,141,81,ACM Student Chapter
+EVT-01051,Academic Workshop #1051,Academic Workshop,2026-09-11,Wednesday,10,3.0,ENG-210,30,27,Engineering Faculty Council
+EVT-01052,Hackathon/Contest #1052,Hackathon/Contest,2026-01-15,Monday,18,1.5,SCI-105,16,11,Business School Advisory
+EVT-01053,Academic Workshop #1053,Academic Workshop,2026-09-16,Friday,17,2.5,ENG-206,26,28,Debate Union
+EVT-01054,Club Meeting #1054,Club Meeting,2026-03-24,Thursday,17,1.5,SCI-307,82,49,Engineering Faculty Council
+EVT-01055,Club Meeting #1055,Club Meeting,2026-11-04,Thursday,13,1.0,ENG-105,28,21,Design Collective
+EVT-01056,Academic Workshop #1056,Academic Workshop,2026-03-23,Saturday,17,2.0,ENG-420,14,16,Robotics Society
+EVT-01057,Club Meeting #1057,Club Meeting,2026-12-01,Monday,17,2.5,LIB-210,25,21,Life Sciences Faculty
+EVT-01058,Academic Workshop #1058,Academic Workshop,2026-12-11,Wednesday,13,1.5,CMP-319,28,19,Robotics Society
+EVT-01059,Academic Workshop #1059,Academic Workshop,2026-04-07,Monday,18,1.5,SCI-202,21,14,Debate Union
+EVT-01060,Club Meeting #1060,Club Meeting,2026-01-27,Wednesday,14,1.5,ENG-323,23,16,ACM Student Chapter
+EVT-01061,Seminar #1061,Seminar,2026-12-09,Tuesday,17,2.0,ENG-214,157,132,Dept of Computer Science
+EVT-01062,Club Meeting #1062,Club Meeting,2026-01-15,Thursday,13,2.5,SCI-101,11,9,Design Collective
+EVT-01063,Academic Workshop #1063,Academic Workshop,2026-01-11,Saturday,9,3.0,ART-307,29,13,Finance & Investment Club
+EVT-01064,Study Group #1064,Study Group,2026-11-10,Friday,14,1.0,SCI-315,31,24,Dept of Computer Science
+EVT-01065,Study Group #1065,Study Group,2026-08-18,Monday,10,1.0,BUS-210,36,32,Business School Advisory
+EVT-01066,Career Fair #1066,Career Fair,2026-08-18,Saturday,18,2.5,BUS-206,172,137,Robotics Society
+EVT-01067,Faculty Assembly #1067,Faculty Assembly,2026-09-07,Monday,14,3.0,ENG-416,41,44,Academic Senate
+EVT-01068,Career Fair #1068,Career Fair,2026-11-13,Tuesday,16,2.0,CMP-206,23,32,Life Sciences Faculty
+EVT-01069,Club Meeting #1069,Club Meeting,2026-03-15,Thursday,13,1.0,LIB-408,22,19,AI Builders
+EVT-01070,Study Group #1070,Study Group,2026-11-24,Tuesday,10,3.0,CMP-315,16,17,Business School Advisory
+EVT-01071,Academic Workshop #1071,Academic Workshop,2026-08-19,Tuesday,10,1.5,ART-311,16,6,Finance & Investment Club
+EVT-01072,Study Group #1072,Study Group,2026-03-05,Tuesday,16,1.5,BUS-416,21,16,AI Builders
+EVT-01073,Club Meeting #1073,Club Meeting,2026-11-20,Thursday,13,3.0,BUS-202,128,89,Academic Senate
+EVT-01074,Academic Workshop #1074,Academic Workshop,2026-07-28,Thursday,10,3.0,BUS-206,126,100,Business School Advisory
+EVT-01075,Club Meeting #1075,Club Meeting,2026-09-09,Monday,11,2.0,SCI-101,10,5,Debate Union
+EVT-01076,Seminar #1076,Seminar,2026-05-15,Saturday,14,3.0,BUS-412,54,44,Robotics Society
+EVT-01077,Hackathon/Contest #1077,Hackathon/Contest,2026-09-12,Saturday,17,2.0,LIB-404,22,20,Life Sciences Faculty
+EVT-01078,Club Meeting #1078,Club Meeting,2026-09-17,Friday,13,1.0,CMP-117,27,24,Business School Advisory
+EVT-01079,Seminar #1079,Seminar,2026-01-27,Monday,15,2.0,CMP-404,12,6,Women in STEM
+EVT-01080,Academic Workshop #1080,Academic Workshop,2026-03-14,Saturday,15,2.5,ART-206,23,11,Debate Union
+EVT-01081,Seminar #1081,Seminar,2026-05-25,Wednesday,15,3.0,ENG-307,30,28,Business School Advisory
+EVT-01082,Club Meeting #1082,Club Meeting,2026-01-24,Thursday,18,1.0,ENG-218,15,8,AI Builders
+EVT-01083,Seminar #1083,Seminar,2026-10-15,Thursday,15,1.5,BUS-307,10,5,Dept of Computer Science
+EVT-01084,Career Fair #1084,Career Fair,2026-08-24,Thursday,19,2.5,ART-416,12,14,Life Sciences Faculty
+EVT-01085,Seminar #1085,Seminar,2026-10-12,Tuesday,18,1.0,ENG-416,33,25,Design Collective
+EVT-01086,Academic Workshop #1086,Academic Workshop,2026-06-03,Thursday,11,1.0,CMP-319,11,15,AI Builders
+EVT-01087,Club Meeting #1087,Club Meeting,2026-12-20,Saturday,11,2.0,ENG-218,10,5,ACM Student Chapter
+EVT-01088,Club Meeting #1088,Club Meeting,2026-07-08,Friday,16,1.5,BUS-202,64,38,Engineering Faculty Council
+EVT-01089,Club Meeting #1089,Club Meeting,2026-07-12,Thursday,15,1.5,BUS-109,11,10,Debate Union
+EVT-01090,Career Fair #1090,Career Fair,2026-02-16,Saturday,9,1.0,ENG-214,127,112,ACM Student Chapter
+EVT-01091,Study Group #1091,Study Group,2026-04-22,Monday,11,1.0,BUS-214,18,20,Academic Senate
+EVT-01092,Study Group #1092,Study Group,2026-08-12,Thursday,16,1.0,CMP-109,30,26,Finance & Investment Club
+EVT-01093,Club Meeting #1093,Club Meeting,2026-11-27,Saturday,9,2.5,ART-202,21,20,Finance & Investment Club
+EVT-01094,Club Meeting #1094,Club Meeting,2026-03-21,Tuesday,17,1.0,ART-408,18,16,Finance & Investment Club
+EVT-01095,Faculty Assembly #1095,Faculty Assembly,2026-01-01,Tuesday,15,2.0,BUS-319,27,20,AI Builders
+EVT-01096,Club Meeting #1096,Club Meeting,2026-10-10,Saturday,18,1.5,SCI-214,12,5,Life Sciences Faculty
+EVT-01097,Academic Workshop #1097,Academic Workshop,2026-04-28,Friday,14,2.0,SCI-117,13,12,Academic Senate
+EVT-01098,Study Group #1098,Study Group,2026-08-19,Friday,15,2.5,ENG-303,40,36,Dept of Computer Science
+EVT-01099,Study Group #1099,Study Group,2026-05-07,Wednesday,15,2.5,SCI-311,14,18,Finance & Investment Club
+EVT-01100,Academic Workshop #1100,Academic Workshop,2026-09-05,Saturday,16,2.5,ART-105,55,40,Business School Advisory
+EVT-01101,Academic Workshop #1101,Academic Workshop,2026-04-15,Tuesday,9,2.5,BUS-315,17,13,ACM Student Chapter
+EVT-01102,Faculty Assembly #1102,Faculty Assembly,2026-08-11,Thursday,18,2.0,SCI-202,14,5,Engineering Faculty Council
+EVT-01103,Club Meeting #1103,Club Meeting,2026-08-12,Thursday,9,3.0,LIB-315,10,6,Dept of Computer Science
+EVT-01104,Study Group #1104,Study Group,2026-06-07,Wednesday,9,3.0,ENG-420,25,25,Academic Senate
+EVT-01105,Academic Workshop #1105,Academic Workshop,2026-09-10,Tuesday,9,2.0,BUS-404,39,41,Design Collective
+EVT-01106,Club Meeting #1106,Club Meeting,2026-02-14,Thursday,10,2.5,LIB-210,21,12,Finance & Investment Club
+EVT-01107,Club Meeting #1107,Club Meeting,2026-02-07,Friday,18,1.5,ENG-424,32,24,Academic Senate
+EVT-01108,Study Group #1108,Study Group,2026-12-12,Saturday,17,1.5,ENG-206,14,5,Dept of Computer Science
+EVT-01109,Club Meeting #1109,Club Meeting,2026-06-26,Wednesday,11,2.0,ENG-424,41,25,Finance & Investment Club
+EVT-01110,Seminar #1110,Seminar,2026-08-20,Monday,9,1.0,CMP-206,16,16,Design Collective
+EVT-01111,Career Fair #1111,Career Fair,2026-05-20,Monday,14,2.0,SCI-222,61,64,Life Sciences Faculty
+EVT-01112,Academic Workshop #1112,Academic Workshop,2026-09-02,Thursday,18,2.5,LIB-214,14,5,Academic Senate
+EVT-01113,Academic Workshop #1113,Academic Workshop,2026-11-04,Wednesday,13,1.0,SCI-319,82,78,Debate Union
+EVT-01114,Academic Workshop #1114,Academic Workshop,2026-07-07,Wednesday,9,2.0,CMP-109,17,19,AI Builders
+EVT-01115,Career Fair #1115,Career Fair,2026-12-19,Monday,10,1.0,ENG-117,12,5,Finance & Investment Club
+EVT-01116,Academic Workshop #1116,Academic Workshop,2026-12-05,Thursday,15,2.5,BUS-315,12,11,Business School Advisory
+EVT-01117,Club Meeting #1117,Club Meeting,2026-03-19,Thursday,13,2.0,ENG-125,18,11,Debate Union
+EVT-01118,Club Meeting #1118,Club Meeting,2026-05-11,Saturday,18,3.0,ENG-416,23,17,Finance & Investment Club
+EVT-01119,Faculty Assembly #1119,Faculty Assembly,2026-12-06,Tuesday,19,1.5,CMP-109,24,16,Design Collective
+EVT-01120,Seminar #1120,Seminar,2026-03-25,Saturday,9,2.5,ART-109,107,69,Dept of Computer Science
+EVT-01121,Seminar #1121,Seminar,2026-11-03,Saturday,13,1.5,CMP-303,28,23,Academic Senate
+EVT-01122,Club Meeting #1122,Club Meeting,2026-09-08,Thursday,15,1.0,BUS-315,32,22,Academic Senate
+EVT-01123,Career Fair #1123,Career Fair,2026-11-07,Friday,15,2.0,BUS-307,23,18,AI Builders
+EVT-01124,Club Meeting #1124,Club Meeting,2026-09-19,Tuesday,15,1.5,ART-404,23,12,Dept of Computer Science
+EVT-01125,Hackathon/Contest #1125,Hackathon/Contest,2026-07-02,Saturday,13,3.0,LIB-412,17,20,Robotics Society
+EVT-01126,Academic Workshop #1126,Academic Workshop,2026-03-20,Friday,16,3.0,ENG-121,22,14,Business School Advisory
+EVT-01127,Seminar #1127,Seminar,2026-09-19,Thursday,19,3.0,ART-202,23,17,Engineering Faculty Council
+EVT-01128,Seminar #1128,Seminar,2026-08-11,Thursday,13,1.5,LIB-105,37,28,Debate Union
+EVT-01129,Hackathon/Contest #1129,Hackathon/Contest,2026-04-25,Monday,15,2.0,LIB-307,20,26,Debate Union
+EVT-01130,Hackathon/Contest #1130,Hackathon/Contest,2026-09-20,Tuesday,13,2.5,SCI-311,11,11,Business School Advisory
+EVT-01131,Club Meeting #1131,Club Meeting,2026-10-16,Friday,14,2.5,SCI-412,14,12,ACM Student Chapter
+EVT-01132,Career Fair #1132,Career Fair,2026-02-05,Friday,18,3.0,ART-408,16,10,Life Sciences Faculty
+EVT-01133,Academic Workshop #1133,Academic Workshop,2026-10-21,Friday,15,3.0,ART-105,51,41,Academic Senate
+EVT-01134,Hackathon/Contest #1134,Hackathon/Contest,2026-11-18,Thursday,19,2.0,ART-214,12,18,Academic Senate
+EVT-01135,Club Meeting #1135,Club Meeting,2026-07-07,Wednesday,9,3.0,ART-404,22,12,ACM Student Chapter
+EVT-01136,Study Group #1136,Study Group,2026-12-18,Tuesday,9,1.0,ENG-101,10,6,Robotics Society
+EVT-01137,Academic Workshop #1137,Academic Workshop,2026-01-27,Tuesday,14,1.0,LIB-210,42,33,Business School Advisory
+EVT-01138,Academic Workshop #1138,Academic Workshop,2026-08-22,Monday,11,3.0,SCI-404,15,15,Life Sciences Faculty
+EVT-01139,Academic Workshop #1139,Academic Workshop,2026-03-06,Thursday,14,2.0,ART-404,30,27,Design Collective
+EVT-01140,Faculty Assembly #1140,Faculty Assembly,2026-07-08,Thursday,14,1.0,CMP-113,13,16,Engineering Faculty Council
+EVT-01141,Club Meeting #1141,Club Meeting,2026-06-25,Tuesday,18,2.5,CMP-214,12,7,Debate Union
+EVT-01142,Study Group #1142,Study Group,2026-01-12,Friday,9,2.5,ENG-202,23,25,Debate Union
+EVT-01143,Academic Workshop #1143,Academic Workshop,2026-10-01,Friday,19,3.0,ENG-315,12,5,Robotics Society
+EVT-01144,Academic Workshop #1144,Academic Workshop,2026-09-17,Wednesday,11,1.0,ART-105,44,32,Dept of Computer Science
+EVT-01145,Club Meeting #1145,Club Meeting,2026-04-12,Saturday,9,1.5,SCI-311,21,15,Finance & Investment Club
+EVT-01146,Seminar #1146,Seminar,2026-09-21,Monday,11,1.5,SCI-117,18,18,Life Sciences Faculty
+EVT-01147,Academic Workshop #1147,Academic Workshop,2026-10-02,Friday,14,3.0,ART-101,11,10,ACM Student Chapter
+EVT-01148,Seminar #1148,Seminar,2026-05-25,Friday,10,1.5,ART-412,14,13,ACM Student Chapter
+EVT-01149,Study Group #1149,Study Group,2026-12-16,Wednesday,11,1.5,ART-218,45,40,Dept of Computer Science
+EVT-01150,Seminar #1150,Seminar,2026-07-18,Tuesday,19,2.0,ART-303,33,24,Business School Advisory
+EVT-01151,Hackathon/Contest #1151,Hackathon/Contest,2026-06-09,Thursday,18,1.5,LIB-113,11,13,Finance & Investment Club
+EVT-01152,Club Meeting #1152,Club Meeting,2026-09-18,Friday,19,2.5,ENG-424,20,7,ACM Student Chapter
+EVT-01153,Seminar #1153,Seminar,2026-01-21,Saturday,19,3.0,CMP-307,12,12,ACM Student Chapter
+EVT-01154,Academic Workshop #1154,Academic Workshop,2026-12-15,Friday,19,1.0,LIB-315,21,16,Dept of Computer Science
+EVT-01155,Academic Workshop #1155,Academic Workshop,2026-08-21,Saturday,14,1.5,BUS-311,35,26,Academic Senate
+EVT-01156,Career Fair #1156,Career Fair,2026-12-07,Saturday,10,2.5,LIB-105,16,10,Engineering Faculty Council
+EVT-01157,Study Group #1157,Study Group,2026-05-21,Monday,15,2.0,ENG-315,14,8,Life Sciences Faculty
+EVT-01158,Seminar #1158,Seminar,2026-07-10,Wednesday,11,2.0,ENG-121,12,14,Finance & Investment Club
+EVT-01159,Career Fair #1159,Career Fair,2026-11-19,Tuesday,19,2.0,LIB-311,20,18,Finance & Investment Club
+EVT-01160,Faculty Assembly #1160,Faculty Assembly,2026-05-05,Monday,9,3.0,SCI-412,12,7,Life Sciences Faculty
+EVT-01161,Seminar #1161,Seminar,2026-04-24,Tuesday,14,1.5,CMP-202,35,26,Dept of Computer Science
+EVT-01162,Study Group #1162,Study Group,2026-05-09,Tuesday,17,1.5,ENG-105,25,18,Robotics Society
+EVT-01163,Hackathon/Contest #1163,Hackathon/Contest,2026-09-28,Tuesday,16,1.5,SCI-311,35,39,Academic Senate
+EVT-01164,Hackathon/Contest #1164,Hackathon/Contest,2026-01-11,Tuesday,15,3.0,ART-214,14,19,ACM Student Chapter
+EVT-01165,Club Meeting #1165,Club Meeting,2026-06-16,Friday,17,2.0,CMP-218,51,35,Finance & Investment Club
+EVT-01166,Club Meeting #1166,Club Meeting,2026-08-14,Friday,15,3.0,CMP-210,14,7,Debate Union
+EVT-01167,Faculty Assembly #1167,Faculty Assembly,2026-02-27,Thursday,16,3.0,ART-311,11,10,Design Collective
+EVT-01168,Club Meeting #1168,Club Meeting,2026-02-25,Monday,13,2.5,CMP-319,15,17,Life Sciences Faculty
+EVT-01169,Club Meeting #1169,Club Meeting,2026-08-16,Wednesday,10,1.0,SCI-319,77,51,AI Builders
+EVT-01170,Club Meeting #1170,Club Meeting,2026-03-08,Saturday,16,1.0,LIB-105,28,20,AI Builders
+EVT-01171,Study Group #1171,Study Group,2026-10-03,Thursday,17,2.5,CMP-416,47,44,Robotics Society
+EVT-01172,Study Group #1172,Study Group,2026-07-25,Tuesday,13,1.5,LIB-311,23,26,Finance & Investment Club
+EVT-01173,Club Meeting #1173,Club Meeting,2026-11-21,Monday,16,1.5,BUS-210,28,21,Women in STEM
+EVT-01174,Study Group #1174,Study Group,2026-10-15,Friday,16,3.0,LIB-408,13,10,Engineering Faculty Council
+EVT-01175,Academic Workshop #1175,Academic Workshop,2026-06-18,Monday,11,1.5,SCI-307,78,61,Design Collective
+EVT-01176,Club Meeting #1176,Club Meeting,2026-06-18,Monday,10,2.5,ART-113,28,20,ACM Student Chapter
+EVT-01177,Academic Workshop #1177,Academic Workshop,2026-01-04,Saturday,17,1.0,LIB-214,10,6,ACM Student Chapter
+EVT-01178,Seminar #1178,Seminar,2026-05-03,Wednesday,17,1.5,SCI-420,121,113,Robotics Society
+EVT-01179,Seminar #1179,Seminar,2026-04-27,Saturday,19,2.5,ART-311,17,12,Robotics Society
+EVT-01180,Study Group #1180,Study Group,2026-02-25,Friday,19,2.5,BUS-101,14,20,Debate Union
+EVT-01181,Seminar #1181,Seminar,2026-12-05,Saturday,9,2.5,BUS-408,13,11,Design Collective
+EVT-01182,Study Group #1182,Study Group,2026-09-05,Tuesday,11,2.0,ENG-214,88,69,Life Sciences Faculty
+EVT-01183,Academic Workshop #1183,Academic Workshop,2026-04-18,Wednesday,11,3.0,ART-105,34,37,Debate Union
+EVT-01184,Academic Workshop #1184,Academic Workshop,2026-08-11,Friday,14,1.0,ART-113,15,21,Finance & Investment Club
+EVT-01185,Faculty Assembly #1185,Faculty Assembly,2026-04-04,Wednesday,16,2.5,BUS-404,18,14,Robotics Society
+EVT-01186,Club Meeting #1186,Club Meeting,2026-04-15,Thursday,9,3.0,ART-404,35,15,Dept of Computer Science
+EVT-01187,Club Meeting #1187,Club Meeting,2026-06-05,Wednesday,10,3.0,ART-412,32,21,Finance & Investment Club
+EVT-01188,Academic Workshop #1188,Academic Workshop,2026-01-13,Saturday,13,1.0,ART-214,13,13,Finance & Investment Club
+EVT-01189,Club Meeting #1189,Club Meeting,2026-04-10,Friday,14,2.5,SCI-416,10,10,Academic Senate
+EVT-01190,Club Meeting #1190,Club Meeting,2026-11-11,Thursday,13,2.0,ART-303,40,32,Finance & Investment Club
+EVT-01191,Seminar #1191,Seminar,2026-06-24,Friday,14,3.0,BUS-315,34,25,Academic Senate
+EVT-01192,Academic Workshop #1192,Academic Workshop,2026-08-27,Tuesday,17,2.5,CMP-210,13,11,Design Collective
+EVT-01193,Club Meeting #1193,Club Meeting,2026-05-11,Tuesday,15,3.0,BUS-408,15,11,Dept of Computer Science
+EVT-01194,Study Group #1194,Study Group,2026-07-13,Friday,15,1.5,SCI-109,24,16,ACM Student Chapter
+EVT-01195,Career Fair #1195,Career Fair,2026-02-18,Friday,14,3.0,BUS-206,59,60,AI Builders
+EVT-01196,Academic Workshop #1196,Academic Workshop,2026-08-07,Friday,19,2.5,LIB-210,32,25,Design Collective
+EVT-01197,Career Fair #1197,Career Fair,2026-02-24,Thursday,14,2.0,ART-408,19,21,Women in STEM
+EVT-01198,Club Meeting #1198,Club Meeting,2026-06-11,Thursday,10,2.5,ART-307,19,15,Academic Senate
+EVT-01199,Academic Workshop #1199,Academic Workshop,2026-09-06,Friday,10,1.0,SCI-202,22,21,Business School Advisory
+EVT-01200,Club Meeting #1200,Club Meeting,2026-12-25,Tuesday,19,2.5,ENG-125,25,22,Design Collective
+EVT-01201,Seminar #1201,Seminar,2026-10-14,Friday,19,3.0,BUS-416,28,21,Finance & Investment Club
+EVT-01202,Academic Workshop #1202,Academic Workshop,2026-11-27,Monday,11,1.0,ENG-113,125,97,Finance & Investment Club
+EVT-01203,Hackathon/Contest #1203,Hackathon/Contest,2026-08-05,Wednesday,9,2.0,SCI-206,12,11,Robotics Society
+EVT-01204,Study Group #1204,Study Group,2026-07-26,Friday,11,2.0,LIB-404,13,14,Design Collective
+EVT-01205,Hackathon/Contest #1205,Hackathon/Contest,2026-04-23,Thursday,19,2.0,ART-416,24,24,AI Builders
+EVT-01206,Club Meeting #1206,Club Meeting,2026-04-19,Tuesday,13,2.5,ENG-210,31,23,AI Builders
+EVT-01207,Seminar #1207,Seminar,2026-11-16,Friday,17,2.5,ART-210,37,27,Academic Senate
+EVT-01208,Study Group #1208,Study Group,2026-02-25,Wednesday,17,2.5,ENG-214,73,60,Debate Union
+EVT-01209,Seminar #1209,Seminar,2026-01-01,Monday,10,1.0,ENG-121,21,18,Debate Union
+EVT-01210,Academic Workshop #1210,Academic Workshop,2026-01-14,Tuesday,16,2.5,ENG-109,17,11,Design Collective
+EVT-01211,Study Group #1211,Study Group,2026-06-04,Monday,11,1.0,ENG-412,10,12,Life Sciences Faculty
+EVT-01212,Study Group #1212,Study Group,2026-04-03,Thursday,14,2.5,BUS-218,60,55,ACM Student Chapter
+EVT-01213,Academic Workshop #1213,Academic Workshop,2026-09-11,Monday,16,1.0,ART-307,13,13,Business School Advisory
+EVT-01214,Club Meeting #1214,Club Meeting,2026-05-11,Tuesday,16,1.0,BUS-315,12,16,AI Builders
+EVT-01215,Club Meeting #1215,Club Meeting,2026-07-14,Saturday,10,1.5,CMP-408,38,32,AI Builders
+EVT-01216,Academic Workshop #1216,Academic Workshop,2026-12-24,Saturday,10,2.5,LIB-210,15,15,ACM Student Chapter
+EVT-01217,Study Group #1217,Study Group,2026-01-09,Saturday,16,3.0,ART-202,21,13,AI Builders
+EVT-01218,Club Meeting #1218,Club Meeting,2026-02-09,Thursday,18,2.0,CMP-303,37,30,Life Sciences Faculty
+EVT-01219,Academic Workshop #1219,Academic Workshop,2026-02-11,Wednesday,9,1.0,ENG-210,18,18,Engineering Faculty Council
+EVT-01220,Academic Workshop #1220,Academic Workshop,2026-07-17,Wednesday,13,2.5,CMP-404,19,14,Academic Senate
+EVT-01221,Club Meeting #1221,Club Meeting,2026-01-05,Saturday,19,2.5,CMP-404,22,14,Dept of Computer Science
+EVT-01222,Career Fair #1222,Career Fair,2026-07-04,Wednesday,17,2.0,ENG-113,77,89,Life Sciences Faculty
+EVT-01223,Career Fair #1223,Career Fair,2026-05-12,Wednesday,9,2.0,ENG-109,15,20,Life Sciences Faculty
+EVT-01224,Seminar #1224,Seminar,2026-02-08,Wednesday,11,2.0,BUS-408,27,22,Academic Senate
+EVT-01225,Study Group #1225,Study Group,2026-02-18,Thursday,16,1.0,ENG-210,22,11,Academic Senate
+EVT-01226,Club Meeting #1226,Club Meeting,2026-08-24,Saturday,19,2.0,CMP-311,13,10,Engineering Faculty Council
+EVT-01227,Study Group #1227,Study Group,2026-08-09,Monday,16,2.0,SCI-109,45,37,Debate Union
+EVT-01228,Seminar #1228,Seminar,2026-08-17,Thursday,13,3.0,SCI-303,19,20,Finance & Investment Club
+EVT-01229,Academic Workshop #1229,Academic Workshop,2026-04-27,Saturday,18,2.0,ENG-323,25,19,Dept of Computer Science
+EVT-01230,Seminar #1230,Seminar,2026-02-26,Saturday,10,2.5,ENG-206,20,12,Dept of Computer Science
+EVT-01231,Club Meeting #1231,Club Meeting,2026-09-04,Friday,11,1.5,CMP-117,17,12,Debate Union
+EVT-01232,Academic Workshop #1232,Academic Workshop,2026-08-22,Friday,9,1.5,CMP-420,22,21,Women in STEM
+EVT-01233,Seminar #1233,Seminar,2026-03-19,Tuesday,13,2.5,ART-206,10,5,AI Builders
+EVT-01234,Academic Workshop #1234,Academic Workshop,2026-04-05,Friday,14,1.5,ART-307,39,36,Design Collective
+EVT-01235,Club Meeting #1235,Club Meeting,2026-01-16,Friday,11,1.0,ART-404,21,18,AI Builders
+EVT-01236,Seminar #1236,Seminar,2026-04-03,Saturday,10,2.5,LIB-303,18,17,Robotics Society
+EVT-01237,Club Meeting #1237,Club Meeting,2026-01-07,Saturday,11,2.0,LIB-109,88,65,Design Collective
+EVT-01238,Academic Workshop #1238,Academic Workshop,2026-12-15,Wednesday,18,1.0,ENG-319,28,23,Academic Senate
+EVT-01239,Club Meeting #1239,Club Meeting,2026-11-06,Thursday,19,3.0,CMP-101,20,9,Engineering Faculty Council
+EVT-01240,Study Group #1240,Study Group,2026-10-20,Monday,19,1.5,ART-416,11,12,Life Sciences Faculty
+EVT-01241,Club Meeting #1241,Club Meeting,2026-04-28,Wednesday,13,2.0,CMP-307,22,16,AI Builders
+EVT-01242,Career Fair #1242,Career Fair,2026-01-08,Wednesday,16,3.0,BUS-307,12,14,Engineering Faculty Council
+EVT-01243,Club Meeting #1243,Club Meeting,2026-01-03,Friday,14,2.0,ART-412,11,7,Design Collective
+EVT-01244,Seminar #1244,Seminar,2026-05-22,Monday,9,1.0,ENG-319,32,27,Finance & Investment Club
+EVT-01245,Academic Workshop #1245,Academic Workshop,2026-12-02,Tuesday,18,3.0,CMP-109,32,28,Dept of Computer Science
+EVT-01246,Academic Workshop #1246,Academic Workshop,2026-12-13,Saturday,15,2.5,ENG-315,12,7,Robotics Society
+EVT-01247,Faculty Assembly #1247,Faculty Assembly,2026-03-09,Tuesday,9,2.5,LIB-109,106,94,Business School Advisory
+EVT-01248,Seminar #1248,Seminar,2026-11-10,Tuesday,18,3.0,BUS-420,38,32,Life Sciences Faculty
+EVT-01249,Academic Workshop #1249,Academic Workshop,2026-03-18,Wednesday,10,1.0,LIB-113,25,24,Life Sciences Faculty
+EVT-01250,Study Group #1250,Study Group,2026-08-13,Thursday,15,1.5,SCI-113,86,79,AI Builders
+EVT-01251,Seminar #1251,Seminar,2026-05-06,Tuesday,11,2.0,SCI-121,14,11,AI Builders
+EVT-01252,Study Group #1252,Study Group,2026-08-13,Wednesday,15,3.0,SCI-210,179,144,Finance & Investment Club
+EVT-01253,Club Meeting #1253,Club Meeting,2026-08-11,Friday,19,3.0,CMP-408,26,14,Finance & Investment Club
+EVT-01254,Career Fair #1254,Career Fair,2026-08-02,Monday,11,3.0,CMP-420,24,24,Finance & Investment Club
+EVT-01255,Hackathon/Contest #1255,Hackathon/Contest,2026-11-08,Wednesday,15,3.0,ENG-117,18,27,Robotics Society
+EVT-01256,Club Meeting #1256,Club Meeting,2026-12-18,Tuesday,9,3.0,BUS-311,24,24,Engineering Faculty Council
+EVT-01257,Hackathon/Contest #1257,Hackathon/Contest,2026-07-26,Friday,10,1.0,SCI-214,23,14,Life Sciences Faculty
+EVT-01258,Study Group #1258,Study Group,2026-12-14,Monday,19,2.0,CMP-311,11,14,Design Collective
+EVT-01259,Seminar #1259,Seminar,2026-10-15,Wednesday,15,1.0,SCI-408,14,9,AI Builders
+EVT-01260,Club Meeting #1260,Club Meeting,2026-10-23,Monday,18,2.0,SCI-105,26,22,Design Collective
+EVT-01261,Academic Workshop #1261,Academic Workshop,2026-02-11,Saturday,18,2.0,LIB-113,29,17,AI Builders
+EVT-01262,Seminar #1262,Seminar,2026-05-25,Friday,13,3.0,ART-307,35,22,Design Collective
+EVT-01263,Career Fair #1263,Career Fair,2026-06-19,Wednesday,13,3.0,BUS-311,38,36,Finance & Investment Club
+EVT-01264,Club Meeting #1264,Club Meeting,2026-04-04,Saturday,10,1.0,BUS-109,23,17,Academic Senate
+EVT-01265,Club Meeting #1265,Club Meeting,2026-01-09,Saturday,15,3.0,ART-311,13,5,Academic Senate
+EVT-01266,Hackathon/Contest #1266,Hackathon/Contest,2026-03-17,Thursday,9,3.0,LIB-113,25,26,Life Sciences Faculty
+EVT-01267,Club Meeting #1267,Club Meeting,2026-11-22,Saturday,16,2.5,ENG-416,14,10,AI Builders
+EVT-01268,Seminar #1268,Seminar,2026-01-23,Tuesday,16,1.0,ENG-105,21,15,Life Sciences Faculty
+EVT-01269,Hackathon/Contest #1269,Hackathon/Contest,2026-06-18,Friday,13,1.5,CMP-101,26,30,Life Sciences Faculty
+EVT-01270,Academic Workshop #1270,Academic Workshop,2026-04-17,Saturday,9,2.0,LIB-113,29,14,ACM Student Chapter
+EVT-01271,Club Meeting #1271,Club Meeting,2026-03-10,Monday,16,2.0,SCI-404,21,24,Academic Senate
+EVT-01272,Academic Workshop #1272,Academic Workshop,2026-12-08,Monday,9,2.5,LIB-105,18,12,ACM Student Chapter
+EVT-01273,Career Fair #1273,Career Fair,2026-05-25,Tuesday,14,1.5,ART-416,20,28,Engineering Faculty Council
+EVT-01274,Seminar #1274,Seminar,2026-10-11,Friday,16,1.5,SCI-303,44,35,Life Sciences Faculty
+EVT-01275,Club Meeting #1275,Club Meeting,2026-05-16,Saturday,17,1.5,BUS-420,31,22,Dept of Computer Science
+EVT-01276,Club Meeting #1276,Club Meeting,2026-01-18,Saturday,10,1.0,ART-109,53,35,Debate Union
+EVT-01277,Study Group #1277,Study Group,2026-11-08,Monday,19,1.0,CMP-113,15,5,AI Builders
+EVT-01278,Career Fair #1278,Career Fair,2026-01-05,Monday,14,2.5,SCI-121,10,14,AI Builders
+EVT-01279,Academic Workshop #1279,Academic Workshop,2026-12-09,Saturday,15,3.0,ENG-202,29,21,Debate Union
+EVT-01280,Faculty Assembly #1280,Faculty Assembly,2026-12-09,Saturday,19,2.0,CMP-307,12,11,ACM Student Chapter
+EVT-01281,Academic Workshop #1281,Academic Workshop,2026-05-09,Wednesday,14,3.0,BUS-311,45,51,Business School Advisory
+EVT-01282,Faculty Assembly #1282,Faculty Assembly,2026-09-24,Wednesday,13,1.0,ENG-117,20,20,Academic Senate
+EVT-01283,Academic Workshop #1283,Academic Workshop,2026-01-01,Saturday,10,1.5,SCI-117,23,11,Engineering Faculty Council
+EVT-01284,Seminar #1284,Seminar,2026-10-26,Wednesday,17,2.0,SCI-101,14,15,Engineering Faculty Council
+EVT-01285,Seminar #1285,Seminar,2026-04-01,Saturday,9,2.5,BUS-404,51,27,Design Collective
+EVT-01286,Club Meeting #1286,Club Meeting,2026-08-27,Tuesday,15,1.0,BUS-420,27,24,Engineering Faculty Council
+EVT-01287,Club Meeting #1287,Club Meeting,2026-08-15,Monday,16,1.5,LIB-202,57,35,Debate Union
+EVT-01288,Club Meeting #1288,Club Meeting,2026-10-04,Saturday,14,3.0,LIB-202,100,73,Robotics Society
+EVT-01289,Club Meeting #1289,Club Meeting,2026-03-26,Saturday,13,2.0,ENG-214,113,87,Robotics Society
+EVT-01290,Seminar #1290,Seminar,2026-01-22,Wednesday,13,1.0,ENG-109,19,13,Business School Advisory
+EVT-01291,Club Meeting #1291,Club Meeting,2026-04-10,Saturday,9,1.5,BUS-315,14,13,Business School Advisory
+EVT-01292,Academic Workshop #1292,Academic Workshop,2026-04-27,Friday,16,1.0,ENG-206,29,28,ACM Student Chapter
+EVT-01293,Club Meeting #1293,Club Meeting,2026-09-20,Friday,11,3.0,BUS-319,25,7,Academic Senate
+EVT-01294,Seminar #1294,Seminar,2026-01-27,Wednesday,11,3.0,ART-210,28,18,ACM Student Chapter
+EVT-01295,Study Group #1295,Study Group,2026-02-22,Saturday,11,2.5,BUS-319,39,24,Women in STEM
+EVT-01296,Academic Workshop #1296,Academic Workshop,2026-01-21,Monday,10,3.0,LIB-404,18,12,ACM Student Chapter
+EVT-01297,Seminar #1297,Seminar,2026-12-09,Saturday,15,3.0,ENG-323,14,12,AI Builders
+EVT-01298,Academic Workshop #1298,Academic Workshop,2026-06-18,Wednesday,10,1.0,SCI-214,15,15,Academic Senate
+EVT-01299,Hackathon/Contest #1299,Hackathon/Contest,2026-04-02,Friday,10,3.0,CMP-210,13,12,Academic Senate
+EVT-01300,Seminar #1300,Seminar,2026-05-24,Wednesday,9,1.5,ENG-420,24,20,Robotics Society
+EVT-01301,Career Fair #1301,Career Fair,2026-06-12,Tuesday,9,2.0,SCI-311,20,19,Debate Union
+EVT-01302,Faculty Assembly #1302,Faculty Assembly,2026-11-11,Saturday,15,2.0,ART-113,11,9,Engineering Faculty Council
+EVT-01303,Club Meeting #1303,Club Meeting,2026-08-06,Thursday,15,1.5,SCI-214,18,12,Academic Senate
+EVT-01304,Academic Workshop #1304,Academic Workshop,2026-10-04,Monday,13,2.0,ART-117,32,33,Life Sciences Faculty
+EVT-01305,Club Meeting #1305,Club Meeting,2026-08-25,Friday,14,2.0,CMP-105,26,20,AI Builders
+EVT-01306,Club Meeting #1306,Club Meeting,2026-02-02,Friday,18,1.0,ENG-109,19,21,Finance & Investment Club
+EVT-01307,Study Group #1307,Study Group,2026-02-19,Tuesday,13,1.5,ENG-117,17,12,Academic Senate
+EVT-01308,Club Meeting #1308,Club Meeting,2026-10-01,Thursday,11,1.0,ENG-303,15,7,Design Collective
+EVT-01309,Study Group #1309,Study Group,2026-09-24,Saturday,19,2.0,BUS-311,29,18,Life Sciences Faculty
+EVT-01310,Academic Workshop #1310,Academic Workshop,2026-12-03,Monday,14,2.0,LIB-311,25,23,Dept of Computer Science
+EVT-01311,Academic Workshop #1311,Academic Workshop,2026-10-10,Saturday,13,1.0,BUS-113,18,22,Design Collective
+EVT-01312,Club Meeting #1312,Club Meeting,2026-10-15,Friday,18,1.0,ENG-121,31,19,Engineering Faculty Council
+EVT-01313,Career Fair #1313,Career Fair,2026-07-25,Wednesday,14,1.5,SCI-420,121,122,AI Builders
+EVT-01314,Academic Workshop #1314,Academic Workshop,2026-10-07,Monday,11,3.0,BUS-109,10,5,ACM Student Chapter
+EVT-01315,Club Meeting #1315,Club Meeting,2026-10-25,Friday,17,1.0,ENG-416,23,15,Engineering Faculty Council
+EVT-01316,Study Group #1316,Study Group,2026-03-10,Wednesday,14,2.5,ART-214,14,12,Life Sciences Faculty
+EVT-01317,Study Group #1317,Study Group,2026-05-02,Tuesday,16,2.0,CMP-105,14,13,Design Collective
+EVT-01318,Study Group #1318,Study Group,2026-07-19,Wednesday,11,3.0,ENG-117,21,19,Robotics Society
+EVT-01319,Academic Workshop #1319,Academic Workshop,2026-12-23,Wednesday,14,1.0,BUS-101,16,14,Business School Advisory
+EVT-01320,Club Meeting #1320,Club Meeting,2026-01-04,Saturday,18,2.0,BUS-420,14,14,Finance & Investment Club
+EVT-01321,Faculty Assembly #1321,Faculty Assembly,2026-04-09,Tuesday,18,3.0,CMP-101,18,15,Dept of Computer Science
+EVT-01322,Academic Workshop #1322,Academic Workshop,2026-09-08,Monday,15,2.0,ENG-416,39,36,Life Sciences Faculty
+EVT-01323,Seminar #1323,Seminar,2026-04-04,Saturday,11,3.0,BUS-319,20,10,Dept of Computer Science
+EVT-01324,Seminar #1324,Seminar,2026-01-04,Tuesday,19,2.5,CMP-416,20,9,Debate Union
+EVT-01325,Seminar #1325,Seminar,2026-10-20,Wednesday,9,3.0,ENG-113,82,59,ACM Student Chapter
+EVT-01326,Seminar #1326,Seminar,2026-09-14,Wednesday,19,3.0,BUS-206,114,77,Debate Union
+EVT-01327,Study Group #1327,Study Group,2026-12-02,Thursday,17,3.0,CMP-311,10,11,Debate Union
+EVT-01328,Academic Workshop #1328,Academic Workshop,2026-05-22,Tuesday,16,1.5,ENG-113,81,77,ACM Student Chapter
+EVT-01329,Academic Workshop #1329,Academic Workshop,2026-08-07,Tuesday,13,1.0,BUS-105,13,10,Design Collective
+EVT-01330,Academic Workshop #1330,Academic Workshop,2026-09-19,Saturday,14,2.0,CMP-307,27,19,Business School Advisory
+EVT-01331,Hackathon/Contest #1331,Hackathon/Contest,2026-06-07,Thursday,15,3.0,ART-117,17,16,Robotics Society
+EVT-01332,Study Group #1332,Study Group,2026-02-26,Friday,17,2.0,SCI-210,82,75,Life Sciences Faculty
+EVT-01333,Club Meeting #1333,Club Meeting,2026-05-24,Saturday,19,2.5,LIB-311,27,23,ACM Student Chapter
+EVT-01334,Faculty Assembly #1334,Faculty Assembly,2026-04-08,Monday,14,3.0,ENG-307,16,15,Dept of Computer Science
+EVT-01335,Academic Workshop #1335,Academic Workshop,2026-04-03,Thursday,17,1.5,CMP-315,18,22,AI Builders
+EVT-01336,Club Meeting #1336,Club Meeting,2026-05-28,Thursday,10,2.0,ART-113,23,22,Women in STEM
+EVT-01337,Club Meeting #1337,Club Meeting,2026-01-04,Wednesday,13,2.5,CMP-416,21,15,Design Collective
+EVT-01338,Study Group #1338,Study Group,2026-12-28,Friday,15,1.5,ART-101,11,7,Life Sciences Faculty
+EVT-01339,Club Meeting #1339,Club Meeting,2026-01-03,Wednesday,14,1.5,CMP-416,25,13,Debate Union
+EVT-01340,Seminar #1340,Seminar,2026-12-13,Tuesday,10,1.0,BUS-311,52,34,Business School Advisory
+EVT-01341,Study Group #1341,Study Group,2026-10-02,Friday,11,3.0,BUS-117,34,29,Debate Union
+EVT-01342,Club Meeting #1342,Club Meeting,2026-05-09,Monday,14,1.5,LIB-202,88,59,Academic Senate
+EVT-01343,Seminar #1343,Seminar,2026-08-21,Saturday,19,2.5,BUS-113,37,16,Robotics Society
+EVT-01344,Hackathon/Contest #1344,Hackathon/Contest,2026-08-26,Thursday,16,1.0,SCI-416,24,18,Life Sciences Faculty
+EVT-01345,Academic Workshop #1345,Academic Workshop,2026-02-28,Monday,11,3.0,ART-210,19,19,Engineering Faculty Council
+EVT-01346,Study Group #1346,Study Group,2026-12-21,Tuesday,19,3.0,ENG-105,10,8,AI Builders
+EVT-01347,Seminar #1347,Seminar,2026-10-24,Thursday,14,1.5,SCI-303,27,18,Debate Union
+EVT-01348,Club Meeting #1348,Club Meeting,2026-04-13,Saturday,16,1.5,ENG-323,13,18,AI Builders
+EVT-01349,Study Group #1349,Study Group,2026-02-09,Saturday,16,2.5,ART-206,15,5,Academic Senate
+EVT-01350,Seminar #1350,Seminar,2026-05-26,Thursday,18,2.0,ART-214,16,6,Business School Advisory
+EVT-01351,Faculty Assembly #1351,Faculty Assembly,2026-01-18,Saturday,18,3.0,SCI-319,51,38,Women in STEM
+EVT-01352,Study Group #1352,Study Group,2026-11-19,Monday,17,3.0,CMP-214,22,25,Finance & Investment Club
+EVT-01353,Academic Workshop #1353,Academic Workshop,2026-08-05,Wednesday,13,2.0,BUS-113,41,32,Business School Advisory
+EVT-01354,Career Fair #1354,Career Fair,2026-07-19,Wednesday,17,1.5,CMP-412,59,62,Women in STEM
+EVT-01355,Study Group #1355,Study Group,2026-12-17,Friday,14,2.5,ART-303,28,22,Debate Union
+EVT-01356,Seminar #1356,Seminar,2026-09-12,Tuesday,13,2.5,SCI-222,89,71,Engineering Faculty Council
+EVT-01357,Academic Workshop #1357,Academic Workshop,2026-07-02,Monday,13,2.0,SCI-206,10,9,Dept of Computer Science
+EVT-01358,Seminar #1358,Seminar,2026-01-13,Wednesday,17,1.0,CMP-416,46,53,Robotics Society
+EVT-01359,Club Meeting #1359,Club Meeting,2026-03-17,Friday,16,2.0,CMP-101,13,16,Engineering Faculty Council
+EVT-01360,Seminar #1360,Seminar,2026-12-02,Tuesday,13,3.0,BUS-117,27,24,Debate Union
+EVT-01361,Academic Workshop #1361,Academic Workshop,2026-03-18,Monday,10,2.5,BUS-117,34,30,Business School Advisory
+EVT-01362,Academic Workshop #1362,Academic Workshop,2026-06-24,Thursday,13,2.0,CMP-412,39,39,Dept of Computer Science
+EVT-01363,Hackathon/Contest #1363,Hackathon/Contest,2026-05-06,Tuesday,15,3.0,LIB-210,32,28,Women in STEM
+EVT-01364,Club Meeting #1364,Club Meeting,2026-10-07,Tuesday,9,2.0,BUS-311,27,22,Debate Union
+EVT-01365,Faculty Assembly #1365,Faculty Assembly,2026-07-18,Saturday,13,3.0,SCI-202,10,5,Dept of Computer Science
+EVT-01366,Career Fair #1366,Career Fair,2026-06-01,Friday,10,1.5,BUS-113,35,39,Women in STEM
+EVT-01367,Seminar #1367,Seminar,2026-09-21,Tuesday,15,2.0,CMP-420,18,17,Academic Senate
+EVT-01368,Academic Workshop #1368,Academic Workshop,2026-07-14,Friday,11,1.0,ART-105,32,32,Dept of Computer Science
+EVT-01369,Hackathon/Contest #1369,Hackathon/Contest,2026-06-15,Wednesday,16,1.5,ENG-424,21,17,Engineering Faculty Council
+EVT-01370,Career Fair #1370,Career Fair,2026-06-01,Friday,17,2.0,SCI-202,14,5,Engineering Faculty Council
+EVT-01371,Hackathon/Contest #1371,Hackathon/Contest,2026-07-21,Monday,16,1.0,BUS-319,32,32,Academic Senate
+EVT-01372,Club Meeting #1372,Club Meeting,2026-12-03,Thursday,18,2.0,LIB-210,23,19,AI Builders
+EVT-01373,Seminar #1373,Seminar,2026-01-14,Monday,13,3.0,SCI-117,21,17,AI Builders
+EVT-01374,Club Meeting #1374,Club Meeting,2026-08-08,Saturday,18,2.5,CMP-416,48,28,Engineering Faculty Council
+EVT-01375,Study Group #1375,Study Group,2026-10-20,Thursday,11,1.5,ART-113,30,20,Life Sciences Faculty
+EVT-01376,Seminar #1376,Seminar,2026-10-21,Tuesday,13,1.0,CMP-311,13,20,Business School Advisory
+EVT-01377,Study Group #1377,Study Group,2026-02-14,Monday,11,1.5,ENG-416,36,27,Design Collective
+EVT-01378,Seminar #1378,Seminar,2026-02-19,Tuesday,13,2.0,ENG-319,39,30,Debate Union
+EVT-01379,Club Meeting #1379,Club Meeting,2026-07-27,Friday,14,3.0,ART-109,104,73,Debate Union
+EVT-01380,Seminar #1380,Seminar,2026-04-23,Saturday,11,2.0,SCI-214,22,10,Robotics Society
+EVT-01381,Club Meeting #1381,Club Meeting,2026-05-14,Tuesday,16,1.0,SCI-101,12,9,Finance & Investment Club
+EVT-01382,Club Meeting #1382,Club Meeting,2026-03-26,Monday,15,2.0,LIB-109,214,152,Engineering Faculty Council
+EVT-01383,Academic Workshop #1383,Academic Workshop,2026-04-09,Monday,19,1.5,CMP-311,14,7,ACM Student Chapter
+EVT-01384,Seminar #1384,Seminar,2026-09-01,Wednesday,16,2.5,CMP-109,21,24,Debate Union
+EVT-01385,Academic Workshop #1385,Academic Workshop,2026-02-12,Tuesday,17,2.0,SCI-214,20,19,Life Sciences Faculty
+EVT-01386,Club Meeting #1386,Club Meeting,2026-09-01,Thursday,9,2.5,ART-113,23,18,Engineering Faculty Council
+EVT-01387,Academic Workshop #1387,Academic Workshop,2026-03-24,Tuesday,16,2.0,ENG-424,31,28,Finance & Investment Club
+EVT-01388,Seminar #1388,Seminar,2026-06-15,Monday,15,1.5,CMP-307,21,13,Finance & Investment Club
+EVT-01389,Hackathon/Contest #1389,Hackathon/Contest,2026-06-12,Friday,14,3.0,SCI-105,20,16,AI Builders
+EVT-01390,Career Fair #1390,Career Fair,2026-10-23,Friday,10,1.5,BUS-218,62,59,Finance & Investment Club
+EVT-01391,Hackathon/Contest #1391,Hackathon/Contest,2026-10-20,Wednesday,18,2.5,CMP-101,29,21,ACM Student Chapter
+EVT-01392,Hackathon/Contest #1392,Hackathon/Contest,2026-01-05,Tuesday,16,3.0,ART-408,15,19,Engineering Faculty Council
+EVT-01393,Hackathon/Contest #1393,Hackathon/Contest,2026-08-25,Friday,15,1.5,ART-311,16,9,AI Builders
+EVT-01394,Club Meeting #1394,Club Meeting,2026-11-26,Wednesday,13,1.0,BUS-109,25,21,Engineering Faculty Council
+EVT-01395,Seminar #1395,Seminar,2026-09-11,Thursday,10,2.0,ENG-416,43,30,Robotics Society
+EVT-01396,Seminar #1396,Seminar,2026-07-23,Thursday,19,1.0,ART-307,35,24,AI Builders
+EVT-01397,Academic Workshop #1397,Academic Workshop,2026-07-17,Wednesday,9,1.5,LIB-210,23,25,Design Collective
+EVT-01398,Academic Workshop #1398,Academic Workshop,2026-07-09,Friday,14,2.0,BUS-214,18,17,Robotics Society
+EVT-01399,Academic Workshop #1399,Academic Workshop,2026-11-01,Tuesday,18,3.0,SCI-206,12,14,ACM Student Chapter
+EVT-01400,Seminar #1400,Seminar,2026-10-02,Tuesday,10,3.0,CMP-210,14,6,Finance & Investment Club
+EVT-01401,Faculty Assembly #1401,Faculty Assembly,2026-05-09,Thursday,9,2.5,SCI-412,15,15,Business School Advisory
+EVT-01402,Study Group #1402,Study Group,2026-11-11,Friday,10,2.0,CMP-109,29,28,Robotics Society
+EVT-01403,Seminar #1403,Seminar,2026-08-26,Wednesday,14,1.5,BUS-412,47,42,ACM Student Chapter
+EVT-01404,Study Group #1404,Study Group,2026-04-06,Friday,13,2.0,ENG-303,41,37,Women in STEM
+EVT-01405,Club Meeting #1405,Club Meeting,2026-03-04,Wednesday,16,1.5,LIB-315,26,22,Women in STEM
+EVT-01406,Career Fair #1406,Career Fair,2026-08-28,Saturday,14,1.0,BUS-307,17,14,Robotics Society
+EVT-01407,Club Meeting #1407,Club Meeting,2026-05-11,Thursday,19,1.0,BUS-319,23,29,Design Collective
+EVT-01408,Career Fair #1408,Career Fair,2026-03-09,Thursday,16,1.0,SCI-222,119,136,Engineering Faculty Council
+EVT-01409,Club Meeting #1409,Club Meeting,2026-12-02,Friday,18,3.0,SCI-404,38,24,Life Sciences Faculty
+EVT-01410,Seminar #1410,Seminar,2026-09-03,Saturday,14,3.0,ART-117,19,6,Academic Senate
+EVT-01411,Career Fair #1411,Career Fair,2026-12-21,Monday,15,3.0,CMP-412,78,82,Engineering Faculty Council
+EVT-01412,Seminar #1412,Seminar,2026-08-20,Friday,17,1.5,ART-218,39,32,Design Collective
+EVT-01413,Academic Workshop #1413,Academic Workshop,2026-01-07,Friday,9,2.5,CMP-101,25,26,Women in STEM
+EVT-01414,Academic Workshop #1414,Academic Workshop,2026-03-26,Monday,16,1.5,ART-307,34,33,Life Sciences Faculty
+EVT-01415,Study Group #1415,Study Group,2026-07-28,Thursday,17,2.5,CMP-416,21,16,Dept of Computer Science
+EVT-01416,Seminar #1416,Seminar,2026-09-12,Friday,19,1.0,LIB-214,13,8,Life Sciences Faculty
+EVT-01417,Academic Workshop #1417,Academic Workshop,2026-09-06,Monday,11,2.0,SCI-117,20,18,Dept of Computer Science
+EVT-01418,Academic Workshop #1418,Academic Workshop,2026-06-17,Tuesday,11,1.0,BUS-101,20,19,Engineering Faculty Council
+EVT-01419,Club Meeting #1419,Club Meeting,2026-05-24,Tuesday,17,1.0,BUS-105,15,6,AI Builders
+EVT-01420,Academic Workshop #1420,Academic Workshop,2026-02-18,Friday,10,2.0,CMP-408,48,31,AI Builders
+EVT-01421,Club Meeting #1421,Club Meeting,2026-09-11,Monday,15,1.0,ENG-307,33,29,Robotics Society
+EVT-01422,Hackathon/Contest #1422,Hackathon/Contest,2026-10-08,Tuesday,9,2.0,BUS-218,76,68,AI Builders
+EVT-01423,Faculty Assembly #1423,Faculty Assembly,2026-09-05,Thursday,17,1.5,ENG-416,15,14,Finance & Investment Club
+EVT-01424,Club Meeting #1424,Club Meeting,2026-05-17,Saturday,15,2.0,SCI-109,41,30,ACM Student Chapter
+EVT-01425,Club Meeting #1425,Club Meeting,2026-04-10,Saturday,14,2.0,LIB-307,30,22,ACM Student Chapter
+EVT-01426,Club Meeting #1426,Club Meeting,2026-07-02,Saturday,17,1.5,ENG-424,41,33,Robotics Society
+EVT-01427,Career Fair #1427,Career Fair,2026-06-20,Friday,9,1.5,CMP-202,37,38,ACM Student Chapter
+EVT-01428,Study Group #1428,Study Group,2026-09-05,Saturday,9,2.5,LIB-412,25,15,Debate Union
+EVT-01429,Seminar #1429,Seminar,2026-07-25,Wednesday,14,3.0,CMP-404,12,10,Academic Senate
+EVT-01430,Club Meeting #1430,Club Meeting,2026-11-18,Wednesday,14,3.0,ART-412,24,18,Business School Advisory
+EVT-01431,Seminar #1431,Seminar,2026-05-12,Saturday,19,2.5,BUS-214,10,5,Business School Advisory
+EVT-01432,Academic Workshop #1432,Academic Workshop,2026-04-12,Thursday,18,1.0,LIB-404,10,12,ACM Student Chapter
+EVT-01433,Hackathon/Contest #1433,Hackathon/Contest,2026-11-22,Friday,13,2.0,SCI-218,31,31,Engineering Faculty Council
+EVT-01434,Academic Workshop #1434,Academic Workshop,2026-04-27,Friday,19,2.5,SCI-315,28,28,Business School Advisory
+EVT-01435,Academic Workshop #1435,Academic Workshop,2026-01-06,Monday,9,2.5,ENG-101,19,13,Academic Senate
+EVT-01436,Seminar #1436,Seminar,2026-03-16,Tuesday,10,1.5,ENG-105,31,25,Engineering Faculty Council
+EVT-01437,Academic Workshop #1437,Academic Workshop,2026-08-27,Wednesday,19,1.0,ENG-315,11,6,Women in STEM
+EVT-01438,Study Group #1438,Study Group,2026-10-10,Monday,16,2.5,SCI-420,164,142,Business School Advisory
+EVT-01439,Study Group #1439,Study Group,2026-07-20,Tuesday,16,3.0,SCI-319,74,70,ACM Student Chapter
+EVT-01440,Career Fair #1440,Career Fair,2026-06-07,Thursday,13,3.0,SCI-214,10,14,Life Sciences Faculty
+EVT-01441,Club Meeting #1441,Club Meeting,2026-07-15,Tuesday,16,1.5,CMP-307,22,10,Business School Advisory
+EVT-01442,Club Meeting #1442,Club Meeting,2026-08-20,Thursday,18,1.5,SCI-404,37,12,Finance & Investment Club
+EVT-01443,Seminar #1443,Seminar,2026-08-13,Wednesday,14,1.0,SCI-218,26,20,ACM Student Chapter
+EVT-01444,Study Group #1444,Study Group,2026-03-19,Saturday,15,2.0,CMP-105,27,21,Academic Senate
+EVT-01445,Study Group #1445,Study Group,2026-02-05,Wednesday,9,1.5,BUS-319,12,10,Finance & Investment Club
+EVT-01446,Study Group #1446,Study Group,2026-10-12,Wednesday,14,3.0,CMP-105,10,7,Academic Senate
+EVT-01447,Academic Workshop #1447,Academic Workshop,2026-03-23,Thursday,15,3.0,ENG-101,15,17,Engineering Faculty Council
+EVT-01448,Club Meeting #1448,Club Meeting,2026-08-26,Thursday,18,2.0,SCI-109,21,5,Life Sciences Faculty
+EVT-01449,Study Group #1449,Study Group,2026-10-05,Saturday,13,1.5,BUS-319,24,20,Design Collective
+EVT-01450,Club Meeting #1450,Club Meeting,2026-05-22,Wednesday,11,2.0,LIB-206,104,68,Women in STEM
+EVT-01451,Career Fair #1451,Career Fair,2026-01-10,Tuesday,14,2.0,BUS-210,26,33,Life Sciences Faculty
+EVT-01452,Club Meeting #1452,Club Meeting,2026-11-04,Wednesday,16,2.0,SCI-109,46,35,AI Builders
+EVT-01453,Study Group #1453,Study Group,2026-06-07,Saturday,17,3.0,ART-303,39,22,Finance & Investment Club
+EVT-01454,Club Meeting #1454,Club Meeting,2026-09-16,Tuesday,11,2.0,LIB-408,22,25,Academic Senate
+EVT-01455,Academic Workshop #1455,Academic Workshop,2026-09-16,Tuesday,14,2.0,CMP-311,14,11,Business School Advisory
+EVT-01456,Faculty Assembly #1456,Faculty Assembly,2026-07-03,Wednesday,17,3.0,SCI-206,12,8,Robotics Society
+EVT-01457,Seminar #1457,Seminar,2026-01-24,Monday,14,2.0,SCI-101,14,11,Finance & Investment Club
+EVT-01458,Seminar #1458,Seminar,2026-01-07,Tuesday,19,1.0,CMP-412,76,55,Academic Senate
+EVT-01459,Seminar #1459,Seminar,2026-03-12,Monday,17,1.5,ART-206,20,21,ACM Student Chapter
+EVT-01460,Study Group #1460,Study Group,2026-10-16,Wednesday,11,1.0,BUS-117,38,30,Debate Union
+EVT-01461,Study Group #1461,Study Group,2026-08-14,Saturday,9,2.5,LIB-315,12,9,Women in STEM
+EVT-01462,Club Meeting #1462,Club Meeting,2026-07-23,Monday,17,2.5,BUS-404,19,10,Business School Advisory
+EVT-01463,Club Meeting #1463,Club Meeting,2026-06-26,Saturday,11,1.5,ENG-408,138,101,Engineering Faculty Council
+EVT-01464,Career Fair #1464,Career Fair,2026-07-23,Monday,18,2.0,ENG-117,17,14,Debate Union
+EVT-01465,Career Fair #1465,Career Fair,2026-09-02,Thursday,18,2.0,BUS-311,52,48,Dept of Computer Science
+EVT-01466,Club Meeting #1466,Club Meeting,2026-04-11,Monday,9,1.0,ENG-315,13,8,Design Collective
+EVT-01467,Seminar #1467,Seminar,2026-02-26,Tuesday,14,3.0,SCI-109,55,47,Life Sciences Faculty
+EVT-01468,Club Meeting #1468,Club Meeting,2026-04-03,Thursday,14,2.5,BUS-416,37,30,Women in STEM
+EVT-01469,Seminar #1469,Seminar,2026-10-24,Monday,10,2.5,SCI-210,90,72,Academic Senate
+EVT-01470,Club Meeting #1470,Club Meeting,2026-03-25,Tuesday,19,2.5,ART-307,24,19,Life Sciences Faculty
+EVT-01471,Career Fair #1471,Career Fair,2026-01-06,Thursday,17,1.0,BUS-404,52,55,Debate Union
+EVT-01472,Career Fair #1472,Career Fair,2026-11-03,Thursday,11,1.0,CMP-210,13,10,Life Sciences Faculty
+EVT-01473,Club Meeting #1473,Club Meeting,2026-04-15,Saturday,18,3.0,LIB-412,29,23,Academic Senate
+EVT-01474,Study Group #1474,Study Group,2026-06-13,Tuesday,11,1.5,LIB-206,87,81,AI Builders
+EVT-01475,Hackathon/Contest #1475,Hackathon/Contest,2026-12-09,Friday,15,1.0,SCI-420,66,74,Robotics Society
+EVT-01476,Study Group #1476,Study Group,2026-09-25,Wednesday,15,3.0,BUS-307,17,20,Engineering Faculty Council
+EVT-01477,Study Group #1477,Study Group,2026-10-25,Saturday,11,2.0,SCI-311,23,12,Robotics Society
+EVT-01478,Academic Workshop #1478,Academic Workshop,2026-03-25,Monday,18,3.0,ART-311,22,16,Engineering Faculty Council
+EVT-01479,Academic Workshop #1479,Academic Workshop,2026-04-10,Tuesday,15,2.0,SCI-218,29,24,Debate Union
+EVT-01480,Academic Workshop #1480,Academic Workshop,2026-02-24,Thursday,9,2.0,CMP-319,15,15,Debate Union
+EVT-01481,Study Group #1481,Study Group,2026-08-19,Wednesday,18,1.0,CMP-206,11,11,AI Builders
+EVT-01482,Academic Workshop #1482,Academic Workshop,2026-07-13,Thursday,9,2.5,SCI-105,29,21,ACM Student Chapter
+EVT-01483,Club Meeting #1483,Club Meeting,2026-03-07,Saturday,13,2.5,ART-113,14,22,Engineering Faculty Council
+EVT-01484,Academic Workshop #1484,Academic Workshop,2026-06-27,Tuesday,15,1.0,ENG-222,38,35,Engineering Faculty Council
+EVT-01485,Academic Workshop #1485,Academic Workshop,2026-06-08,Tuesday,16,3.0,CMP-105,18,22,Dept of Computer Science
+EVT-01486,Study Group #1486,Study Group,2026-09-27,Friday,14,1.0,CMP-202,32,24,Design Collective
+EVT-01487,Club Meeting #1487,Club Meeting,2026-07-26,Wednesday,18,2.5,ENG-315,19,9,Debate Union
+EVT-01488,Seminar #1488,Seminar,2026-03-08,Wednesday,19,1.5,BUS-109,20,8,Engineering Faculty Council
+EVT-01489,Club Meeting #1489,Club Meeting,2026-08-01,Saturday,11,1.0,ART-105,23,18,Robotics Society
+EVT-01490,Faculty Assembly #1490,Faculty Assembly,2026-04-16,Thursday,13,2.0,CMP-307,14,15,Life Sciences Faculty
+EVT-01491,Seminar #1491,Seminar,2026-02-27,Tuesday,19,1.5,ART-416,16,7,Business School Advisory
+EVT-01492,Academic Workshop #1492,Academic Workshop,2026-08-27,Saturday,19,2.5,BUS-214,11,12,Life Sciences Faculty
+EVT-01493,Seminar #1493,Seminar,2026-02-25,Wednesday,10,1.0,ENG-202,17,15,Engineering Faculty Council
+EVT-01494,Academic Workshop #1494,Academic Workshop,2026-04-22,Wednesday,11,1.0,CMP-109,28,17,Women in STEM
+EVT-01495,Hackathon/Contest #1495,Hackathon/Contest,2026-08-24,Monday,15,1.5,LIB-109,194,204,Business School Advisory
+EVT-01496,Club Meeting #1496,Club Meeting,2026-07-14,Monday,15,1.5,SCI-404,15,14,Debate Union
+EVT-01497,Seminar #1497,Seminar,2026-02-16,Saturday,15,1.0,ART-307,22,13,Engineering Faculty Council
+EVT-01498,Club Meeting #1498,Club Meeting,2026-08-12,Wednesday,9,1.0,ART-206,13,9,Finance & Investment Club
+EVT-01499,Study Group #1499,Study Group,2026-03-18,Thursday,18,1.5,BUS-117,38,35,Academic Senate
+EVT-01500,Seminar #1500,Seminar,2026-07-21,Monday,18,1.0,BUS-404,42,30,Women in STEM
+EVT-01501,Academic Workshop #1501,Academic Workshop,2026-12-12,Friday,11,1.0,LIB-113,25,26,Women in STEM
+EVT-01502,Seminar #1502,Seminar,2026-02-17,Tuesday,13,3.0,SCI-218,35,23,Robotics Society
+EVT-01503,Academic Workshop #1503,Academic Workshop,2026-04-06,Friday,14,1.5,CMP-105,23,27,Robotics Society
+EVT-01504,Study Group #1504,Study Group,2026-06-09,Saturday,19,1.5,BUS-113,22,11,Business School Advisory
+EVT-01505,Club Meeting #1505,Club Meeting,2026-08-22,Friday,17,2.0,ENG-101,19,21,Academic Senate
+EVT-01506,Seminar #1506,Seminar,2026-07-26,Friday,18,2.5,CMP-117,28,20,ACM Student Chapter
+EVT-01507,Career Fair #1507,Career Fair,2026-12-06,Friday,19,3.0,LIB-210,17,15,Dept of Computer Science
+EVT-01508,Hackathon/Contest #1508,Hackathon/Contest,2026-08-21,Monday,19,1.5,LIB-210,22,16,Dept of Computer Science
+EVT-01509,Academic Workshop #1509,Academic Workshop,2026-07-14,Saturday,13,1.0,BUS-311,24,26,Business School Advisory
+EVT-01510,Club Meeting #1510,Club Meeting,2026-06-28,Monday,9,1.5,BUS-408,15,10,Business School Advisory
+EVT-01511,Academic Workshop #1511,Academic Workshop,2026-06-20,Wednesday,13,1.0,LIB-404,24,25,Design Collective
+EVT-01512,Academic Workshop #1512,Academic Workshop,2026-01-08,Saturday,9,2.0,ENG-303,38,26,AI Builders
+EVT-01513,Academic Workshop #1513,Academic Workshop,2026-01-01,Saturday,13,3.0,BUS-420,38,25,Engineering Faculty Council
+EVT-01514,Academic Workshop #1514,Academic Workshop,2026-04-05,Friday,11,1.5,ART-210,22,21,Engineering Faculty Council
+EVT-01515,Seminar #1515,Seminar,2026-05-11,Wednesday,9,2.5,CMP-319,11,6,Engineering Faculty Council
+EVT-01516,Academic Workshop #1516,Academic Workshop,2026-02-25,Thursday,13,3.0,BUS-311,26,26,Finance & Investment Club
+EVT-01517,Club Meeting #1517,Club Meeting,2026-07-25,Monday,11,2.5,CMP-218,24,12,Design Collective
+EVT-01518,Academic Workshop #1518,Academic Workshop,2026-06-06,Wednesday,19,2.0,ENG-125,27,23,Debate Union
+EVT-01519,Seminar #1519,Seminar,2026-06-08,Tuesday,14,1.0,ENG-303,35,33,AI Builders
+EVT-01520,Faculty Assembly #1520,Faculty Assembly,2026-12-10,Friday,15,1.5,BUS-113,32,34,Academic Senate
+EVT-01521,Faculty Assembly #1521,Faculty Assembly,2026-12-21,Friday,19,1.5,CMP-117,21,12,Academic Senate
+EVT-01522,Study Group #1522,Study Group,2026-07-12,Tuesday,14,2.5,ART-113,20,12,Women in STEM
+EVT-01523,Academic Workshop #1523,Academic Workshop,2026-06-28,Wednesday,16,2.5,SCI-206,11,10,Debate Union
+EVT-01524,Club Meeting #1524,Club Meeting,2026-05-27,Saturday,9,2.0,ENG-319,29,21,Women in STEM
+EVT-01525,Career Fair #1525,Career Fair,2026-12-26,Wednesday,11,1.5,ENG-113,110,105,ACM Student Chapter
+EVT-01526,Faculty Assembly #1526,Faculty Assembly,2026-06-10,Saturday,10,2.0,ENG-214,59,39,Dept of Computer Science
+EVT-01527,Career Fair #1527,Career Fair,2026-03-22,Thursday,14,1.5,SCI-206,13,14,Design Collective
+EVT-01528,Faculty Assembly #1528,Faculty Assembly,2026-12-04,Thursday,19,3.0,SCI-303,23,26,Engineering Faculty Council
+EVT-01529,Seminar #1529,Seminar,2026-02-05,Tuesday,18,2.5,CMP-412,31,19,Debate Union
+EVT-01530,Club Meeting #1530,Club Meeting,2026-03-09,Saturday,13,1.0,SCI-311,34,32,ACM Student Chapter
+EVT-01531,Academic Workshop #1531,Academic Workshop,2026-10-23,Friday,9,3.0,ENG-210,22,21,Finance & Investment Club
+EVT-01532,Academic Workshop #1532,Academic Workshop,2026-02-20,Saturday,10,1.0,ENG-412,24,20,Robotics Society
+EVT-01533,Study Group #1533,Study Group,2026-09-24,Tuesday,14,1.0,ART-214,15,20,ACM Student Chapter
+EVT-01534,Club Meeting #1534,Club Meeting,2026-12-14,Friday,14,3.0,ENG-323,10,5,Women in STEM
+EVT-01535,Academic Workshop #1535,Academic Workshop,2026-01-01,Thursday,9,1.5,ENG-222,36,24,Dept of Computer Science
+EVT-01536,Academic Workshop #1536,Academic Workshop,2026-02-01,Saturday,13,3.0,SCI-210,151,113,Robotics Society
+EVT-01537,Hackathon/Contest #1537,Hackathon/Contest,2026-12-28,Saturday,10,1.0,LIB-210,41,43,Design Collective
+EVT-01538,Club Meeting #1538,Club Meeting,2026-04-20,Monday,16,2.5,LIB-101,15,11,Design Collective
+EVT-01539,Academic Workshop #1539,Academic Workshop,2026-04-14,Thursday,16,2.0,ENG-307,28,26,Robotics Society
+EVT-01540,Study Group #1540,Study Group,2026-02-09,Thursday,14,1.0,CMP-420,18,17,Academic Senate
+EVT-01541,Study Group #1541,Study Group,2026-01-17,Thursday,15,2.0,ART-105,51,45,Robotics Society
+EVT-01542,Faculty Assembly #1542,Faculty Assembly,2026-06-01,Thursday,18,2.0,LIB-214,11,8,Women in STEM
+EVT-01543,Hackathon/Contest #1543,Hackathon/Contest,2026-12-03,Thursday,9,2.5,ART-315,24,22,AI Builders
+EVT-01544,Club Meeting #1544,Club Meeting,2026-04-04,Saturday,19,1.5,CMP-303,21,10,Life Sciences Faculty
+EVT-01545,Club Meeting #1545,Club Meeting,2026-09-08,Thursday,18,2.0,BUS-210,24,16,Debate Union
+EVT-01546,Career Fair #1546,Career Fair,2026-09-18,Monday,13,1.0,LIB-214,16,23,Debate Union
+EVT-01547,Club Meeting #1547,Club Meeting,2026-04-04,Wednesday,9,1.5,LIB-404,32,22,Finance & Investment Club
+EVT-01548,Study Group #1548,Study Group,2026-04-27,Monday,14,1.5,CMP-206,21,13,Academic Senate
+EVT-01549,Academic Workshop #1549,Academic Workshop,2026-04-19,Wednesday,11,3.0,SCI-206,12,5,ACM Student Chapter
+EVT-01550,Academic Workshop #1550,Academic Workshop,2026-11-06,Friday,17,1.5,LIB-206,90,85,AI Builders
+EVT-01551,Academic Workshop #1551,Academic Workshop,2026-02-21,Tuesday,14,1.5,SCI-412,22,21,Robotics Society
+EVT-01552,Academic Workshop #1552,Academic Workshop,2026-02-15,Tuesday,13,2.0,BUS-311,46,54,Design Collective
+EVT-01553,Seminar #1553,Seminar,2026-10-20,Monday,19,2.5,CMP-408,44,40,Life Sciences Faculty
+EVT-01554,Career Fair #1554,Career Fair,2026-06-19,Monday,11,1.5,SCI-210,159,148,Academic Senate
+EVT-01555,Club Meeting #1555,Club Meeting,2026-05-06,Saturday,18,2.0,CMP-210,26,17,Academic Senate
+EVT-01556,Club Meeting #1556,Club Meeting,2026-07-08,Monday,15,3.0,SCI-404,13,5,Academic Senate
+EVT-01557,Seminar #1557,Seminar,2026-09-04,Saturday,18,1.0,ART-416,10,5,AI Builders
+EVT-01558,Career Fair #1558,Career Fair,2026-11-17,Thursday,16,2.5,BUS-412,28,29,Dept of Computer Science
+EVT-01559,Study Group #1559,Study Group,2026-03-21,Monday,17,2.5,CMP-206,27,22,Dept of Computer Science
+EVT-01560,Career Fair #1560,Career Fair,2026-05-26,Tuesday,18,3.0,BUS-117,23,22,Design Collective
+EVT-01561,Academic Workshop #1561,Academic Workshop,2026-06-12,Tuesday,19,1.5,CMP-105,21,23,Design Collective
+EVT-01562,Club Meeting #1562,Club Meeting,2026-08-18,Monday,18,1.0,BUS-315,23,17,Finance & Investment Club
+EVT-01563,Hackathon/Contest #1563,Hackathon/Contest,2026-06-03,Friday,16,3.0,CMP-210,15,14,AI Builders
+EVT-01564,Club Meeting #1564,Club Meeting,2026-09-03,Saturday,15,2.5,ENG-113,158,114,Design Collective
+EVT-01565,Seminar #1565,Seminar,2026-02-11,Monday,11,1.5,ENG-315,17,13,Women in STEM
+EVT-01566,Club Meeting #1566,Club Meeting,2026-01-06,Thursday,10,1.5,LIB-408,26,18,Design Collective
+EVT-01567,Hackathon/Contest #1567,Hackathon/Contest,2026-06-18,Monday,19,1.5,LIB-315,26,25,Finance & Investment Club
+EVT-01568,Academic Workshop #1568,Academic Workshop,2026-02-17,Wednesday,17,2.0,SCI-206,12,11,Robotics Society
+EVT-01569,Club Meeting #1569,Club Meeting,2026-12-03,Saturday,19,2.0,BUS-206,166,106,Academic Senate
+EVT-01570,Club Meeting #1570,Club Meeting,2026-05-14,Saturday,18,1.0,ART-214,15,5,AI Builders
+EVT-01571,Club Meeting #1571,Club Meeting,2026-05-07,Tuesday,18,2.5,ENG-210,16,5,AI Builders
+EVT-01572,Seminar #1572,Seminar,2026-07-12,Wednesday,9,1.5,CMP-113,15,12,Robotics Society
+EVT-01573,Academic Workshop #1573,Academic Workshop,2026-11-17,Thursday,19,3.0,LIB-404,29,31,Academic Senate
+EVT-01574,Club Meeting #1574,Club Meeting,2026-12-20,Wednesday,10,1.0,ENG-404,13,9,Life Sciences Faculty
+EVT-01575,Club Meeting #1575,Club Meeting,2026-09-01,Saturday,11,2.0,ART-408,13,16,Debate Union
+EVT-01576,Seminar #1576,Seminar,2026-07-13,Friday,11,2.5,BUS-202,102,78,Engineering Faculty Council
+EVT-01577,Academic Workshop #1577,Academic Workshop,2026-08-14,Thursday,17,2.0,SCI-214,18,14,Business School Advisory
+EVT-01578,Academic Workshop #1578,Academic Workshop,2026-01-07,Wednesday,15,3.0,BUS-206,137,118,AI Builders
+EVT-01579,Academic Workshop #1579,Academic Workshop,2026-05-08,Wednesday,11,1.0,ENG-218,12,16,Dept of Computer Science
+EVT-01580,Academic Workshop #1580,Academic Workshop,2026-04-20,Wednesday,13,1.0,ENG-404,23,22,Robotics Society
+EVT-01581,Academic Workshop #1581,Academic Workshop,2026-08-13,Saturday,14,1.0,LIB-303,23,14,Women in STEM
+EVT-01582,Academic Workshop #1582,Academic Workshop,2026-06-03,Wednesday,19,1.0,BUS-218,82,66,Women in STEM
+EVT-01583,Academic Workshop #1583,Academic Workshop,2026-05-18,Thursday,10,1.5,SCI-303,21,23,Life Sciences Faculty
+EVT-01584,Club Meeting #1584,Club Meeting,2026-02-05,Monday,13,2.5,BUS-319,24,21,Design Collective
+EVT-01585,Club Meeting #1585,Club Meeting,2026-03-17,Friday,9,2.5,CMP-214,25,15,Finance & Investment Club
+EVT-01586,Club Meeting #1586,Club Meeting,2026-11-14,Wednesday,10,2.0,CMP-202,20,16,Engineering Faculty Council
+EVT-01587,Academic Workshop #1587,Academic Workshop,2026-01-22,Monday,9,2.0,ART-101,12,13,Dept of Computer Science
+EVT-01588,Seminar #1588,Seminar,2026-07-12,Saturday,9,1.0,CMP-210,26,22,Business School Advisory
+EVT-01589,Club Meeting #1589,Club Meeting,2026-02-28,Saturday,19,2.0,SCI-408,25,8,Women in STEM
+EVT-01590,Seminar #1590,Seminar,2026-03-03,Tuesday,13,1.0,ENG-307,16,15,ACM Student Chapter
+EVT-01591,Club Meeting #1591,Club Meeting,2026-02-26,Thursday,11,2.0,ENG-202,17,14,Finance & Investment Club
+EVT-01592,Seminar #1592,Seminar,2026-05-17,Friday,16,1.5,LIB-315,19,20,Debate Union
+EVT-01593,Academic Workshop #1593,Academic Workshop,2026-11-12,Tuesday,16,3.0,SCI-113,192,168,ACM Student Chapter
+EVT-01594,Academic Workshop #1594,Academic Workshop,2026-04-12,Thursday,19,2.5,BUS-109,26,23,Women in STEM
+EVT-01595,Seminar #1595,Seminar,2026-07-03,Thursday,16,2.5,LIB-307,26,24,Dept of Computer Science
+EVT-01596,Seminar #1596,Seminar,2026-10-03,Saturday,17,2.0,ENG-424,45,26,Robotics Society
+EVT-01597,Academic Workshop #1597,Academic Workshop,2026-12-14,Tuesday,14,3.0,ART-202,15,10,Dept of Computer Science
+EVT-01598,Seminar #1598,Seminar,2026-06-14,Thursday,13,2.5,ENG-214,55,53,AI Builders
+EVT-01599,Career Fair #1599,Career Fair,2026-09-27,Thursday,19,2.0,BUS-109,20,10,Life Sciences Faculty
+EVT-01600,Seminar #1600,Seminar,2026-08-14,Friday,11,1.0,SCI-319,54,44,Design Collective
+EVT-01601,Study Group #1601,Study Group,2026-01-14,Thursday,18,1.0,ART-210,37,36,Debate Union
+EVT-01602,Club Meeting #1602,Club Meeting,2026-07-05,Wednesday,9,1.5,ART-105,20,17,Business School Advisory
+EVT-01603,Club Meeting #1603,Club Meeting,2026-02-27,Friday,16,2.5,LIB-105,34,27,Life Sciences Faculty
+EVT-01604,Career Fair #1604,Career Fair,2026-05-17,Saturday,15,3.0,BUS-412,26,20,Dept of Computer Science
+EVT-01605,Study Group #1605,Study Group,2026-04-03,Thursday,10,1.5,ART-206,16,10,Debate Union
+EVT-01606,Seminar #1606,Seminar,2026-04-26,Tuesday,9,1.0,ART-404,11,5,Dept of Computer Science
+EVT-01607,Study Group #1607,Study Group,2026-04-28,Monday,13,2.5,BUS-408,25,18,Design Collective
+EVT-01608,Club Meeting #1608,Club Meeting,2026-10-20,Wednesday,13,2.5,SCI-319,53,40,Dept of Computer Science
+EVT-01609,Seminar #1609,Seminar,2026-03-24,Wednesday,10,1.5,CMP-303,24,13,AI Builders
+EVT-01610,Club Meeting #1610,Club Meeting,2026-02-17,Tuesday,19,1.5,SCI-416,23,18,Women in STEM
+EVT-01611,Study Group #1611,Study Group,2026-12-18,Thursday,11,2.0,LIB-109,136,113,Women in STEM
+EVT-01612,Club Meeting #1612,Club Meeting,2026-09-09,Monday,13,3.0,LIB-109,120,82,Life Sciences Faculty
+EVT-01613,Study Group #1613,Study Group,2026-05-17,Monday,9,2.5,CMP-101,25,17,AI Builders
+EVT-01614,Club Meeting #1614,Club Meeting,2026-01-24,Monday,13,3.0,BUS-315,20,8,Finance & Investment Club
+EVT-01615,Seminar #1615,Seminar,2026-05-13,Wednesday,19,1.0,ENG-408,114,93,Design Collective
+EVT-01616,Club Meeting #1616,Club Meeting,2026-03-28,Friday,14,1.0,SCI-315,29,23,Dept of Computer Science
+EVT-01617,Club Meeting #1617,Club Meeting,2026-08-10,Saturday,9,2.5,SCI-113,118,87,Dept of Computer Science
+EVT-01618,Seminar #1618,Seminar,2026-10-25,Friday,17,2.0,ART-311,21,22,Academic Senate
+EVT-01619,Club Meeting #1619,Club Meeting,2026-02-15,Thursday,11,1.5,SCI-109,46,32,Design Collective
+EVT-01620,Academic Workshop #1620,Academic Workshop,2026-11-22,Friday,11,2.5,BUS-117,15,11,Debate Union
+EVT-01621,Seminar #1621,Seminar,2026-02-04,Friday,14,3.0,ART-412,12,8,Dept of Computer Science
+EVT-01622,Academic Workshop #1622,Academic Workshop,2026-05-22,Monday,18,3.0,ART-315,17,9,Design Collective
+EVT-01623,Club Meeting #1623,Club Meeting,2026-01-01,Friday,16,1.0,ART-408,14,11,Robotics Society
+EVT-01624,Seminar #1624,Seminar,2026-11-12,Friday,19,3.0,ENG-307,17,10,AI Builders
+EVT-01625,Seminar #1625,Seminar,2026-12-08,Tuesday,10,2.5,ART-117,27,9,Robotics Society
+EVT-01626,Seminar #1626,Seminar,2026-05-15,Monday,13,2.0,LIB-408,28,31,Finance & Investment Club
+EVT-01627,Academic Workshop #1627,Academic Workshop,2026-08-28,Monday,15,2.5,BUS-214,14,15,Robotics Society
+EVT-01628,Club Meeting #1628,Club Meeting,2026-11-07,Thursday,9,3.0,BUS-105,12,11,Robotics Society
+EVT-01629,Hackathon/Contest #1629,Hackathon/Contest,2026-02-28,Wednesday,18,2.5,CMP-420,24,13,Debate Union
+EVT-01630,Club Meeting #1630,Club Meeting,2026-09-13,Friday,9,1.0,BUS-109,23,12,Dept of Computer Science
+EVT-01631,Career Fair #1631,Career Fair,2026-10-01,Tuesday,9,1.0,CMP-420,10,11,Finance & Investment Club
+EVT-01632,Club Meeting #1632,Club Meeting,2026-12-03,Saturday,9,3.0,SCI-319,42,31,Business School Advisory
+EVT-01633,Study Group #1633,Study Group,2026-07-06,Wednesday,10,2.0,SCI-303,17,14,Design Collective
+EVT-01634,Career Fair #1634,Career Fair,2026-08-11,Friday,15,1.0,SCI-117,30,29,Women in STEM
+EVT-01635,Seminar #1635,Seminar,2026-11-01,Wednesday,19,2.0,CMP-303,43,36,Business School Advisory
+EVT-01636,Club Meeting #1636,Club Meeting,2026-10-12,Monday,16,1.5,SCI-319,97,67,Business School Advisory
+EVT-01637,Academic Workshop #1637,Academic Workshop,2026-09-25,Thursday,19,1.0,SCI-319,94,78,Robotics Society
+EVT-01638,Club Meeting #1638,Club Meeting,2026-05-06,Saturday,11,3.0,CMP-307,31,24,Academic Senate
+EVT-01639,Career Fair #1639,Career Fair,2026-12-10,Monday,16,2.0,ENG-117,25,28,ACM Student Chapter
+EVT-01640,Academic Workshop #1640,Academic Workshop,2026-11-01,Monday,17,1.5,ENG-206,10,8,Design Collective
+EVT-01641,Seminar #1641,Seminar,2026-10-26,Thursday,17,2.5,ENG-222,82,56,Robotics Society
+EVT-01642,Club Meeting #1642,Club Meeting,2026-12-28,Wednesday,14,1.5,ENG-210,13,12,Robotics Society
+EVT-01643,Academic Workshop #1643,Academic Workshop,2026-03-07,Saturday,18,2.5,BUS-404,25,17,Robotics Society
+EVT-01644,Club Meeting #1644,Club Meeting,2026-08-24,Wednesday,10,1.0,ART-105,41,33,Life Sciences Faculty
+EVT-01645,Career Fair #1645,Career Fair,2026-07-09,Monday,14,3.0,ENG-117,19,24,Finance & Investment Club
+EVT-01646,Club Meeting #1646,Club Meeting,2026-05-12,Friday,19,2.5,LIB-303,13,5,Business School Advisory
+EVT-01647,Academic Workshop #1647,Academic Workshop,2026-12-17,Monday,10,2.5,ENG-315,20,17,Business School Advisory
+EVT-01648,Club Meeting #1648,Club Meeting,2026-02-09,Wednesday,19,2.0,ENG-210,36,31,Design Collective
+EVT-01649,Academic Workshop #1649,Academic Workshop,2026-09-28,Thursday,10,1.5,LIB-315,10,16,Business School Advisory
+EVT-01650,Study Group #1650,Study Group,2026-06-05,Thursday,17,2.5,ENG-319,40,31,Academic Senate
+EVT-01651,Club Meeting #1651,Club Meeting,2026-02-23,Wednesday,9,2.5,SCI-222,80,50,Debate Union
+EVT-01652,Seminar #1652,Seminar,2026-07-19,Saturday,14,2.0,BUS-105,16,8,ACM Student Chapter
+EVT-01653,Academic Workshop #1653,Academic Workshop,2026-03-19,Saturday,16,2.5,CMP-214,23,17,Business School Advisory
+EVT-01654,Club Meeting #1654,Club Meeting,2026-02-20,Tuesday,19,1.5,ART-408,18,15,Debate Union
+EVT-01655,Club Meeting #1655,Club Meeting,2026-09-23,Tuesday,13,2.0,CMP-117,14,13,ACM Student Chapter
+EVT-01656,Club Meeting #1656,Club Meeting,2026-03-19,Wednesday,13,1.0,ENG-113,161,114,Robotics Society
+EVT-01657,Career Fair #1657,Career Fair,2026-03-10,Tuesday,18,2.5,ENG-210,25,29,Women in STEM
+EVT-01658,Career Fair #1658,Career Fair,2026-11-15,Friday,10,2.0,CMP-315,26,31,Life Sciences Faculty
+EVT-01659,Academic Workshop #1659,Academic Workshop,2026-05-06,Friday,13,1.0,SCI-210,209,201,Business School Advisory
+EVT-01660,Hackathon/Contest #1660,Hackathon/Contest,2026-03-19,Thursday,14,2.0,CMP-303,32,36,Business School Advisory
+EVT-01661,Career Fair #1661,Career Fair,2026-12-01,Thursday,16,1.0,BUS-210,17,23,Business School Advisory
+EVT-01662,Study Group #1662,Study Group,2026-02-23,Wednesday,11,3.0,LIB-105,22,20,Women in STEM
+EVT-01663,Faculty Assembly #1663,Faculty Assembly,2026-04-18,Monday,19,2.5,CMP-412,28,23,Engineering Faculty Council
+EVT-01664,Club Meeting #1664,Club Meeting,2026-06-18,Tuesday,13,2.0,SCI-416,26,26,Debate Union
+EVT-01665,Seminar #1665,Seminar,2026-01-19,Friday,17,2.5,CMP-218,27,26,Debate Union
+EVT-01666,Study Group #1666,Study Group,2026-08-13,Thursday,16,1.0,SCI-307,65,61,Debate Union
+EVT-01667,Club Meeting #1667,Club Meeting,2026-06-15,Wednesday,17,3.0,CMP-202,40,32,Design Collective
+EVT-01668,Club Meeting #1668,Club Meeting,2026-01-12,Wednesday,16,1.5,ART-303,29,21,Engineering Faculty Council
+EVT-01669,Academic Workshop #1669,Academic Workshop,2026-08-02,Saturday,9,3.0,ART-202,29,23,Academic Senate
+EVT-01670,Study Group #1670,Study Group,2026-03-15,Tuesday,18,1.5,CMP-315,23,10,Women in STEM
+EVT-01671,Seminar #1671,Seminar,2026-06-08,Monday,14,2.5,SCI-222,123,101,Life Sciences Faculty
+EVT-01672,Faculty Assembly #1672,Faculty Assembly,2026-10-18,Friday,10,1.0,CMP-218,18,20,Life Sciences Faculty
+EVT-01673,Club Meeting #1673,Club Meeting,2026-01-27,Friday,14,2.5,BUS-307,20,9,Dept of Computer Science
+EVT-01674,Seminar #1674,Seminar,2026-05-17,Tuesday,17,2.0,BUS-214,10,5,Dept of Computer Science
+EVT-01675,Club Meeting #1675,Club Meeting,2026-10-14,Friday,9,1.5,LIB-311,11,8,AI Builders
+EVT-01676,Hackathon/Contest #1676,Hackathon/Contest,2026-02-22,Saturday,14,1.5,CMP-206,11,12,Design Collective
+EVT-01677,Study Group #1677,Study Group,2026-01-17,Tuesday,10,2.5,BUS-319,22,14,Business School Advisory
+EVT-01678,Club Meeting #1678,Club Meeting,2026-07-03,Tuesday,18,3.0,CMP-113,10,10,Design Collective
+EVT-01679,Club Meeting #1679,Club Meeting,2026-02-13,Friday,19,1.5,CMP-319,23,7,Robotics Society
+EVT-01680,Academic Workshop #1680,Academic Workshop,2026-12-17,Friday,19,2.0,LIB-307,29,21,Finance & Investment Club
+EVT-01681,Club Meeting #1681,Club Meeting,2026-01-18,Saturday,17,3.0,ART-303,34,33,Women in STEM
+EVT-01682,Academic Workshop #1682,Academic Workshop,2026-08-28,Tuesday,17,2.0,ART-210,15,17,Robotics Society
+EVT-01683,Faculty Assembly #1683,Faculty Assembly,2026-12-08,Thursday,11,1.5,ART-218,32,20,Design Collective
+EVT-01684,Academic Workshop #1684,Academic Workshop,2026-03-27,Tuesday,14,1.5,LIB-109,138,132,Dept of Computer Science
+EVT-01685,Career Fair #1685,Career Fair,2026-07-25,Wednesday,15,2.5,BUS-420,22,20,Finance & Investment Club
+EVT-01686,Club Meeting #1686,Club Meeting,2026-03-07,Saturday,13,1.0,BUS-412,45,30,Design Collective
+EVT-01687,Academic Workshop #1687,Academic Workshop,2026-06-03,Friday,15,1.0,ENG-214,106,101,Dept of Computer Science
+EVT-01688,Academic Workshop #1688,Academic Workshop,2026-02-22,Wednesday,11,1.0,CMP-307,29,16,Dept of Computer Science
+EVT-01689,Faculty Assembly #1689,Faculty Assembly,2026-10-09,Friday,18,3.0,BUS-113,15,16,Debate Union
+EVT-01690,Hackathon/Contest #1690,Hackathon/Contest,2026-02-09,Monday,10,3.0,ENG-323,16,12,ACM Student Chapter
+EVT-01691,Seminar #1691,Seminar,2026-10-24,Friday,13,1.0,ART-101,11,13,Dept of Computer Science
+EVT-01692,Club Meeting #1692,Club Meeting,2026-07-27,Tuesday,18,1.5,BUS-307,21,17,Dept of Computer Science
+EVT-01693,Academic Workshop #1693,Academic Workshop,2026-04-28,Friday,16,3.0,SCI-420,151,142,Debate Union
+EVT-01694,Career Fair #1694,Career Fair,2026-12-28,Thursday,15,2.0,LIB-303,16,15,Finance & Investment Club
+EVT-01695,Academic Workshop #1695,Academic Workshop,2026-09-18,Friday,13,1.0,LIB-210,17,13,Dept of Computer Science
+EVT-01696,Academic Workshop #1696,Academic Workshop,2026-03-26,Monday,16,3.0,BUS-408,25,27,ACM Student Chapter
+EVT-01697,Academic Workshop #1697,Academic Workshop,2026-09-02,Tuesday,11,1.5,BUS-210,33,30,Engineering Faculty Council
+EVT-01698,Study Group #1698,Study Group,2026-12-02,Thursday,18,3.0,ENG-202,27,22,Women in STEM
+EVT-01699,Club Meeting #1699,Club Meeting,2026-12-08,Thursday,9,2.5,SCI-315,27,19,Debate Union
+EVT-01700,Club Meeting #1700,Club Meeting,2026-07-18,Friday,13,2.0,BUS-404,37,31,Academic Senate
+EVT-01701,Club Meeting #1701,Club Meeting,2026-03-13,Friday,13,3.0,BUS-404,49,35,Engineering Faculty Council
+EVT-01702,Club Meeting #1702,Club Meeting,2026-05-01,Thursday,16,2.0,ART-315,17,12,Design Collective
+EVT-01703,Academic Workshop #1703,Academic Workshop,2026-01-24,Tuesday,13,1.0,LIB-408,28,17,ACM Student Chapter
+EVT-01704,Seminar #1704,Seminar,2026-05-20,Tuesday,13,3.0,ART-210,41,36,Debate Union
+EVT-01705,Hackathon/Contest #1705,Hackathon/Contest,2026-04-16,Monday,9,1.5,CMP-404,18,18,Life Sciences Faculty
+EVT-01706,Study Group #1706,Study Group,2026-03-26,Wednesday,11,3.0,BUS-113,21,20,Engineering Faculty Council
+EVT-01707,Study Group #1707,Study Group,2026-09-17,Thursday,17,2.0,ENG-412,24,17,Academic Senate
+EVT-01708,Club Meeting #1708,Club Meeting,2026-07-11,Monday,10,3.0,CMP-109,34,28,Debate Union
+EVT-01709,Study Group #1709,Study Group,2026-05-11,Friday,13,2.5,LIB-202,88,76,Dept of Computer Science
+EVT-01710,Study Group #1710,Study Group,2026-07-21,Monday,10,2.5,LIB-408,20,12,Debate Union
+EVT-01711,Career Fair #1711,Career Fair,2026-12-06,Thursday,16,1.0,ENG-420,25,25,Life Sciences Faculty
+EVT-01712,Seminar #1712,Seminar,2026-06-03,Saturday,11,2.5,BUS-109,18,14,Business School Advisory
+EVT-01713,Seminar #1713,Seminar,2026-07-08,Saturday,11,1.0,BUS-113,26,17,AI Builders
+EVT-01714,Academic Workshop #1714,Academic Workshop,2026-02-24,Friday,9,2.0,ART-214,17,5,Academic Senate
+EVT-01715,Study Group #1715,Study Group,2026-04-07,Saturday,16,2.5,BUS-218,91,68,Finance & Investment Club
+EVT-01716,Academic Workshop #1716,Academic Workshop,2026-03-16,Thursday,13,2.0,ART-408,18,19,Academic Senate
+EVT-01717,Seminar #1717,Seminar,2026-01-24,Monday,10,3.0,BUS-214,11,11,Design Collective
+EVT-01718,Academic Workshop #1718,Academic Workshop,2026-11-28,Thursday,9,3.0,SCI-121,12,5,Engineering Faculty Council
+EVT-01719,Academic Workshop #1719,Academic Workshop,2026-03-14,Monday,9,1.0,SCI-202,20,19,AI Builders
+EVT-01720,Seminar #1720,Seminar,2026-04-28,Friday,18,2.5,ENG-311,12,14,Debate Union
+EVT-01721,Career Fair #1721,Career Fair,2026-07-08,Thursday,19,2.0,ENG-210,33,37,Business School Advisory
+EVT-01722,Club Meeting #1722,Club Meeting,2026-06-26,Saturday,13,2.0,CMP-311,10,12,Academic Senate
+EVT-01723,Academic Workshop #1723,Academic Workshop,2026-08-05,Thursday,9,3.0,CMP-206,24,18,Dept of Computer Science
+EVT-01724,Club Meeting #1724,Club Meeting,2026-12-16,Friday,13,1.5,CMP-101,34,26,Life Sciences Faculty
+EVT-01725,Club Meeting #1725,Club Meeting,2026-04-13,Monday,10,1.5,CMP-113,10,5,AI Builders
+EVT-01726,Seminar #1726,Seminar,2026-04-18,Friday,11,2.5,CMP-311,14,10,Robotics Society
+EVT-01727,Club Meeting #1727,Club Meeting,2026-02-18,Thursday,15,1.5,LIB-210,33,22,Academic Senate
+EVT-01728,Academic Workshop #1728,Academic Workshop,2026-09-16,Wednesday,14,1.5,SCI-206,13,13,Robotics Society
+EVT-01729,Academic Workshop #1729,Academic Workshop,2026-06-10,Saturday,10,2.0,LIB-408,25,23,Robotics Society
+EVT-01730,Academic Workshop #1730,Academic Workshop,2026-06-23,Friday,15,2.5,SCI-416,24,27,Debate Union
+EVT-01731,Academic Workshop #1731,Academic Workshop,2026-04-10,Tuesday,17,1.0,BUS-206,102,95,Engineering Faculty Council
+EVT-01732,Study Group #1732,Study Group,2026-12-19,Saturday,11,1.0,LIB-206,75,56,Engineering Faculty Council
+EVT-01733,Seminar #1733,Seminar,2026-04-17,Friday,19,2.5,BUS-408,10,7,Business School Advisory
+EVT-01734,Academic Workshop #1734,Academic Workshop,2026-02-05,Monday,11,3.0,ENG-424,34,34,Life Sciences Faculty
+EVT-01735,Academic Workshop #1735,Academic Workshop,2026-09-17,Friday,19,1.5,BUS-307,12,15,Dept of Computer Science
+EVT-01736,Club Meeting #1736,Club Meeting,2026-04-11,Monday,17,1.5,CMP-303,36,15,ACM Student Chapter
+EVT-01737,Club Meeting #1737,Club Meeting,2026-01-27,Friday,13,1.5,BUS-315,19,11,Life Sciences Faculty
+EVT-01738,Hackathon/Contest #1738,Hackathon/Contest,2026-07-08,Friday,17,3.0,ENG-125,29,20,ACM Student Chapter
+EVT-01739,Hackathon/Contest #1739,Hackathon/Contest,2026-09-13,Monday,17,2.0,LIB-408,10,6,Design Collective
+EVT-01740,Club Meeting #1740,Club Meeting,2026-08-10,Thursday,18,1.5,LIB-105,35,19,Design Collective
+EVT-01741,Seminar #1741,Seminar,2026-08-25,Wednesday,9,1.5,SCI-307,132,106,ACM Student Chapter
+EVT-01742,Faculty Assembly #1742,Faculty Assembly,2026-11-14,Monday,16,3.0,ART-416,25,20,Dept of Computer Science
+EVT-01743,Academic Workshop #1743,Academic Workshop,2026-12-01,Tuesday,13,3.0,CMP-105,11,8,Design Collective
+EVT-01744,Seminar #1744,Seminar,2026-06-13,Saturday,13,2.0,ENG-404,22,23,Debate Union
+EVT-01745,Seminar #1745,Seminar,2026-03-06,Friday,11,1.0,BUS-303,13,16,Robotics Society
+EVT-01746,Career Fair #1746,Career Fair,2026-04-03,Thursday,13,1.5,CMP-101,12,13,ACM Student Chapter
+EVT-01747,Academic Workshop #1747,Academic Workshop,2026-10-21,Monday,18,3.0,LIB-210,29,18,Academic Senate
+EVT-01748,Seminar #1748,Seminar,2026-04-04,Tuesday,11,3.0,CMP-315,23,16,Business School Advisory
+EVT-01749,Academic Workshop #1749,Academic Workshop,2026-09-07,Thursday,16,2.5,ENG-222,56,48,Dept of Computer Science
+EVT-01750,Seminar #1750,Seminar,2026-12-20,Saturday,17,3.0,ART-109,87,64,Engineering Faculty Council
+EVT-01751,Club Meeting #1751,Club Meeting,2026-04-20,Friday,14,2.5,LIB-307,17,9,Robotics Society
+EVT-01752,Career Fair #1752,Career Fair,2026-05-28,Saturday,11,1.0,LIB-404,20,8,Dept of Computer Science
+EVT-01753,Career Fair #1753,Career Fair,2026-11-02,Friday,18,2.5,SCI-416,16,15,Women in STEM
+EVT-01754,Hackathon/Contest #1754,Hackathon/Contest,2026-03-17,Saturday,14,2.5,ART-416,21,26,Business School Advisory
+EVT-01755,Study Group #1755,Study Group,2026-06-25,Monday,14,1.5,CMP-412,69,64,Engineering Faculty Council
+EVT-01756,Club Meeting #1756,Club Meeting,2026-09-24,Wednesday,18,1.0,ENG-416,45,31,Robotics Society
+EVT-01757,Study Group #1757,Study Group,2026-02-18,Friday,9,1.5,CMP-109,32,31,Robotics Society
+EVT-01758,Study Group #1758,Study Group,2026-05-18,Friday,17,1.5,SCI-408,11,11,Engineering Faculty Council
+EVT-01759,Hackathon/Contest #1759,Hackathon/Contest,2026-11-01,Monday,18,1.0,SCI-202,11,19,AI Builders
+EVT-01760,Seminar #1760,Seminar,2026-04-27,Thursday,13,2.5,ART-117,26,24,Women in STEM
+EVT-01761,Career Fair #1761,Career Fair,2026-07-03,Wednesday,17,1.0,CMP-117,26,32,Business School Advisory
+EVT-01762,Career Fair #1762,Career Fair,2026-04-06,Monday,11,1.5,SCI-307,144,137,AI Builders
+EVT-01763,Hackathon/Contest #1763,Hackathon/Contest,2026-08-23,Tuesday,18,1.0,SCI-412,10,7,Dept of Computer Science
+EVT-01764,Club Meeting #1764,Club Meeting,2026-04-14,Monday,10,2.0,SCI-307,59,38,Design Collective
+EVT-01765,Club Meeting #1765,Club Meeting,2026-04-08,Thursday,9,2.5,ART-214,13,7,Engineering Faculty Council
+EVT-01766,Club Meeting #1766,Club Meeting,2026-02-17,Saturday,16,1.5,SCI-105,32,24,Academic Senate
+EVT-01767,Club Meeting #1767,Club Meeting,2026-03-20,Monday,11,2.0,BUS-303,10,5,Life Sciences Faculty
+EVT-01768,Academic Workshop #1768,Academic Workshop,2026-08-22,Wednesday,14,1.0,BUS-218,71,73,Dept of Computer Science
+EVT-01769,Hackathon/Contest #1769,Hackathon/Contest,2026-12-10,Monday,13,1.5,BUS-315,29,28,Robotics Society
+EVT-01770,Career Fair #1770,Career Fair,2026-09-22,Wednesday,16,3.0,CMP-105,18,18,Debate Union
+EVT-01771,Club Meeting #1771,Club Meeting,2026-07-18,Thursday,16,3.0,SCI-202,22,15,Robotics Society
+EVT-01772,Academic Workshop #1772,Academic Workshop,2026-02-01,Saturday,17,1.5,ENG-109,12,16,AI Builders
+EVT-01773,Academic Workshop #1773,Academic Workshop,2026-12-07,Thursday,10,2.0,ART-109,142,122,Robotics Society
+EVT-01774,Study Group #1774,Study Group,2026-11-20,Saturday,11,3.0,SCI-105,31,30,Finance & Investment Club
+EVT-01775,Club Meeting #1775,Club Meeting,2026-04-01,Thursday,16,3.0,LIB-307,25,16,Robotics Society
+EVT-01776,Study Group #1776,Study Group,2026-01-20,Tuesday,17,2.5,SCI-319,33,30,AI Builders
+EVT-01777,Club Meeting #1777,Club Meeting,2026-11-23,Saturday,17,2.5,CMP-412,73,58,Design Collective
+EVT-01778,Career Fair #1778,Career Fair,2026-11-03,Friday,10,2.0,ENG-113,171,168,Finance & Investment Club
+EVT-01779,Academic Workshop #1779,Academic Workshop,2026-04-22,Thursday,14,2.0,BUS-202,84,79,Business School Advisory
+EVT-01780,Club Meeting #1780,Club Meeting,2026-04-10,Friday,16,3.0,SCI-214,23,18,Academic Senate
+EVT-01781,Club Meeting #1781,Club Meeting,2026-03-25,Wednesday,15,2.5,SCI-214,11,10,Debate Union
+EVT-01782,Career Fair #1782,Career Fair,2026-05-07,Tuesday,10,1.0,BUS-307,13,17,Women in STEM
+EVT-01783,Study Group #1783,Study Group,2026-08-13,Monday,13,1.5,CMP-105,12,8,Finance & Investment Club
+EVT-01784,Club Meeting #1784,Club Meeting,2026-07-18,Tuesday,14,1.0,ENG-404,16,8,Debate Union
+EVT-01785,Academic Workshop #1785,Academic Workshop,2026-03-08,Tuesday,19,2.5,BUS-105,22,21,Life Sciences Faculty
+EVT-01786,Academic Workshop #1786,Academic Workshop,2026-05-05,Thursday,17,1.5,ENG-214,56,57,Dept of Computer Science
+EVT-01787,Academic Workshop #1787,Academic Workshop,2026-02-13,Thursday,9,3.0,ENG-109,22,17,AI Builders
+EVT-01788,Academic Workshop #1788,Academic Workshop,2026-10-22,Friday,14,2.5,SCI-311,18,21,Debate Union
+EVT-01789,Seminar #1789,Seminar,2026-09-03,Friday,17,1.0,ENG-202,20,22,Dept of Computer Science
+EVT-01790,Club Meeting #1790,Club Meeting,2026-03-20,Tuesday,17,2.5,ENG-105,29,23,Academic Senate
+EVT-01791,Academic Workshop #1791,Academic Workshop,2026-03-24,Wednesday,11,1.5,BUS-210,18,18,Women in STEM
+EVT-01792,Seminar #1792,Seminar,2026-04-06,Saturday,14,2.0,ART-105,37,29,Debate Union
+EVT-01793,Academic Workshop #1793,Academic Workshop,2026-03-22,Friday,13,1.5,ART-202,22,22,Design Collective
+EVT-01794,Career Fair #1794,Career Fair,2026-07-22,Friday,17,1.0,ART-408,12,18,Life Sciences Faculty
+EVT-01795,Club Meeting #1795,Club Meeting,2026-09-02,Saturday,11,1.0,ENG-206,33,23,Design Collective
+EVT-01796,Academic Workshop #1796,Academic Workshop,2026-11-22,Wednesday,10,2.5,LIB-408,17,9,Finance & Investment Club
+EVT-01797,Study Group #1797,Study Group,2026-12-23,Friday,18,3.0,SCI-109,35,24,Engineering Faculty Council
+EVT-01798,Seminar #1798,Seminar,2026-07-06,Tuesday,18,2.0,SCI-206,12,8,Academic Senate
+EVT-01799,Club Meeting #1799,Club Meeting,2026-06-13,Friday,10,1.0,ENG-303,33,30,AI Builders
+EVT-01800,Club Meeting #1800,Club Meeting,2026-09-08,Friday,18,1.5,ENG-113,63,38,Debate Union
