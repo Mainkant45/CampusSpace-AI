@@ -6,6 +6,7 @@ import androidx.activity.compose.BackHandler
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.*
@@ -13,8 +14,10 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -67,8 +70,17 @@ fun CampusSpaceMainScreen(
             NavigationBar(
                 containerColor = DeepNavy,
                 contentColor = Color.White,
-                tonalElevation = 6.dp,
-                modifier = Modifier.testTag("bottom_nav_bar")
+                tonalElevation = 8.dp,
+                windowInsets = WindowInsets.navigationBars,
+                modifier = Modifier
+                    .testTag("bottom_nav_bar")
+                    .border(
+                        width = 1.dp,
+                        brush = Brush.verticalGradient(
+                            listOf(BorderNavy, DeepNavy)
+                        ),
+                        shape = androidx.compose.ui.graphics.RectangleShape
+                    )
             ) {
                 val navItems = listOf(
                     CampusSpaceTab.DASHBOARD to (Icons.Default.Dashboard to "Overview"),
@@ -95,13 +107,15 @@ fun CampusSpaceMainScreen(
                             Text(
                                 text = iconTitle.second,
                                 fontSize = 10.sp,
+                                fontFamily = SpaceGroteskFontFamily,
+                                fontWeight = if (isSelected) FontWeight.Bold else FontWeight.Medium,
                                 maxLines = 1
                             )
                         },
                         colors = NavigationBarItemDefaults.colors(
                             selectedIconColor = DeepNavy,
-                            selectedTextColor = AccentTeal,
-                            indicatorColor = AccentTeal,
+                            selectedTextColor = ElectricCyan,
+                            indicatorColor = ElectricCyan,
                             unselectedIconColor = Color(0xFF94A3B8),
                             unselectedTextColor = Color(0xFF94A3B8)
                         ),
@@ -126,11 +140,21 @@ fun CampusSpaceMainScreen(
                     verticalArrangement = Arrangement.Center,
                     horizontalAlignment = Alignment.CenterHorizontally
                 ) {
-                    CircularProgressIndicator(color = AccentTeal, strokeWidth = 3.dp)
-                    Spacer(modifier = Modifier.height(16.dp))
+                    CircularProgressIndicator(color = ElectricCyan, strokeWidth = 3.dp)
+                    Spacer(modifier = Modifier.height(18.dp))
                     Text(
-                        text = "Loading benchmark datasets & training ML model from scratch...",
-                        fontSize = 13.sp,
+                        text = "INITIALIZING CAMPUS TWIN NETWORK",
+                        fontSize = 14.sp,
+                        fontFamily = SpaceGroteskFontFamily,
+                        fontWeight = FontWeight.Bold,
+                        color = DeepNavy,
+                        letterSpacing = 0.8.sp
+                    )
+                    Spacer(modifier = Modifier.height(6.dp))
+                    Text(
+                        text = "Training Ridge regression & auditing 120 facilities...",
+                        fontSize = 12.sp,
+                        fontFamily = PlusJakartaFontFamily,
                         color = TextSecondary
                     )
                 }

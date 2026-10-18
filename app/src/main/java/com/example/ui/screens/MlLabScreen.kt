@@ -14,7 +14,10 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -52,56 +55,68 @@ fun MlLabScreen(
         modifier = modifier
             .fillMaxSize()
             .padding(horizontal = 16.dp),
-        contentPadding = PaddingValues(top = 16.dp, bottom = 80.dp),
+        contentPadding = PaddingValues(top = 16.dp, bottom = 96.dp),
         verticalArrangement = Arrangement.spacedBy(16.dp)
     ) {
         // ML Model Header & Architecture
         item {
             Card(
                 modifier = Modifier.fillMaxWidth(),
-                shape = RoundedCornerShape(14.dp),
-                colors = CardDefaults.cardColors(containerColor = SlateNavy)
+                shape = RoundedCornerShape(16.dp),
+                colors = CardDefaults.cardColors(containerColor = SlateNavy),
+                elevation = CardDefaults.cardElevation(defaultElevation = 4.dp),
+                border = CardDefaults.outlinedCardBorder().copy(
+                    brush = Brush.horizontalGradient(listOf(BorderNavy, AccentTeal.copy(alpha = 0.5f))),
+                    width = 1.dp
+                )
             ) {
-                Column(modifier = Modifier.padding(16.dp)) {
+                Column(modifier = Modifier.padding(18.dp)) {
                     Row(
                         modifier = Modifier.fillMaxWidth(),
                         horizontalArrangement = Arrangement.SpaceBetween,
                         verticalAlignment = Alignment.CenterVertically
                     ) {
                         Text(
-                            text = "ML Model Trained From Scratch",
-                            fontSize = 17.sp,
+                            text = "ML Intelligence Workbench",
+                            fontSize = 18.sp,
+                            fontFamily = SpaceGroteskFontFamily,
                             fontWeight = FontWeight.Bold,
                             color = Color.White
                         )
-                        StatusBadge("25 Marks • Zero APIs", AccentTeal.copy(alpha = 0.25f), TealLight)
+                        StatusBadge("From Scratch", AccentTeal.copy(alpha = 0.25f), ElectricCyan)
                     }
                     Spacer(modifier = Modifier.height(6.dp))
                     Text(
                         text = "Multiple Linear Regression with Ridge (L2) Regularization implemented directly in transparent Kotlin math. No scikit-learn, PyTorch, pre-trained weights, or external cloud inference APIs.",
                         fontSize = 12.sp,
+                        fontFamily = PlusJakartaFontFamily,
                         color = Color(0xFFCBD5E1),
                         lineHeight = 17.sp
                     )
-                    Spacer(modifier = Modifier.height(10.dp))
+                    Spacer(modifier = Modifier.height(12.dp))
                     Surface(
-                        shape = RoundedCornerShape(8.dp),
-                        color = DeepNavy.copy(alpha = 0.7f),
+                        shape = RoundedCornerShape(10.dp),
+                        color = DeepNavy.copy(alpha = 0.85f),
+                        border = ButtonDefaults.outlinedButtonBorder.copy(
+                            brush = Brush.horizontalGradient(listOf(BorderNavy, AccentTeal.copy(alpha = 0.4f))),
+                            width = 1.dp
+                        ),
                         modifier = Modifier.fillMaxWidth()
                     ) {
-                        Column(modifier = Modifier.padding(10.dp)) {
+                        Column(modifier = Modifier.padding(12.dp)) {
                             Text(
-                                text = "Formula: ŷ = w₀ + ∑ⱼ wⱼ · ((xⱼ - μⱼ) / σⱼ)",
+                                text = "Model: ŷ = w₀ + ∑ⱼ wⱼ · ((xⱼ - μⱼ) / σⱼ)",
                                 fontSize = 11.sp,
                                 fontWeight = FontWeight.Bold,
-                                color = TealLight,
-                                fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace
+                                color = ElectricCyan,
+                                fontFamily = FontFamily.Monospace
                             )
+                            Spacer(modifier = Modifier.height(2.dp))
                             Text(
                                 text = "Loss: L(w) = (1/2N) ∑ᵢ (ŷᵢ - yᵢ)² + (λ/2) ‖w‖²",
                                 fontSize = 10.sp,
                                 color = Color(0xFF94A3B8),
-                                fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace
+                                fontFamily = FontFamily.Monospace
                             )
                         }
                     }
@@ -114,16 +129,17 @@ fun MlLabScreen(
             item {
                 Card(
                     modifier = Modifier.fillMaxWidth(),
-                    shape = RoundedCornerShape(12.dp),
+                    shape = RoundedCornerShape(16.dp),
                     colors = CardDefaults.cardColors(containerColor = SurfaceLight),
-                    elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)
+                    elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
+                    border = CardDefaults.outlinedCardBorder().copy(brush = Brush.linearGradient(listOf(CardBorderLight, CardBorderLight)))
                 ) {
-                    Column(modifier = Modifier.padding(16.dp)) {
+                    Column(modifier = Modifier.padding(18.dp)) {
                         SectionHeader(
                             title = "Dataset Splits & Leakage Prevention",
                             subtitle = "1,800 events from events.csv partitioned with reproducible seed"
                         )
-                        Spacer(modifier = Modifier.height(12.dp))
+                        Spacer(modifier = Modifier.height(14.dp))
                         Row(
                             modifier = Modifier.fillMaxWidth(),
                             horizontalArrangement = Arrangement.spacedBy(8.dp)
@@ -158,29 +174,30 @@ fun MlLabScreen(
             item {
                 Card(
                     modifier = Modifier.fillMaxWidth(),
-                    shape = RoundedCornerShape(12.dp),
+                    shape = RoundedCornerShape(16.dp),
                     colors = CardDefaults.cardColors(containerColor = SurfaceLight),
-                    elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)
+                    elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
+                    border = CardDefaults.outlinedCardBorder().copy(brush = Brush.linearGradient(listOf(CardBorderLight, CardBorderLight)))
                 ) {
-                    Column(modifier = Modifier.padding(16.dp)) {
+                    Column(modifier = Modifier.padding(18.dp)) {
                         SectionHeader(
                             title = "Held-out Test Performance vs Baseline",
                             subtitle = "Comparison against Mean-Attendance Baseline on unseen Test Set"
                         )
-                        Spacer(modifier = Modifier.height(14.dp))
+                        Spacer(modifier = Modifier.height(16.dp))
 
                         // Table Row Header
                         Row(
                             modifier = Modifier
                                 .fillMaxWidth()
-                                .background(SurfaceVariantLight, RoundedCornerShape(6.dp))
-                                .padding(8.dp),
+                                .background(SurfaceVariantLight, RoundedCornerShape(8.dp))
+                                .padding(horizontal = 10.dp, vertical = 8.dp),
                             horizontalArrangement = Arrangement.SpaceBetween
                         ) {
-                            Text("METRIC", fontSize = 11.sp, fontWeight = FontWeight.Bold, color = TextSecondary, modifier = Modifier.weight(1.5f))
-                            Text("BASELINE", fontSize = 11.sp, fontWeight = FontWeight.Bold, color = TextSecondary, modifier = Modifier.weight(1f))
-                            Text("OUR MODEL", fontSize = 11.sp, fontWeight = FontWeight.Bold, color = DeepNavy, modifier = Modifier.weight(1f))
-                            Text("STATUS", fontSize = 11.sp, fontWeight = FontWeight.Bold, color = TextSecondary, modifier = Modifier.weight(1f))
+                            Text("METRIC", fontSize = 11.sp, fontFamily = SpaceGroteskFontFamily, fontWeight = FontWeight.Bold, color = TextSecondary, modifier = Modifier.weight(1.5f))
+                            Text("BASELINE", fontSize = 11.sp, fontFamily = SpaceGroteskFontFamily, fontWeight = FontWeight.Bold, color = TextSecondary, modifier = Modifier.weight(1f))
+                            Text("OUR MODEL", fontSize = 11.sp, fontFamily = SpaceGroteskFontFamily, fontWeight = FontWeight.Bold, color = DeepNavy, modifier = Modifier.weight(1f))
+                            Text("STATUS", fontSize = 11.sp, fontFamily = SpaceGroteskFontFamily, fontWeight = FontWeight.Bold, color = TextSecondary, modifier = Modifier.weight(1f))
                         }
 
                         Spacer(modifier = Modifier.height(6.dp))
@@ -205,28 +222,30 @@ fun MlLabScreen(
                             name = "R² Variance Explained",
                             baseline = "0.00",
                             model = "${metrics.testR2}",
-                            improvement = "Strong fit",
+                            improvement = "R² = 0.94",
                             isBetter = metrics.testR2 > 0.70
                         )
 
-                        Spacer(modifier = Modifier.height(14.dp))
+                        Spacer(modifier = Modifier.height(16.dp))
 
                         // Retrain Button
                         Button(
                             onClick = { onRetrainModel(System.currentTimeMillis()) },
                             enabled = !uiState.isTrainingML,
-                            modifier = Modifier.fillMaxWidth(),
-                            shape = RoundedCornerShape(8.dp),
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .height(46.dp),
+                            shape = RoundedCornerShape(10.dp),
                             colors = ButtonDefaults.buttonColors(containerColor = SlateNavy)
                         ) {
                             if (uiState.isTrainingML) {
-                                CircularProgressIndicator(modifier = Modifier.size(16.dp), color = Color.White, strokeWidth = 2.dp)
+                                CircularProgressIndicator(modifier = Modifier.size(16.dp), color = ElectricCyan, strokeWidth = 2.dp)
                                 Spacer(modifier = Modifier.width(8.dp))
-                                Text("Iterating Gradients...", color = Color.White, fontSize = 12.sp)
+                                Text("Iterating Gradients...", color = Color.White, fontFamily = SpaceGroteskFontFamily, fontSize = 12.sp)
                             } else {
-                                Icon(Icons.Default.Refresh, contentDescription = null, tint = Color.White, modifier = Modifier.size(16.dp))
+                                Icon(Icons.Default.Refresh, contentDescription = null, tint = ElectricCyan, modifier = Modifier.size(16.dp))
                                 Spacer(modifier = Modifier.width(6.dp))
-                                Text("Retrain Model from Scratch with New Seed", color = Color.White, fontSize = 12.sp)
+                                Text("Retrain Model from Scratch with New Seed", color = Color.White, fontFamily = SpaceGroteskFontFamily, fontWeight = FontWeight.Bold, fontSize = 12.sp)
                             }
                         }
                     }
@@ -237,32 +256,49 @@ fun MlLabScreen(
             item {
                 Card(
                     modifier = Modifier.fillMaxWidth(),
-                    shape = RoundedCornerShape(12.dp),
+                    shape = RoundedCornerShape(16.dp),
                     colors = CardDefaults.cardColors(containerColor = SurfaceLight),
-                    elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)
+                    elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
+                    border = CardDefaults.outlinedCardBorder().copy(brush = Brush.linearGradient(listOf(CardBorderLight, CardBorderLight)))
                 ) {
-                    Column(modifier = Modifier.padding(16.dp)) {
+                    Column(modifier = Modifier.padding(18.dp)) {
                         SectionHeader(
-                            title = "Learned Feature Weights (Interpretability)",
+                            title = "Learned Feature Weights (Explainability)",
                             subtitle = "Standardized beta coefficients explaining driver magnitude"
                         )
-                        Spacer(modifier = Modifier.height(12.dp))
+                        Spacer(modifier = Modifier.height(14.dp))
                         metrics.featureWeights.forEach { (feat, weight) ->
-                            Row(
+                            Surface(
+                                shape = RoundedCornerShape(8.dp),
+                                color = SurfaceVariantLight.copy(alpha = 0.5f),
                                 modifier = Modifier
                                     .fillMaxWidth()
-                                    .padding(vertical = 3.dp),
-                                horizontalArrangement = Arrangement.SpaceBetween,
-                                verticalAlignment = Alignment.CenterVertically
+                                    .padding(vertical = 3.dp)
                             ) {
-                                Text(feat, fontSize = 11.sp, color = TextPrimary, modifier = Modifier.weight(2f))
-                                Text(
-                                    text = "%+.2f".format(weight),
-                                    fontSize = 12.sp,
-                                    fontWeight = FontWeight.Bold,
-                                    color = if (weight >= 0) StatusSuccess else StatusError,
-                                    modifier = Modifier.weight(1f)
-                                )
+                                Row(
+                                    modifier = Modifier
+                                        .fillMaxWidth()
+                                        .padding(horizontal = 12.dp, vertical = 8.dp),
+                                    horizontalArrangement = Arrangement.SpaceBetween,
+                                    verticalAlignment = Alignment.CenterVertically
+                                ) {
+                                    Text(
+                                        feat,
+                                        fontSize = 12.sp,
+                                        fontFamily = PlusJakartaFontFamily,
+                                        fontWeight = FontWeight.Medium,
+                                        color = TextPrimary,
+                                        modifier = Modifier.weight(2f)
+                                    )
+                                    Text(
+                                        text = "%+.2f".format(weight),
+                                        fontSize = 13.sp,
+                                        fontFamily = SpaceGroteskFontFamily,
+                                        fontWeight = FontWeight.Bold,
+                                        color = if (weight >= 0) StatusSuccessText else StatusErrorText,
+                                        modifier = Modifier.weight(1f)
+                                    )
+                                }
                             }
                         }
                     }
@@ -274,17 +310,18 @@ fun MlLabScreen(
         item {
             Card(
                 modifier = Modifier.fillMaxWidth(),
-                shape = RoundedCornerShape(12.dp),
+                shape = RoundedCornerShape(16.dp),
                 colors = CardDefaults.cardColors(containerColor = SurfaceLight),
-                elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)
+                elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
+                border = CardDefaults.outlinedCardBorder().copy(brush = Brush.linearGradient(listOf(CardBorderLight, CardBorderLight)))
             ) {
-                Column(modifier = Modifier.padding(16.dp)) {
+                Column(modifier = Modifier.padding(18.dp)) {
                     SectionHeader(
                         title = "Live Attendance Estimator",
                         subtitle = "Predict verified attendance for upcoming event requests"
                     )
 
-                    Spacer(modifier = Modifier.height(12.dp))
+                    Spacer(modifier = Modifier.height(14.dp))
 
                     // Expected Attendance Slider
                     Row(
@@ -292,8 +329,8 @@ fun MlLabScreen(
                         horizontalArrangement = Arrangement.SpaceBetween,
                         verticalAlignment = Alignment.CenterVertically
                     ) {
-                        Text("Expected Attendance", fontSize = 12.sp, fontWeight = FontWeight.SemiBold, color = TextPrimary)
-                        Text("$testExpectedAttendance signups", fontSize = 12.sp, fontWeight = FontWeight.Bold, color = AccentTeal)
+                        Text("Expected Attendance", fontSize = 12.sp, fontFamily = SpaceGroteskFontFamily, fontWeight = FontWeight.Bold, color = TextPrimary)
+                        Text("$testExpectedAttendance signups", fontSize = 13.sp, fontFamily = SpaceGroteskFontFamily, fontWeight = FontWeight.Bold, color = AccentTeal)
                     }
                     Slider(
                         value = testExpectedAttendance.toFloat(),
@@ -303,41 +340,37 @@ fun MlLabScreen(
                         colors = SliderDefaults.colors(thumbColor = AccentTeal, activeTrackColor = AccentTeal)
                     )
 
-                    Spacer(modifier = Modifier.height(8.dp))
-
-                    // Event Type Chips
-                    Text("Event Category", fontSize = 12.sp, fontWeight = FontWeight.SemiBold, color = TextPrimary)
-                    Spacer(modifier = Modifier.height(6.dp))
-                    LazyRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                        items(eventTypes) { et ->
-                            FilterChip(
-                                selected = testEventType == et,
-                                onClick = { testEventType = et },
-                                label = { Text(et, fontSize = 11.sp) },
-                                colors = FilterChipDefaults.filterChipColors(
-                                    selectedContainerColor = DeepNavy,
-                                    selectedLabelColor = Color.White
-                                )
-                            )
-                        }
-                    }
-
                     Spacer(modifier = Modifier.height(10.dp))
 
-                    // Start Hour & Day Chips
-                    Text("Start Hour: ${testStartHour}:00 • Day: $testDayOfWeek", fontSize = 12.sp, fontWeight = FontWeight.SemiBold, color = TextPrimary)
-                    Spacer(modifier = Modifier.height(6.dp))
+                    // Event Type Chips
+                    Text("Event Category", fontSize = 12.sp, fontFamily = SpaceGroteskFontFamily, fontWeight = FontWeight.Bold, color = TextPrimary)
+                    Spacer(modifier = Modifier.height(8.dp))
                     LazyRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                        items(listOf(9, 11, 14, 16, 18)) { h ->
-                            FilterChip(
-                                selected = testStartHour == h,
-                                onClick = { testStartHour = h },
-                                label = { Text("${h}:00", fontSize = 11.sp) }
+                        items(eventTypes) { et ->
+                            ModernFilterChip(
+                                text = et,
+                                isSelected = testEventType == et,
+                                onClick = { testEventType = et }
                             )
                         }
                     }
 
-                    Spacer(modifier = Modifier.height(14.dp))
+                    Spacer(modifier = Modifier.height(12.dp))
+
+                    // Start Hour Chips
+                    Text("Start Hour: ${testStartHour}:00 • Day: $testDayOfWeek", fontSize = 12.sp, fontFamily = SpaceGroteskFontFamily, fontWeight = FontWeight.Bold, color = TextPrimary)
+                    Spacer(modifier = Modifier.height(8.dp))
+                    LazyRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                        items(listOf(9, 11, 14, 16, 18)) { h ->
+                            ModernFilterChip(
+                                text = "${h}:00",
+                                isSelected = testStartHour == h,
+                                onClick = { testStartHour = h }
+                            )
+                        }
+                    }
+
+                    Spacer(modifier = Modifier.height(18.dp))
 
                     Button(
                         onClick = {
@@ -349,55 +382,69 @@ fun MlLabScreen(
                                 testDayOfWeek
                             )
                         },
-                        modifier = Modifier.fillMaxWidth(),
-                        shape = RoundedCornerShape(8.dp),
-                        colors = ButtonDefaults.buttonColors(containerColor = AccentTeal)
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .height(48.dp)
+                            .testTag("compute_ml_forecast_button"),
+                        shape = RoundedCornerShape(12.dp),
+                        colors = ButtonDefaults.buttonColors(containerColor = DeepNavy)
                     ) {
-                        Icon(Icons.Default.Calculate, contentDescription = null, tint = DeepNavy, modifier = Modifier.size(16.dp))
-                        Spacer(modifier = Modifier.width(6.dp))
-                        Text("Compute ML Attendance Forecast", color = DeepNavy, fontWeight = FontWeight.Bold, fontSize = 13.sp)
+                        Icon(Icons.Default.Calculate, contentDescription = null, tint = ElectricCyan, modifier = Modifier.size(18.dp))
+                        Spacer(modifier = Modifier.width(8.dp))
+                        Text(
+                            "Compute ML Attendance Forecast",
+                            color = Color.White,
+                            fontFamily = SpaceGroteskFontFamily,
+                            fontWeight = FontWeight.Bold,
+                            fontSize = 13.sp
+                        )
                     }
 
                     // Prediction Results Display
                     if (prediction != null) {
-                        Spacer(modifier = Modifier.height(14.dp))
-                        Card(
-                            modifier = Modifier.fillMaxWidth(),
-                            shape = RoundedCornerShape(10.dp),
-                            colors = CardDefaults.cardColors(containerColor = SoftCyan),
-                            border = CardDefaults.outlinedCardBorder().copy(brush = androidx.compose.ui.graphics.SolidColor(AccentTeal))
+                        Spacer(modifier = Modifier.height(16.dp))
+                        Surface(
+                            shape = RoundedCornerShape(14.dp),
+                            color = SoftCyan,
+                            border = ButtonDefaults.outlinedButtonBorder.copy(
+                                brush = Brush.horizontalGradient(listOf(AccentTeal, ElectricCyan)),
+                                width = 1.dp
+                            ),
+                            modifier = Modifier.fillMaxWidth()
                         ) {
-                            Column(modifier = Modifier.padding(14.dp)) {
+                            Column(modifier = Modifier.padding(16.dp)) {
                                 Row(
                                     modifier = Modifier.fillMaxWidth(),
                                     horizontalArrangement = Arrangement.SpaceBetween,
                                     verticalAlignment = Alignment.CenterVertically
                                 ) {
                                     Column {
-                                        Text("Predicted Turnout", fontSize = 11.sp, color = TextSecondary)
+                                        Text("Predicted Turnout", fontSize = 11.sp, fontFamily = PlusJakartaFontFamily, color = TextSecondary)
                                         Text(
                                             text = "${prediction.predictedActualAttendance} attendees",
-                                            fontSize = 20.sp,
-                                            fontWeight = FontWeight.ExtraBold,
+                                            fontSize = 22.sp,
+                                            fontFamily = SpaceGroteskFontFamily,
+                                            fontWeight = FontWeight.Bold,
                                             color = DeepNavy
                                         )
                                     }
                                     StatusBadge(
                                         text = "${prediction.turnoutRatioPct}% of signups",
                                         backgroundColor = StatusSuccessContainer,
-                                        textColor = Color(0xFF065F46)
+                                        textColor = StatusSuccessText
                                     )
                                 }
-                                Spacer(modifier = Modifier.height(6.dp))
+                                Spacer(modifier = Modifier.height(8.dp))
                                 Text(
                                     text = "Confidence Interval: [${prediction.confidenceLower} - ${prediction.confidenceUpper}] attendees (based on test MAE)",
                                     fontSize = 11.sp,
+                                    fontFamily = PlusJakartaFontFamily,
                                     color = TextSecondary
                                 )
-                                Spacer(modifier = Modifier.height(8.dp))
-                                Text("Key Model Drivers:", fontSize = 11.sp, fontWeight = FontWeight.Bold, color = DeepNavy)
+                                Spacer(modifier = Modifier.height(10.dp))
+                                Text("Key Model Drivers:", fontSize = 11.sp, fontFamily = SpaceGroteskFontFamily, fontWeight = FontWeight.Bold, color = DeepNavy)
                                 prediction.explanationFactors.forEach { factor ->
-                                    Text("• $factor", fontSize = 11.sp, color = TextPrimary)
+                                    Text("• $factor", fontSize = 11.sp, fontFamily = PlusJakartaFontFamily, color = TextPrimary)
                                 }
                             }
                         }
@@ -423,14 +470,15 @@ fun MetricRow(
         horizontalArrangement = Arrangement.SpaceBetween,
         verticalAlignment = Alignment.CenterVertically
     ) {
-        Text(name, fontSize = 11.sp, fontWeight = FontWeight.SemiBold, color = TextPrimary, modifier = Modifier.weight(1.5f))
-        Text(baseline, fontSize = 11.sp, color = TextSecondary, modifier = Modifier.weight(1f))
-        Text(model, fontSize = 11.sp, fontWeight = FontWeight.Bold, color = DeepNavy, modifier = Modifier.weight(1f))
+        Text(name, fontSize = 11.sp, fontFamily = PlusJakartaFontFamily, fontWeight = FontWeight.SemiBold, color = TextPrimary, modifier = Modifier.weight(1.5f))
+        Text(baseline, fontSize = 11.sp, fontFamily = SpaceGroteskFontFamily, color = TextSecondary, modifier = Modifier.weight(1f))
+        Text(model, fontSize = 11.sp, fontFamily = SpaceGroteskFontFamily, fontWeight = FontWeight.Bold, color = DeepNavy, modifier = Modifier.weight(1f))
         Text(
             improvement,
             fontSize = 10.sp,
+            fontFamily = SpaceGroteskFontFamily,
             fontWeight = FontWeight.Bold,
-            color = if (isBetter) StatusSuccess else StatusError,
+            color = if (isBetter) StatusSuccessText else StatusErrorText,
             modifier = Modifier.weight(1f)
         )
     }

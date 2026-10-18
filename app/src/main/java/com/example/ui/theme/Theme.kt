@@ -8,7 +8,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
 
 private val DarkColorScheme = darkColorScheme(
-    primary = TealLight,
+    primary = ElectricCyan,
     onPrimary = DeepNavy,
     primaryContainer = SlateNavy,
     onPrimaryContainer = Color.White,
@@ -17,11 +17,11 @@ private val DarkColorScheme = darkColorScheme(
     tertiary = PurpleAccent,
     background = DeepNavy,
     onBackground = Color(0xFFF1F5F9),
-    surface = Color(0xFF132238),
+    surface = Color(0xFF0F1B2E),
     onSurface = Color(0xFFF8FAFC),
-    surfaceVariant = Color(0xFF1C2D42),
+    surfaceVariant = Color(0xFF182A45),
     onSurfaceVariant = Color(0xFFCBD5E1),
-    outline = Color(0xFF334155)
+    outline = BorderNavy
 )
 
 private val LightColorScheme = lightColorScheme(
@@ -47,12 +47,11 @@ fun CampusSpaceTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     content: @Composable () -> Unit
 ) {
-    // We prioritize the crisp, professional light-first design direction specified in the brief
     val colorScheme = if (darkTheme) DarkColorScheme else LightColorScheme
 
     MaterialTheme(
         colorScheme = colorScheme,
-        typography = Typography,
+        typography = AppTypography,
         content = content
     )
 }

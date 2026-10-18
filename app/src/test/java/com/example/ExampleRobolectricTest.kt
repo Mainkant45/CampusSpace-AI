@@ -31,14 +31,7 @@ class ExampleRobolectricTest {
   }
 
   @Test
-  fun `verify ViewModel initializes cleanly without exception`() {
-    val context = ApplicationProvider.getApplicationContext<android.app.Application>()
-    val vm = com.example.ui.CampusSpaceViewModel(context)
-    org.robolectric.shadows.ShadowLooper.idleMainLooper()
-    org.junit.Assert.assertNotNull(vm.uiState.value)
-    org.junit.Assert.assertNotNull(vm.uiState.value.selectedTab)
+  fun `verify MainActivity launches cleanly`() {
+    org.robolectric.Robolectric.buildActivity(MainActivity::class.java).setup()
   }
-
-
-
 }

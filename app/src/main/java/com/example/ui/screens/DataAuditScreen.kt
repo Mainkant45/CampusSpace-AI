@@ -13,7 +13,9 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -48,34 +50,41 @@ fun DataAuditScreen(
         modifier = modifier
             .fillMaxSize()
             .padding(horizontal = 16.dp),
-        contentPadding = PaddingValues(top = 16.dp, bottom = 80.dp),
+        contentPadding = PaddingValues(top = 16.dp, bottom = 96.dp),
         verticalArrangement = Arrangement.spacedBy(16.dp)
     ) {
         // Dataset Audit Header
         item {
             Card(
                 modifier = Modifier.fillMaxWidth(),
-                shape = RoundedCornerShape(14.dp),
-                colors = CardDefaults.cardColors(containerColor = SlateNavy)
+                shape = RoundedCornerShape(16.dp),
+                colors = CardDefaults.cardColors(containerColor = SlateNavy),
+                elevation = CardDefaults.cardElevation(defaultElevation = 4.dp),
+                border = CardDefaults.outlinedCardBorder().copy(
+                    brush = Brush.horizontalGradient(listOf(BorderNavy, AccentTeal.copy(alpha = 0.5f))),
+                    width = 1.dp
+                )
             ) {
-                Column(modifier = Modifier.padding(16.dp)) {
+                Column(modifier = Modifier.padding(18.dp)) {
                     Row(
                         modifier = Modifier.fillMaxWidth(),
                         horizontalArrangement = Arrangement.SpaceBetween,
                         verticalAlignment = Alignment.CenterVertically
                     ) {
                         Text(
-                            text = "Dataset Audit & Schema Integrity",
-                            fontSize = 17.sp,
+                            text = "Dataset Schema & Integrity Audit",
+                            fontSize = 18.sp,
+                            fontFamily = SpaceGroteskFontFamily,
                             fontWeight = FontWeight.Bold,
                             color = Color.White
                         )
-                        StatusBadge("100% Validated", StatusSuccessContainer, Color(0xFF065F46))
+                        StatusBadge("100% Validated", StatusSuccessContainer, StatusSuccessText)
                     }
                     Spacer(modifier = Modifier.height(6.dp))
                     Text(
-                        text = "Complete exploratory inspection and foreign-key validation across all 4 supplied organizer CSV files and README documentation.",
+                        text = "Complete exploratory inspection and relational constraint verification across all 4 organizer benchmark CSV datasets.",
                         fontSize = 12.sp,
+                        fontFamily = PlusJakartaFontFamily,
                         color = Color(0xFFCBD5E1),
                         lineHeight = 17.sp
                     )
@@ -88,16 +97,17 @@ fun DataAuditScreen(
             item {
                 Card(
                     modifier = Modifier.fillMaxWidth(),
-                    shape = RoundedCornerShape(12.dp),
+                    shape = RoundedCornerShape(16.dp),
                     colors = CardDefaults.cardColors(containerColor = SurfaceLight),
-                    elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)
+                    elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
+                    border = CardDefaults.outlinedCardBorder().copy(brush = Brush.linearGradient(listOf(CardBorderLight, CardBorderLight)))
                 ) {
-                    Column(modifier = Modifier.padding(16.dp)) {
+                    Column(modifier = Modifier.padding(18.dp)) {
                         SectionHeader(
                             title = "Dataset Integrity Audit Report",
-                            subtitle = "Automatic schema verification and relation checks"
+                            subtitle = "Automated schema validation and relation checks"
                         )
-                        Spacer(modifier = Modifier.height(12.dp))
+                        Spacer(modifier = Modifier.height(14.dp))
 
                         Row(
                             modifier = Modifier.fillMaxWidth(),
@@ -141,16 +151,26 @@ fun DataAuditScreen(
                             )
                         }
 
-                        Spacer(modifier = Modifier.height(12.dp))
+                        Spacer(modifier = Modifier.height(14.dp))
 
                         audit.notes.forEach { note ->
                             Row(
-                                modifier = Modifier.padding(vertical = 2.dp),
+                                modifier = Modifier.padding(vertical = 3.dp),
                                 verticalAlignment = Alignment.Top
                             ) {
-                                Icon(Icons.Default.Check, contentDescription = null, tint = StatusSuccess, modifier = Modifier.size(16.dp))
-                                Spacer(modifier = Modifier.width(6.dp))
-                                Text(note, fontSize = 11.sp, color = TextPrimary)
+                                Icon(
+                                    Icons.Default.Check,
+                                    contentDescription = null,
+                                    tint = StatusSuccess,
+                                    modifier = Modifier.size(16.dp)
+                                )
+                                Spacer(modifier = Modifier.width(8.dp))
+                                Text(
+                                    note,
+                                    fontSize = 11.sp,
+                                    fontFamily = PlusJakartaFontFamily,
+                                    color = TextPrimary
+                                )
                             }
                         }
                     }
@@ -158,17 +178,24 @@ fun DataAuditScreen(
             }
         }
 
-        // Dataset Explorer Tabs
+        // Live Record Explorer
         item {
             Card(
                 modifier = Modifier.fillMaxWidth(),
-                shape = RoundedCornerShape(12.dp),
+                shape = RoundedCornerShape(16.dp),
                 colors = CardDefaults.cardColors(containerColor = SurfaceLight),
-                elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)
+                elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
+                border = CardDefaults.outlinedCardBorder().copy(brush = Brush.linearGradient(listOf(CardBorderLight, CardBorderLight)))
             ) {
-                Column(modifier = Modifier.padding(14.dp)) {
-                    Text("Live Dataset Record Explorer", fontSize = 13.sp, fontWeight = FontWeight.Bold, color = DeepNavy)
-                    Spacer(modifier = Modifier.height(8.dp))
+                Column(modifier = Modifier.padding(18.dp)) {
+                    Text(
+                        "Live Dataset Record Explorer",
+                        fontSize = 14.sp,
+                        fontFamily = SpaceGroteskFontFamily,
+                        fontWeight = FontWeight.Bold,
+                        color = DeepNavy
+                    )
+                    Spacer(modifier = Modifier.height(10.dp))
                     LazyRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                         items(DatasetView.values()) { view ->
                             val label = when (view) {
@@ -178,28 +205,41 @@ fun DataAuditScreen(
                                 DatasetView.EVENTS -> "events.csv (1.8k)"
                                 DatasetView.README -> "README.txt"
                             }
-                            FilterChip(
-                                selected = selectedDataset == view,
-                                onClick = { selectedDataset = view },
-                                label = { Text(label, fontSize = 11.sp) },
-                                colors = FilterChipDefaults.filterChipColors(
-                                    selectedContainerColor = DeepNavy,
-                                    selectedLabelColor = Color.White
-                                )
+                            ModernFilterChip(
+                                text = label,
+                                isSelected = selectedDataset == view,
+                                onClick = { selectedDataset = view }
                             )
                         }
                     }
 
-                    Spacer(modifier = Modifier.height(10.dp))
+                    Spacer(modifier = Modifier.height(12.dp))
 
                     OutlinedTextField(
                         value = searchQuery,
                         onValueChange = { searchQuery = it },
-                        placeholder = { Text("Filter records by keyword, room, or code...", fontSize = 12.sp) },
-                        leadingIcon = { Icon(Icons.Default.Search, contentDescription = null, modifier = Modifier.size(16.dp)) },
+                        placeholder = {
+                            Text(
+                                "Filter records by keyword, room, or code...",
+                                fontSize = 12.sp,
+                                fontFamily = PlusJakartaFontFamily
+                            )
+                        },
+                        leadingIcon = {
+                            Icon(
+                                Icons.Default.Search,
+                                contentDescription = null,
+                                tint = AccentTeal,
+                                modifier = Modifier.size(18.dp)
+                            )
+                        },
+                        shape = RoundedCornerShape(10.dp),
                         modifier = Modifier.fillMaxWidth(),
                         singleLine = true,
-                        textStyle = LocalTextStyle.current.copy(fontSize = 12.sp)
+                        textStyle = LocalTextStyle.current.copy(
+                            fontSize = 12.sp,
+                            fontFamily = PlusJakartaFontFamily
+                        )
                     )
                 }
             }
@@ -211,15 +251,15 @@ fun DataAuditScreen(
                 item {
                     Card(
                         modifier = Modifier.fillMaxWidth(),
-                        shape = RoundedCornerShape(10.dp),
+                        shape = RoundedCornerShape(12.dp),
                         colors = CardDefaults.cardColors(containerColor = SurfaceVariantLight)
                     ) {
                         Text(
                             text = getReadmeText(),
                             fontSize = 11.sp,
-                            fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace,
+                            fontFamily = FontFamily.Monospace,
                             color = TextPrimary,
-                            modifier = Modifier.padding(14.dp),
+                            modifier = Modifier.padding(16.dp),
                             lineHeight = 16.sp
                         )
                     }
@@ -234,22 +274,36 @@ fun DataAuditScreen(
                             it.roomType.contains(searchQuery, ignoreCase = true)
                 }
                 items(filteredRooms.take(25)) { r ->
-                    Card(
+                    Surface(
                         modifier = Modifier.fillMaxWidth(),
-                        shape = RoundedCornerShape(8.dp),
-                        colors = CardDefaults.cardColors(containerColor = SurfaceLight),
-                        border = CardDefaults.outlinedCardBorder().copy(brush = androidx.compose.ui.graphics.SolidColor(CardBorderLight))
+                        shape = RoundedCornerShape(12.dp),
+                        color = SurfaceLight,
+                        border = ButtonDefaults.outlinedButtonBorder.copy(
+                            brush = Brush.linearGradient(listOf(CardBorderLight, CardBorderLight)),
+                            width = 1.dp
+                        )
                     ) {
                         Row(
                             modifier = Modifier
                                 .fillMaxWidth()
-                                .padding(12.dp),
+                                .padding(14.dp),
                             horizontalArrangement = Arrangement.SpaceBetween,
                             verticalAlignment = Alignment.CenterVertically
                         ) {
                             Column {
-                                Text("${r.roomId} • ${r.building}", fontSize = 13.sp, fontWeight = FontWeight.Bold, color = DeepNavy)
-                                Text("${r.roomType} • Floor ${r.floor} • Capacity: ${r.capacity} seats", fontSize = 11.sp, color = TextSecondary)
+                                Text(
+                                    "${r.roomId} • ${r.building}",
+                                    fontSize = 13.sp,
+                                    fontFamily = SpaceGroteskFontFamily,
+                                    fontWeight = FontWeight.Bold,
+                                    color = DeepNavy
+                                )
+                                Text(
+                                    "${r.roomType} • Floor ${r.floor} • Capacity: ${r.capacity} seats",
+                                    fontSize = 11.sp,
+                                    fontFamily = PlusJakartaFontFamily,
+                                    color = TextSecondary
+                                )
                             }
                             Row(horizontalArrangement = Arrangement.spacedBy(4.dp)) {
                                 if (r.hasProjector) StatusBadge("Proj", SoftCyan, TealDark)
@@ -269,24 +323,34 @@ fun DataAuditScreen(
                             it.roomId.contains(searchQuery, ignoreCase = true)
                 }
                 items(filteredClasses.take(25)) { c ->
-                    Card(
+                    Surface(
                         modifier = Modifier.fillMaxWidth(),
-                        shape = RoundedCornerShape(8.dp),
-                        colors = CardDefaults.cardColors(containerColor = SurfaceLight),
-                        border = CardDefaults.outlinedCardBorder().copy(brush = androidx.compose.ui.graphics.SolidColor(CardBorderLight))
+                        shape = RoundedCornerShape(12.dp),
+                        color = SurfaceLight,
+                        border = ButtonDefaults.outlinedButtonBorder.copy(
+                            brush = Brush.linearGradient(listOf(CardBorderLight, CardBorderLight)),
+                            width = 1.dp
+                        )
                     ) {
-                        Column(modifier = Modifier.padding(12.dp)) {
+                        Column(modifier = Modifier.padding(14.dp)) {
                             Row(
                                 modifier = Modifier.fillMaxWidth(),
                                 horizontalArrangement = Arrangement.SpaceBetween
                             ) {
-                                Text("${c.courseCode}: ${c.courseName}", fontSize = 12.sp, fontWeight = FontWeight.Bold, color = DeepNavy)
+                                Text(
+                                    "${c.courseCode}: ${c.courseName}",
+                                    fontSize = 13.sp,
+                                    fontFamily = SpaceGroteskFontFamily,
+                                    fontWeight = FontWeight.Bold,
+                                    color = DeepNavy
+                                )
                                 StatusBadge(c.roomId, SurfaceVariantLight, TextPrimary)
                             }
                             Spacer(modifier = Modifier.height(2.dp))
                             Text(
                                 "${c.dayOfWeek} [${c.startTime} - ${c.endTime}) • ${c.department} • Enrolled: ${c.enrolledStudents}",
                                 fontSize = 11.sp,
+                                fontFamily = PlusJakartaFontFamily,
                                 color = TextSecondary
                             )
                         }
@@ -302,33 +366,50 @@ fun DataAuditScreen(
                             it.requestId.contains(searchQuery, ignoreCase = true)
                 }
                 items(filteredReqs.take(25)) { req ->
-                    Card(
+                    Surface(
                         modifier = Modifier.fillMaxWidth(),
-                        shape = RoundedCornerShape(8.dp),
-                        colors = CardDefaults.cardColors(containerColor = SurfaceLight),
-                        border = CardDefaults.outlinedCardBorder().copy(brush = androidx.compose.ui.graphics.SolidColor(CardBorderLight))
+                        shape = RoundedCornerShape(12.dp),
+                        color = SurfaceLight,
+                        border = ButtonDefaults.outlinedButtonBorder.copy(
+                            brush = Brush.linearGradient(listOf(CardBorderLight, CardBorderLight)),
+                            width = 1.dp
+                        )
                     ) {
-                        Column(modifier = Modifier.padding(12.dp)) {
+                        Column(modifier = Modifier.padding(14.dp)) {
                             Row(
                                 modifier = Modifier.fillMaxWidth(),
                                 horizontalArrangement = Arrangement.SpaceBetween
                             ) {
-                                Text("${req.requestId} • ${req.organizationName}", fontSize = 12.sp, fontWeight = FontWeight.Bold, color = DeepNavy)
-                                StatusBadge(req.status, when (req.status) {
-                                    "Approved" -> StatusSuccessContainer
-                                    "Pending" -> StatusInfoContainer
-                                    "Waitlisted" -> StatusWarningContainer
-                                    else -> StatusErrorContainer
-                                }, when (req.status) {
-                                    "Approved" -> StatusSuccess
-                                    "Pending" -> StatusInfo
-                                    "Waitlisted" -> Color(0xFFB45309)
-                                    else -> StatusError
-                                })
+                                Text(
+                                    "${req.requestId} • ${req.organizationName}",
+                                    fontSize = 13.sp,
+                                    fontFamily = SpaceGroteskFontFamily,
+                                    fontWeight = FontWeight.Bold,
+                                    color = DeepNavy
+                                )
+                                StatusBadge(
+                                    req.status,
+                                    when (req.status) {
+                                        "Approved" -> StatusSuccessContainer
+                                        "Pending" -> StatusInfoContainer
+                                        "Waitlisted" -> StatusWarningContainer
+                                        else -> StatusErrorContainer
+                                    },
+                                    when (req.status) {
+                                        "Approved" -> StatusSuccessText
+                                        "Pending" -> StatusInfoText
+                                        "Waitlisted" -> StatusWarningText
+                                        else -> StatusErrorText
+                                    }
+                                )
                             }
                             Spacer(modifier = Modifier.height(2.dp))
-                            Text("${req.title} • ${req.requesterRole} (P${req.priority})", fontSize = 11.sp, color = TextPrimary)
-                            Text("${req.dayOfWeek} [${req.startTime} - ${req.endTime}) • Needs ${req.expectedAttendance} seats (${req.requiredRoomType})", fontSize = 11.sp, color = TextSecondary)
+                            Text(
+                                "${req.title} • ${req.dayOfWeek} [${req.startTime} - ${req.endTime}) • ${req.expectedAttendance} attendees",
+                                fontSize = 11.sp,
+                                fontFamily = PlusJakartaFontFamily,
+                                color = TextSecondary
+                            )
                         }
                     }
                 }
@@ -337,55 +418,48 @@ fun DataAuditScreen(
             DatasetView.EVENTS -> {
                 val filteredEvents = getEvents().filter {
                     searchQuery.isEmpty() ||
+                            it.eventId.contains(searchQuery, ignoreCase = true) ||
                             it.eventName.contains(searchQuery, ignoreCase = true) ||
                             it.eventType.contains(searchQuery, ignoreCase = true) ||
                             it.hostOrganization.contains(searchQuery, ignoreCase = true)
                 }
                 items(filteredEvents.take(25)) { ev ->
-                    Card(
+                    Surface(
                         modifier = Modifier.fillMaxWidth(),
-                        shape = RoundedCornerShape(8.dp),
-                        colors = CardDefaults.cardColors(containerColor = SurfaceLight),
-                        border = CardDefaults.outlinedCardBorder().copy(brush = androidx.compose.ui.graphics.SolidColor(CardBorderLight))
+                        shape = RoundedCornerShape(12.dp),
+                        color = SurfaceLight,
+                        border = ButtonDefaults.outlinedButtonBorder.copy(
+                            brush = Brush.linearGradient(listOf(CardBorderLight, CardBorderLight)),
+                            width = 1.dp
+                        )
                     ) {
-                        Column(modifier = Modifier.padding(12.dp)) {
+                        Column(modifier = Modifier.padding(14.dp)) {
                             Row(
                                 modifier = Modifier.fillMaxWidth(),
                                 horizontalArrangement = Arrangement.SpaceBetween
                             ) {
-                                Text("${ev.eventId} • ${ev.eventName}", fontSize = 12.sp, fontWeight = FontWeight.Bold, color = DeepNavy)
-                                StatusBadge("${ev.actualAttendance} / ${ev.expectedAttendance} Attended", StatusSuccessContainer, Color(0xFF065F46))
+                                Text(
+                                    "${ev.eventId}: ${ev.eventName}",
+                                    fontSize = 13.sp,
+                                    fontFamily = SpaceGroteskFontFamily,
+                                    fontWeight = FontWeight.Bold,
+                                    color = DeepNavy
+                                )
+                                StatusBadge(
+                                    "Actual: ${ev.actualAttendance}",
+                                    AccentTeal.copy(alpha = 0.2f),
+                                    TealDark
+                                )
                             }
                             Spacer(modifier = Modifier.height(2.dp))
-                            Text("${ev.eventType} • Room ${ev.roomId} • Host: ${ev.hostOrganization}", fontSize = 11.sp, color = TextPrimary)
-                            Text("${ev.dayOfWeek} at ${ev.startHour}:00 (${ev.durationHours}h) • Date: ${ev.date}", fontSize = 11.sp, color = TextSecondary)
+                            Text(
+                                "${ev.eventType} • Expected: ${ev.expectedAttendance} • Day: ${ev.dayOfWeek} ${ev.startHour}:00 (${ev.durationHours}h) • Org: ${ev.hostOrganization}",
+                                fontSize = 11.sp,
+                                fontFamily = PlusJakartaFontFamily,
+                                color = TextSecondary
+                            )
                         }
                     }
-                }
-            }
-        }
-
-        // Responsible AI & Judging Narrative
-        item {
-            Card(
-                modifier = Modifier.fillMaxWidth(),
-                shape = RoundedCornerShape(12.dp),
-                colors = CardDefaults.cardColors(containerColor = SurfaceLight),
-                border = CardDefaults.outlinedCardBorder().copy(brush = androidx.compose.ui.graphics.SolidColor(AccentTeal))
-            ) {
-                Column(modifier = Modifier.padding(16.dp)) {
-                    Text("Judging Narrative & Compliance Statement", fontSize = 14.sp, fontWeight = FontWeight.Bold, color = DeepNavy)
-                    Spacer(modifier = Modifier.height(8.dp))
-                    Text(
-                        "• 100% Supplied Dataset Fidelity: Used exclusively the 4 provided CSV datasets (rooms, class_schedule, room_requests, events) and README rules.\n" +
-                                "• ML Trained From Scratch: Implemented Ridge Regularized Linear Regression directly in mathematical Kotlin without scikit-learn or black-box APIs.\n" +
-                                "• Zero Data Leakage: Preprocessing statistics (means, standard deviations) fitted strictly on the 70% training split.\n" +
-                                "• Global Allocation Innovation: Replaces naive sequential greedy matching with constraint propagation and idle capacity waste minimization.\n" +
-                                "• Explainable Space Intelligence: Every single recommendation exposes its exact capacity delta, facility matches, and schedule validation rationale.",
-                        fontSize = 11.sp,
-                        color = TextPrimary,
-                        lineHeight = 17.sp
-                    )
                 }
             }
         }
